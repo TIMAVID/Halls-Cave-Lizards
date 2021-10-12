@@ -138,7 +138,7 @@ ggiNEXT(LIZMNI_wideT, type=1, facet.var="site")
 
 ggiNEXT(LIZMNI_wideT, type=2)
 
-Shannon_MNI_estimates<- ChaoShannon(LIZMNI_wideT)
+Shannon_MNI_estimates<- ChaoShannon(LIZMNI_wideT) #Estimate Shannon div
 Shannon_MNI_estimates <- tibble::rownames_to_column(Shannon_MNI_estimates, "Bin")
 Shannon_MNI_estimates$Bin <- factor(Shannon_MNI_estimates$Bin, levels=unique(Shannon_MNI_estimates$Bin))
 
@@ -150,26 +150,30 @@ out2<-iNEXT(LIZNISP_wideT, q=c(1), datatype="abundance")
 
 ggiNEXT(out2, type=1, facet.var="site")
 
-Shannon_NISP_estimates <- ChaoShannon(LIZNISP_wideT)
+Shannon_NISP_estimates <- ChaoShannon(LIZNISP_wideT) #Estimate Shannon div
 
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##                           Shannon diversity plots                        ----
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-HMNI <- data.frame(yr=rep(age,ncol(Shannon_MNI_estimates)),
+HMNI <- data.frame(yr=rep(age,ncol(Shannon_MNI_estimates)), #make dataframe
+                   Obs=as.vector(as.matrix(Shannon_MNI_estimates$Observed)),
                    Est=as.vector(as.matrix(Shannon_MNI_estimates$Estimator)),
                    L95=as.vector(as.matrix(Shannon_MNI_estimates$`95% Lower`)),
                    U95=as.vector(as.matrix(Shannon_MNI_estimates$`95% Upper`)))
+
 HMNI_plot<-ggplot(HMNI, aes(yr, Est))+
-  geom_line(aes(yr,Est))+
+  geom_line(colour="blue")+
   scale_x_reverse(breaks =seq(0,100000,2000))+
   scale_y_continuous(breaks =seq(0,5,.5))+
   xlab("Age (cal. BP)")+ylab("H")+
   coord_flip() +
-  theme_classic()+ geom_ribbon(aes(ymin = L95, ymax = U95), alpha = 0.2)
+  theme_classic()+ geom_ribbon(aes(ymin = L95, ymax = U95), alpha = 0.2)+
+  geom_line(aes(y = Obs), color = "black")
 
 
-HNISP <- data.frame(yr=rep(age,ncol(Shannon_NISP_estimates)),
+HNISP <- data.frame(yr=rep(age,ncol(Shannon_NISP_estimates)),#make dataframe
+                    Obs=as.vector(as.matrix(Shannon_NISP_estimates$Observed)),
                     Est=as.vector(as.matrix(Shannon_NISP_estimates$Estimator)),
                     L95=as.vector(as.matrix(Shannon_NISP_estimates$`95% Lower`)),
                     U95=as.vector(as.matrix(Shannon_NISP_estimates$`95% Upper`)))
@@ -180,8 +184,8 @@ HNISP_plot<-ggplot(HNISP, aes(yr, Est))+
   scale_y_continuous(breaks =seq(0,5,.5))+
   xlab("Age (cal. BP)")+ylab("H")+
   coord_flip() +
-  theme_classic() + geom_ribbon(aes(ymin = L95, ymax = U95), alpha = 0.2)
-
+  theme_classic() + geom_ribbon(aes(ymin = L95, ymax = U95), alpha = 0.2) +
+  geom_line(aes(y = Obs), color = "black")
 
 H.plots <- ggarrange(HMNI_plot, HNISP_plot,
                           labels = c("MNI", "NISP"),
