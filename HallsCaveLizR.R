@@ -263,14 +263,36 @@ LizBreak <- Fossil_lizard_15bin_break %>%
   group_by(Bin,Element, .drop=FALSE) %>% summarise(PctPresent = mean(Quadrant))
 
 levels(Fossil_lizard_15bin_break$Element)
-LizBreak_Post <- filter(LizBreak,grepl('femur|humerus|ilium|interclavicle|pelvis|radius|scapulocorocoid|tibia|ulna',Element))
-LizBreak_Post<-droplevels(LizBreak_Post)
 
-LizBreak_Cranial <- filter(LizBreak,!grepl('femur|humerus|ilium|interclavicle|pelvis|radius|scapulocorocoid|tibia|ulna',Element))
-LizBreak_Cranial<-droplevels(LizBreak_Cranial)
+LizBreak <- LizBreak %>% 
+  mutate(Position = recode(Element, "articular"="C"     ,       "braincase"="C" ,            "coronoid"  ="C" ,          
+                          "dentary"="C" ,              "ectopterygoid" ="C" ,       "femur" ="P",               
+                          "frontal" ="C" ,             "humerus" ="P",             "ilium"  ="P",             
+                          "interclavicle" ="P",       "maxilla" ="C" ,             "nasal" ="C" ,              
+                          "parietal"   ="C" ,          "pelvis" ="P",              "postorbital"="C" ,         
+                          "prefrontal" ="C" ,          "premaxilla"="C" ,           "pterygoid" ="C" ,          
+                          "quadrate" ="C" ,            "radius"   ="P",            "scapulocorocoid" ="P",    
+                          "splenial" ="C" ,            "squamosal"="C" ,            "surangular" ="C" ,         
+                          "surangular_articular"="C" , "tibia" ="P",               "ulna" ="P",               
+                          "vomer"="C"  ))
 
+BreakSum <- LizBreak %>% 
+  filter(!is.na(PctPresent))  %>%
+  group_by(Position) %>% summarise(PctCompl = mean(PctPresent))
 
+BreakBinSum <- LizBreak %>% 
+  filter(!is.na(PctPresent))  %>%
+  group_by(Bin,Position) %>% summarise(PctCompl = mean(PctPresent))
 
+BreakBinSum$Bin<-as.integer(BreakBinSum$Bin)
+
+BreakBinSum_plot<-ggplot(BreakBinSum, aes(Bin, PctCompl))+
+  geom_line(aes(color = Position))+
+  scale_x_reverse(breaks =seq(0,20,1))+
+  xlab("Bin")+ylab("Percent complete")+
+  coord_flip() +
+  theme_classic()
+BreakBinSum_plot
 
 
 
