@@ -207,9 +207,9 @@ levels(as.factor(Fossil_lizard_15bin$Element))
 Fossil_lizard_15bin_element <- filter(Fossil_lizard_15bin,!grepl('tooth bearing element|jugal?|longbones|postorbitofrontal?|roofing bone',Element)) #filter out uncertain identifications
 Fossil_lizard_15bin_element$Element <- ifelse(Fossil_lizard_15bin_element$Element == "ilium", # combine common elements
                         "pelvis", Fossil_lizard_15bin_element$Element)
-Fossil_lizard_15bin_element$Element <- ifelse(Fossil_lizard_15bin_element$Element == "surangular",
+Fossil_lizard_15bin_element$Element <- ifelse(Fossil_lizard_15bin_element$Element == "surangular", # combine common elements
                                               "surangular_articular", Fossil_lizard_15bin_element$Element)
-Fossil_lizard_15bin_element$Element <- ifelse(Fossil_lizard_15bin_element$Element == "articular",
+Fossil_lizard_15bin_element$Element <- ifelse(Fossil_lizard_15bin_element$Element == "articular", # combine common elements
                                               "surangular_articular", Fossil_lizard_15bin_element$Element)
 levels(as.factor(Fossil_lizard_15bin_element$Element))
 
@@ -221,7 +221,7 @@ Element_rep <- data.frame(yr=rep(age,ncol(Element_rep)),#make dataframe
                     Bin=as.vector(as.matrix(Element_rep$Bin)),
                     Num=as.vector(as.matrix(Element_rep$Element)))
 
-Element_rep_plot<-ggplot(Element_rep, aes(yr, Num))+
+Element_rep_plot<-ggplot(Element_rep, aes(yr, Num))+ #plot
   geom_line(colour="black")+
   scale_x_reverse(breaks =seq(0,100000,2000))+
   scale_y_continuous(breaks =seq(0,100,5))+
@@ -230,6 +230,14 @@ Element_rep_plot<-ggplot(Element_rep, aes(yr, Num))+
   theme_classic()
 Element_rep_plot
 
+
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                                                                            ~~
+##                              ELEMENT BREAKAGE                            ----
+##                                                                            ~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
