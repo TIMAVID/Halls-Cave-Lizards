@@ -1,7 +1,9 @@
 library(ARTofR)
 # READ IN THE DATA------------------------------------------
-library(readr)
-Fossil_lizard_15bin <- read_csv("~/OneDrive - The University of Texas at Austin/Lizard_Diversity_JoAnimalEcology/Fossil_lizard_15bin.csv")
+library(curl)
+f2 <- curl("https://raw.githubusercontent.com/TIMAVID/Halls-Cave-Lizards/main/Fossil_lizard_15bin.csv")
+Fossil_lizard_15bin <- read.csv(f2, header = TRUE, sep = ",", stringsAsFactors = TRUE) # this is a matrix of measured specimens 
+head(Fossil_lizard_15bin)
 
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##     PREPARING THE DATA   ----
