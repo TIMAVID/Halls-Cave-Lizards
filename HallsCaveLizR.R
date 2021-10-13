@@ -205,7 +205,37 @@ H.plots
 
 levels(as.factor(Fossil_lizard_15bin$Element))
 Fossil_lizard_15bin_element <- filter(Fossil_lizard_15bin,!grepl('tooth bearing element|jugal?|longbones|postorbitofrontal?|roofing bone',Element)) #filter out uncertain identifications
+Fossil_lizard_15bin_element$Element <- ifelse(Fossil_lizard_15bin_element$Element == "ilium", # combine common elements
+                        "pelvis", Fossil_lizard_15bin_element$Element)
+Fossil_lizard_15bin_element$Element <- ifelse(Fossil_lizard_15bin_element$Element == "surangular",
+                                              "surangular_articular", Fossil_lizard_15bin_element$Element)
+Fossil_lizard_15bin_element$Element <- ifelse(Fossil_lizard_15bin_element$Element == "articular",
+                                              "surangular_articular", Fossil_lizard_15bin_element$Element)
 levels(as.factor(Fossil_lizard_15bin_element$Element))
+
+Element_rep <- aggregate(data = Fossil_lizard_15bin_element,   # Applying aggregate to count # of unique elements per bin
+                          Element ~ Bin,
+                          function(x) length(unique(x)))
+
+Element_rep <- data.frame(yr=rep(age,ncol(Element_rep)),#make dataframe
+                    Bin=as.vector(as.matrix(Element_rep$Bin)),
+                    Num=as.vector(as.matrix(Element_rep$Element)))
+
+Element_rep_plot<-ggplot(Element_rep, aes(yr, Num))+
+  geom_line(colour="black")+
+  scale_x_reverse(breaks =seq(0,100000,2000))+
+  scale_y_continuous(breaks =seq(0,100,5))+
+  xlab("Age (cal. BP)")+ylab("# Unique Elements")+
+  coord_flip() +
+  theme_classic()
+Element_rep_plot
+
+
+
+
+
+
+
 
 
 
