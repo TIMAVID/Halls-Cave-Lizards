@@ -283,7 +283,6 @@ BreakSum <- LizBreak %>%
 BreakBinSum <- LizBreak %>% 
   filter(!is.na(PctPresent))  %>%
   group_by(Bin,Position) %>% summarise(PctCompl = mean(PctPresent))
-
 BreakBinSum$Bin<-as.integer(BreakBinSum$Bin)
 
 BreakBinSum_plot<-ggplot(BreakBinSum, aes(Bin, PctCompl))+
@@ -293,6 +292,46 @@ BreakBinSum_plot<-ggplot(BreakBinSum, aes(Bin, PctCompl))+
   coord_flip() +
   theme_classic()
 BreakBinSum_plot
+
+
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                                                                            ~~
+##                                  CORROSION                               ----
+##                                                                            ~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Fossil_lizard_15bin$Bin<- as.factor(Fossil_lizard_15bin$Bin)
+Fossil_lizard_15bin$TeethCorrosion<- as.factor(Fossil_lizard_15bin$TeethCorrosion)
+
+Corrosion <- Fossil_lizard_15bin %>% 
+  filter(!is.na(TeethCorrosion))  %>%
+  group_by(Bin, TeethCorrosion, .drop=FALSE) %>% tally()
+Corrosion$Bin<-as.integer(Corrosion$Bin)
+
+Corrosion_wide <- spread(Corrosion, TeethCorrosion, n)
+Corrosion_wide <- Corrosion_wide %>% remove_rownames %>% column_to_rownames(var="Bin")
+
+Corrosion.pct <- data.frame(tran(Corrosion_wide, method = 'percent')) # CONVERT MNI INTO PERCENTS
+
+
+
+Corrosiondf <- data.frame(Bin=rep(1:20,ncol(Corrosion.pct)),
+                     per=as.vector(as.matrix(Corrosion.pct)),
+                     Type=as.factor(rep(colnames(Corrosion.pct),each=nrow(Corrosion.pct))))
+
+Corrosion_plot<-ggplot(Corrosiondf, aes(Bin,per))+
+  geom_line(aes(color = Type))+
+  scale_x_reverse(breaks =seq(0,20,1))+
+  scale_y_continuous(breaks =seq(0,100,10))+
+  xlab("Bin")+ylab("%")+
+  coord_flip()+
+  theme_classic()
+Corrosion_plot
+
+
+
 
 
 
