@@ -6,6 +6,21 @@ Fossil_lizard_15bin <- read.csv(f2, header = TRUE, sep = ",", stringsAsFactors =
 head(Fossil_lizard_15bin)
 
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                                Visualize data                            ----
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+library(dplyr)
+LIZVIZ <- Fossil_lizard_15bin %>% group_by(Bin) %>% summarise(NISP = sum(NISP))
+
+LIZVIZ_plot<-ggplot(LIZVIZ, aes(Bin, NISP))+
+  geom_line(colour="blue")+
+  scale_x_reverse(breaks =seq(0,20,1))+
+  scale_y_continuous(breaks =seq(0,2000,100))+
+  xlab("Bin")+ylab("NISP")+
+  coord_flip() +
+  theme_classic()
+
+
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##     PREPARING THE DATA   ----
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -134,7 +149,7 @@ library(ggplot2)
 #   MNI
 LIZMNI_wideT<-t(LIZMNI_wide) #transpose data
 
-out<-iNEXT(LIZMNI_wideT, q=c(1), datatype="abundance")
+out<-iNEXT(LIZMNI_wideT, q=c(1), datatype="abundance") 
 
 ggiNEXT(LIZMNI_wideT, type=1, facet.var="site")
 
@@ -239,10 +254,20 @@ Element_rep_plot
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Fossil_lizard_15bin_break <- filter(Fossil_lizard_15bin,!grepl('tooth bearing element|jugal?|longbones|postorbitofrontal?|roofing bone|atlas|axis|vertebra|metacarpals_metatarsals|osteoderm|phalanges|ribs',Element)) #filter out elements not scored for completeness
+Fossil_lizard_15bin_break$Bin<- as.factor(Fossil_lizard_15bin_break$Bin)
+Fossil_lizard_15bin_break$Element<- as.factor(Fossil_lizard_15bin_break$Element)
 
+LizBreak <- Fossil_lizard_15bin_break %>% 
+  filter(!is.na(Quadrant))  %>%
+  group_by(Bin,Element, .drop=FALSE) %>% summarise(PctPresent = mean(Quadrant))
 
+levels(Fossil_lizard_15bin_break$Element)
+LizBreak_Post <- filter(LizBreak,grepl('femur|humerus|ilium|interclavicle|pelvis|radius|scapulocorocoid|tibia|ulna',Element))
+LizBreak_Post<-droplevels(LizBreak_Post)
 
-
+LizBreak_Cranial <- filter(LizBreak,!grepl('femur|humerus|ilium|interclavicle|pelvis|radius|scapulocorocoid|tibia|ulna',Element))
+LizBreak_Cranial<-droplevels(LizBreak_Cranial)
 
 
 
