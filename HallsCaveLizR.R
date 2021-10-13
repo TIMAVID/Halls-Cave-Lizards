@@ -195,7 +195,17 @@ H.plots <- ggarrange(HMNI_plot, HNISP_plot,
 H.plots
 
 
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                                                                            ~~
+##                           ELEMENT REPRESENTATION                         ----
+##                                                                            ~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+levels(as.factor(Fossil_lizard_15bin$Element))
+Fossil_lizard_15bin_element <- filter(Fossil_lizard_15bin,!grepl('tooth bearing element|jugal?|longbones|postorbitofrontal?|roofing bone',Element)) #filter out uncertain identifications
+levels(as.factor(Fossil_lizard_15bin_element$Element))
 
 
 
