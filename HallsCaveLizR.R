@@ -293,7 +293,6 @@ BreakBinSum_plot<-ggplot(BreakBinSum, aes(Bin, PctCompl))+
   theme_classic()
 BreakBinSum_plot
 
-
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##                                                                            ~~
@@ -313,9 +312,7 @@ Corrosion$Bin<-as.integer(Corrosion$Bin)
 Corrosion_wide <- spread(Corrosion, TeethCorrosion, n)
 Corrosion_wide <- Corrosion_wide %>% remove_rownames %>% column_to_rownames(var="Bin")
 
-Corrosion.pct <- data.frame(tran(Corrosion_wide, method = 'percent')) # CONVERT MNI INTO PERCENTS
-
-
+Corrosion.pct <- data.frame(tran(Corrosion_wide, method = 'percent')) # CONVERT INTO PERCENTS
 
 Corrosiondf <- data.frame(Bin=rep(1:20,ncol(Corrosion.pct)),
                      per=as.vector(as.matrix(Corrosion.pct)),
