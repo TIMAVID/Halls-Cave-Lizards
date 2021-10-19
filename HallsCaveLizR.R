@@ -9,6 +9,7 @@ head(Fossil_lizard_15bin)
 ##                                Visualize data                            ----
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 library(dplyr)
+library(ggplot2)
 LIZVIZ <- Fossil_lizard_15bin %>% group_by(Bin) %>% summarise(NISP = sum(NISP))
 
 LIZVIZ_plot<-ggplot(LIZVIZ, aes(Bin, NISP))+
@@ -18,7 +19,7 @@ LIZVIZ_plot<-ggplot(LIZVIZ, aes(Bin, NISP))+
   xlab("Bin")+ylab("NISP")+
   coord_flip() +
   theme_classic()
-
+LIZVIZ_plot
 
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##     PREPARING THE DATA   ----
@@ -38,7 +39,7 @@ Fossil_lizard_15bin_fam$Element <- as.factor(Fossil_lizard_15bin_fam$Element)
 ##     PREPARING THE DATA (NISP BASED ON ALL ELEMENTS)   ----
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# SUMMARIZE INTO MNI DATA
+# SUMMARIZE INTO NISP DATA
 LIZNISP <- Fossil_lizard_15bin_fam %>% 
   filter(!is.na(Details))  %>%
   filter(!is.na(Family)) %>% 
@@ -50,6 +51,26 @@ library(tidyverse)
 library(tidyr)
 LIZNISP_wide <- spread(LIZNISP, Family, NISP)
 LIZNISP_wide <- LIZNISP_wide %>% remove_rownames %>% column_to_rownames(var="Bin")
+
+
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##  PREPARING THE DATA (NISP BASED ON ALL ELEMENTS EXCEPT DENTARY AND MAXILLA)   ----
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Fossil_lizard_15bin_other_ele <- filter(Fossil_lizard_15bin_fam, !grepl('dentary|\\bmaxilla\\b',Element)) #don't include counts of dentary and the maxilla
+
+# SUMMARIZE INTO NISP DATA
+LIZNISP_other <- Fossil_lizard_15bin_other_ele %>% 
+  filter(!is.na(Details))  %>%
+  filter(!is.na(Family)) %>% 
+  group_by(Family,Bin, .drop=FALSE) %>% tally
+LIZNISP_other <- LIZNISP_other %>% group_by(Family, Bin) %>% summarise(NISP = max(n))
+
+# MAKE INTO LONG FORMAT WITH FAMILIES AS COLUMNS AND BINS AS ROWS
+library(tidyverse)
+library(tidyr)
+LIZNISP_other_wide <- spread(LIZNISP_other, Family, NISP)
+LIZNISP_other_wide <- LIZNISP_other_wide %>% remove_rownames %>% column_to_rownames(var="Bin")
 
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##     PREPARING THE DATA (MNI BASED ON THE DENTARY AND MAXILLA)   ----
@@ -83,7 +104,7 @@ LIZMNI.pct <- data.frame(tran(LIZMNI_wide, method = 'percent')) # CONVERT MNI IN
 age_depth <- function(Depth) { # Function to assign ages to depths based on linear relationship defined by Tomé et al. 2021
   68.61*(Depth) + 758.82
 }
-bins <- seq(from = 15, to = 300, by = 15) #VECTOR OF 15 CM BINS
+bins <- seq(from = 7.5, to = 300, by = 15) #VECTOR OF 15 CM BINS
 age <- sapply(bins, age_depth) # ASSIGN AGES TO ALL BINS
 
 Stratiplot(age ~ ., LIZMNI.pct, sort = 'wa', type = 'poly',
@@ -127,10 +148,26 @@ NISPplot<-ggplot(NISPdf)+
   theme_new+
   facet_grid(~NISPdf$taxa,scales = "free", space = "free")
 
+LIZNISP_OTHER.pct <- data.frame(tran(LIZNISP_other_wide, method = 'percent')) # CONVERT MNI INTO PERCENTS
+
+NISPdf_other <- data.frame(yr=rep(age,ncol(LIZNISP_OTHER.pct)),
+                     per=as.vector(as.matrix(LIZNISP_OTHER.pct)),
+                     taxa=as.factor(rep(colnames(LIZNISP_OTHER.pct),each=nrow(LIZNISP_OTHER.pct))))
+NISPother_plot<-ggplot(NISPdf_other)+
+  geom_line(aes(yr,per))+
+  geom_area(aes(yr,per))+
+  scale_x_reverse(breaks =seq(0,100000,2000))+
+  scale_y_continuous(breaks =seq(0,100,10))+
+  xlab("Age (cal. BP)")+ylab("%")+
+  coord_flip()+
+  theme_new+
+  facet_grid(~NISPdf_other$taxa,scales = "free", space = "free")
+
+
 library(ggpubr)
-Pollen.plots <- ggarrange(MNIplot, NISPplot,
-                    labels = c("MNI", "NISP"),
-                    ncol = 1, nrow = 2)
+Pollen.plots <- ggarrange(MNIplot, NISPplot,NISPother_plot,
+                    labels = c("MNI", "NISP", "NISP other elements"),
+                    ncol = 1, nrow = 3)
 Pollen.plots
 
 
@@ -151,9 +188,9 @@ LIZMNI_wideT<-t(LIZMNI_wide) #transpose data
 
 out<-iNEXT(LIZMNI_wideT, q=c(1), datatype="abundance") 
 
-ggiNEXT(LIZMNI_wideT, type=1, facet.var="site")
+ggiNEXT(out, type=1, facet.var="site")
 
-ggiNEXT(LIZMNI_wideT, type=2)
+ggiNEXT(out, type=2)
 
 Shannon_MNI_estimates<- ChaoShannon(LIZMNI_wideT) #Estimate Shannon div
 Shannon_MNI_estimates <- tibble::rownames_to_column(Shannon_MNI_estimates, "Bin")
@@ -326,6 +363,38 @@ Corrosion_plot<-ggplot(Corrosiondf, aes(Bin,per))+
   coord_flip()+
   theme_classic()
 Corrosion_plot
+
+
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##                                                                            ~~
+##                        GENERALIZED ADDITIVE MODELS                       ----
+##                                                                            ~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+library("mgcv")
+library("scam")
+library("ggplot2")
+library("cowplot")
+library("tidyr")
+#devtools::install_github("gavinsimpson/gratia")
+library("gratia") # need to change the name of the package
+
+
+## Default ggplot theme
+theme_set(theme_bw())
+
+small <- readRDS("small-water-isotope-data.rds")
+head(small)
+
+
+
+
+
+
+
+
 
 
 
