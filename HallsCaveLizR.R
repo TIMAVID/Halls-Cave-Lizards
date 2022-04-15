@@ -11,12 +11,12 @@ head(Fossil_lizard_15bin)
 library(dplyr)
 library(ggplot2)
 LIZVIZ <- Fossil_lizard_15bin %>% group_by(Bin) %>% summarise(NISP = sum(NISP))
-
-LIZVIZ_plot<-ggplot(LIZVIZ, aes(Bin, NISP))+
+LIZVIZ$age <- age
+LIZVIZ_plot<-ggplot(LIZVIZ, aes(age, NISP))+
   geom_line(colour="blue")+
-  scale_x_reverse(breaks =seq(0,20,1))+
+  scale_x_reverse(breaks =seq(0,20000,2000))+
   scale_y_continuous(breaks =seq(0,2000,100))+
-  xlab("Bin")+ylab("NISP")+
+  xlab("Age (cal. BP)")+ylab("NISP")+
   coord_flip() +
   theme_classic()
 LIZVIZ_plot
@@ -135,6 +135,9 @@ MNIplot<- ggplot(MNIdf)+
 
 LIZNISP.pct <- data.frame(tran(LIZNISP_wide, method = 'percent')) # CONVERT MNI INTO PERCENTS
 
+Stratiplot(age ~ ., LIZNISP.pct, sort = 'wa', type = 'poly',
+           ylab ='Years Before Present')
+
 NISPdf <- data.frame(yr=rep(age,ncol(LIZNISP.pct)),
                     per=as.vector(as.matrix(LIZNISP.pct)),
                     taxa=as.factor(rep(colnames(LIZNISP.pct),each=nrow(LIZNISP.pct))))
@@ -165,9 +168,9 @@ NISPother_plot<-ggplot(NISPdf_other)+
 
 
 library(ggpubr)
-Pollen.plots <- ggarrange(MNIplot, NISPplot,NISPother_plot,
+Pollen.plots <- ggarrange(MNIplot, NISPplot,
                     labels = c("MNI", "NISP", "NISP other elements"),
-                    ncol = 1, nrow = 3)
+                    ncol = 1, nrow = 2)
 Pollen.plots
 
 
