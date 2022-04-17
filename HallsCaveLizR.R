@@ -10,17 +10,26 @@ head(Fossil_lizard_15bin)
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 library(dplyr)
 library(ggplot2)
+
+age_depth <- function(Depth) { # Function to assign ages to depths based on linear relationship defined by Tomé et al. 2021
+  68.61*(Depth) + 758.82
+}
+bins <- seq(from = 0, to = 295, by = 15) #VECTOR OF 15 CM BINS
+age <- sapply(bins, age_depth) # ASSIGN AGES TO ALL BINS
+
+
 LIZVIZ <- Fossil_lizard_15bin %>% group_by(Bin) %>% summarise(NISP = sum(NISP))
 LIZVIZ$age <- age
-LIZVIZ_plot<-ggplot(LIZVIZ, aes(age, NISP))+
+LIZVIZ_plot<-ggplot(LIZVIZ, aes(age, NISP))+ geom_point()+
   geom_line(colour="blue")+
   scale_x_reverse(breaks =seq(0,20000,2000))+
-  scale_y_continuous(breaks =seq(0,2000,100))+
+  scale_y_continuous(breaks =seq(0,2000,300))+
   xlab("Age (cal. BP)")+ylab("NISP")+
   coord_flip() +
   theme_classic()
 LIZVIZ_plot
 
+?geom_line
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##     PREPARING THE DATA   ----
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -101,12 +110,6 @@ library(grid)
 library(analogue)
 LIZMNI.pct <- data.frame(tran(LIZMNI_wide, method = 'percent')) # CONVERT MNI INTO PERCENTS
 
-age_depth <- function(Depth) { # Function to assign ages to depths based on linear relationship defined by Tomé et al. 2021
-  68.61*(Depth) + 758.82
-}
-bins <- seq(from = 7.5, to = 300, by = 15) #VECTOR OF 15 CM BINS
-age <- sapply(bins, age_depth) # ASSIGN AGES TO ALL BINS
-
 Stratiplot(age ~ ., LIZMNI.pct, sort = 'wa', type = 'poly',
            ylab ='Years Before Present')
 
@@ -173,6 +176,11 @@ Pollen.plots <- ggarrange(MNIplot, NISPplot,
                     ncol = 1, nrow = 2)
 Pollen.plots
 
+famcolors <- c("#BDD9BF", "#FFC857", "#A997DF", "#929084", "#2E4052")
+ggplot(MNIdf, aes(fill=taxa, y=per, x=yr)) + 
+  geom_bar(position="fill", stat="identity") +theme_classic(base_size = 18) +
+  scale_fill_manual(name = "Family", values=c(famcolors)) +
+  ylab("Relative Abundace") + xlab("Years BP")
 
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -276,7 +284,7 @@ Element_rep <- data.frame(yr=rep(age,ncol(Element_rep)),#make dataframe
                     Bin=as.vector(as.matrix(Element_rep$Bin)),
                     Num=as.vector(as.matrix(Element_rep$Element)))
 
-Element_rep_plot<-ggplot(Element_rep, aes(yr, Num))+ #plot
+Element_rep_plot<-ggplot(Element_rep, aes(yr, Num))+ geom_point()+ #plot
   geom_line(colour="black")+
   scale_x_reverse(breaks =seq(0,100000,2000))+
   scale_y_continuous(breaks =seq(0,100,5))+
@@ -285,6 +293,10 @@ Element_rep_plot<-ggplot(Element_rep, aes(yr, Num))+ #plot
   theme_classic()
 Element_rep_plot
 
+
+p.plots <- ggarrange(LIZVIZ_plot, Element_rep_plot,
+                     labels = c("NISP", "Elements"),
+                     ncol = 2, nrow = 1)
 
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
