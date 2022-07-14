@@ -1,5 +1,427 @@
 ﻿Catalogue_Num,Pit,Bin,Level_min,Level_max,Drawer,Higher_Classification,Family,Genus,Element,NISP,Details,Notes,Quadrant,GMM?,TeethCorrosion
+41229-10023,1,3,30,35,2A8,lizard,Phrynosomatidae,Phrynosoma,parietal,1,,horn? fragment,,,
+41229-10024,1,3,30,35,2A8,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,surangular_articular,1,1L,,75,,
+41229-10126,1D,5,65,70,2A16,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,in 2 pieces,100,,
+41229-10177,1C,2,25,30,2A6,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,horn,0,,
+41229-10178,1C,5,65,70,2A16,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,surangular,1,1L,,75,,
+41229-1027,1,5,65,70,2A16,lizard,Phrynosomatidae,"Phrynosoma ""cornutum""",frontal,1,,,50,,
+41229-1028,1,5,65,70,2A16,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,1L,long horn with small middle horn,25,,
+41229-10525,1,8,105,110,2B14,lizard,Phrynosomatidae,Phrynosoma,squamosal,1,,1 small horn,25,,
+41229-1071,1A,11,160,165,2D6,lizard,Phrynosomatidae,Phrynosoma,squamosal,1,,horn,25,,
+41229-10883,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,"""Phrynosoma douglassi""",parietal,1,,,100,,
+41229-10884,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,"""Phrynosoma douglassi""",frontal,1,1R,,25,,
+41229-10885,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,"""Phrynosoma douglassi""",squamosal,1,1R,3 short horns,75,,
+41229-10886,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,"""Phrynosoma douglassi""",squamosal,1,1L,2 short horns,75,,
+41229-10970,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1L,2 short horns,75,,
+41229-11075,1D,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,frontal,1,,,100,,
+41229-11076,1D,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,frontal,1,,burned,75,,
+41229-11077,1D,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,frontal,2,,in 2 pieces,50,,
+41229-11078,1D,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,frontal,1,,,75,,
+41229-11079,1D,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1L,3 short horns,75,,
+41229-11091,1D/E,14,195,200,2D15,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1L,"unicuspid,  some missing crowns, closed mk, no tubercle",100,,shaft
+41229-11092,1D/E,14,195,200,2D15,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",75,,crown
+41229-11093,1D/E,14,195,200,2D15,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1R,"eroded crown and some tooth shafts, no tubercle",50,,shaft
+41229-11214,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma cf. modestum or hernandezi,frontal,1,1,,75,,
+41229-11215,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma cf. modestum or hernandezi,frontal,1,1,,50,,
+41229-11216,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma cf. modestum or hernandezi,frontal,1,1,,75,,
+41229-11217,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma cf. modestum or hernandezi,frontal,1,1,,25,,
+41229-11253,1D,18,260,265,2.00E+13,lizard,Phrynosomatidae,"Phrynosoma ""douglassi or modestum""",frontal,1,,,100,,
+41229-11254,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,1R,1 long horn,25,,
+41229-11255,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,bumpy dorsal surface,100,,
+41229-11256,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,bumpy dorsal surface,75,,
+41229-11257,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,3 long horns,100,,
+41229-1131,1B,7,100,105,2B12,lizard,Phrynosomatidae,Phrynosoma cf. cornutum ,parietal,1,1R,horn fragment,0,,
+41229-11627,1E,8,105,110,2B14,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,horn fragment,0,,
+41229-12032,1D,8,115,120,2B17,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,1R,"1 long horn,fragment",50,,
+41229-1271,1A,3,35,40,2A9,lizard,Phrynosomatidae,Phrynosoma,parietal,1,,horn? fragment,,,
 41229-20,1,1,0,15,2A1,lizard,Phrynosomatidae,,dentary,1,1L,",frag. 18 tooth positions, posterior teeth tricuspid",75,No,
+41229-25229,1,10,140,145,2C9,lizard,,,humerus,1,distal frag,,,,
+41229-25557,1D/E,15,210,215,2.00E+05,lizard,,,vertebra,204,,,,,
+41229-25558,1D/E,15,210,215,2.00E+05,lizard,,,vertebra,186,,,,,
+41229-25559,1D/E,15,210,215,2.00E+05,lizard,,,axis,6,,,,,
+41229-25560,1D/E,15,210,215,2.00E+05,lizard,,,braincase,1,,sphenoid,,,
+41229-25561,1D/E,15,210,215,2.00E+05,lizard,Pleurodonta cf. Phrynosomatidae,,coronoid,1,1R,,75,,
+41229-25562,1D/E,15,210,215,2.00E+05,lizard,,,nasal,1,,,100,,
+41229-25563,1D/E,15,210,215,2.00E+05,lizard,,,tibia,1,,,100,,
+41229-25564,1D/E,15,210,215,2.00E+05,lizard,,,metacarpals_metatarsals,5,,,,,
+41229-25565,1D/E,15,210,215,2.00E+05,lizard,,,humerus,8,8L,,100,,
+41229-25566,1D/E,15,210,215,2.00E+05,lizard,,,humerus,4,4R,,100,,
+41229-25567,1D/E,15,210,215,2.00E+05,lizard,,,femur,2,2L,,75,,
+41229-25568,1D/E,15,210,215,2.00E+05,lizard,,,femur,7,7R,,100,,
+41229-25569,1D/E,15,210,215,2.00E+05,lizard,,,pelvis,4,4L,,50,,
+41229-25570,1D/E,15,210,215,2.00E+05,lizard,,,pelvis,3,3R,,50,,
+41229-25571,1D/E,15,210,215,2.00E+05,lizard,,,vertebra,121,,,,,
+41229-25572,1D/E,15,210,215,2.00E+05,lizard,,,humerus,1,1L,,100,,
+41229-25573,1D/E,15,210,215,2.00E+05,lizard,,,femur,4,4R,,75,,
+41229-25574,1D/E,15,210,215,2.00E+05,lizard,,,radius,1,,,75,,
+41229-25575,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,coronoid,1,1L,,75,,
+41229-25576,1D/E,15,210,215,2.00E+05,lizard,,,braincase,1,,sphenoid burned,,,
+41229-25577,1D/E,15,210,215,2.00E+05,lizard,,,tibia,1,,,75,,
+41229-25578,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,coronoid,1,1R,,75,,
+41229-25579,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,quadrate,1,1L,,100,,
+41229-25580,1D/E,15,210,215,2.00E+05,lizard,,,braincase,1,,basioccipital,,,
+41229-25581,1D/E,15,210,215,2.00E+05,lizard,,,metacarpals_metatarsals,1,,,,,
+41229-25582,1D/E,15,210,215,2.00E+05,lizard,Anguidae,Ophisaurus,quadrate,1,1R,,100,,
+41229-25583,1D/E,15,210,215,2.00E+05,lizard,,,braincase,2,2L,otooccipital,,,
+41229-25584,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,cf. Phrynosomatine,postorbital,1,,,100,,
+41229-25585,1D/E,15,210,215,2.00E+05,lizard,Anguidae,Ophisaurus,quadrate,1,1R,,100,,
+41229-25586,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosomatinae,quadrate,1,1R,,100,,
+41229-25587,1D/E,15,210,215,2.00E+05,lizard,,,scapulocorocoid,7,7L,,100,,
+41229-25588,1D/E,15,210,215,2.00E+05,lizard,,,scapulocorocoid,6,6R,,100,,
+41229-25589,1D/E,15,210,215,2.00E+05,lizard,,,pelvis,3,3R,,50,,
+41229-25590,1D/E,15,210,215,2.00E+05,lizard,,,pelvis,5,5R,,25,,
+41229-25591,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,cf. Sceloporus,postorbital,1,,,75,,
+41229-25592,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,ectopterygoid,1,,,100,,
+41229-25593,1D/E,15,210,215,2.00E+05,lizard,,,interclavicle,4,,t shaped,100,,
+41229-25594,1D/E,15,210,215,2.00E+05,lizard,,,braincase,4,,sphenoid,,,
+41229-25595,1D/E,15,210,215,2.00E+05,lizard,,,braincase,1,,sphenoid deep pituitary fossa,,,
+41229-25596,1D/E,15,210,215,2.00E+05,lizard,,,axis,1,,,,,
+41229-25597,1D/E,15,210,215,2.00E+05,lizard,Anguidae,Ophisaurus,prefrontal,1,1L,,100,,
+41229-25598,1D/E,15,210,215,2.00E+05,lizard,,,braincase,3,"1L,2R",otooccipital,,,
+41229-25600,1D/E,15,210,215,2.00E+05,lizard,Anguidae,,osteoderm,15,,,,,
+41229-25601,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,pterygoid,1,1L,,75,,
+41229-25602,1D/E,15,210,215,2.00E+05,lizard,Anguidae,Ophisaurus,pterygoid,1,1R,,50,,
+41229-25603,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,jugal,1,1L,,100,,
+41229-25604,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,jugal,4,4R,,100,,
+41229-25605,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,jugal,1,1L,,50,,
+41229-25606,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,jugal,1,1R,burned,75,,
+41229-25607,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1R,"2 short horns, burned",50,,
+41229-25608,1D/E,15,210,215,2.00E+05,lizard,Scincidae,cf. Plestiodon,frontal,1,1R,,75,,
+41229-25609,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,surangular_articular,4,4L,,100,,
+41229-25610,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,surangular_articular,5,5R,1 burned,100,,
+41229-25611,1D/E,15,210,215,2.00E+05,lizard,,,surangular,1,1L,,100,,
+41229-25612,1D/E,15,210,215,2.00E+05,lizard,,,articular,1,1R,,50,,
+41229-25613,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,articular,1,1L,,50,,
+41229-25614,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,frontal,5,,,100,,
+41229-25615,1D/E,15,210,215,2.00E+05,lizard,Pleurodonta,,frontal,2,,,50,,
+41229-25616,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,parietal,1,,,100,,
+41229-25617,1D/E,15,210,215,2.00E+05,lizard,,,scapulocorocoid,2,2L,,75,,
+41229-25618,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosomatinae,premaxilla,2,,,50,,
+41229-25619,1D/E,15,210,215,2.00E+05,lizard,Scincidae,cf. Plestiodon,parietal,1,,,75,,
+41229-25620,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"1 tooth missing top, closed mk, no tubercle",75,,shaft
+41229-25621,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1L,missing most teeth,50,,crown
+41229-25622,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
+41229-25623,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1L,,25,,none
+41229-25624,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1R,,25,,shaft
+41229-25625,1D/E,15,210,215,2.00E+05,lizard,Scincidae,,dentary,1,1L,,25,,shaft
+41229-25626,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,maxilla,1,1L,,50,,shaft
+41229-25627,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,maxilla,1,1R,,75,,shaft
+41229-25628,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,maxilla,1,1L,,50,,none
+41229-25629,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma?,maxilla,1,1L,,75,,shaft
+41229-25630,1D/E,15,210,215,2.00E+05,lizard,cf. Anguidae,,maxilla,1,1R,,25,,none
+41229-25631,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,maxilla,1,1R,,25,,none
+41229-25719,1D/E,15,210,215,2.00E+05,lizard,,,vertebra,29,,,,,
+41229-25720,1D/E,15,210,215,2.00E+05,lizard,,,vertebra,26,,,,,
+41229-25721,1D/E,15,210,215,2.00E+05,lizard,,,braincase,1,,,,,
+41229-25722,1D/E,15,210,215,2.00E+05,lizard,,,vertebra,22,,,,,
+41229-25723,1D/E,15,210,215,2.00E+05,lizard,,,pelvis,1,1R,,50,,
+41229-25724,1D/E,15,210,215,2.00E+05,lizard,,,braincase,1,,,,,
+41229-25725,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma,premaxilla,1,,,100,,
+41229-25726,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,75,,none
+41229-25727,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"closed mk, no tubercle",50,,none
+41229-25728,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1L,,100,,crown
+41229-25729,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,maxilla,1,1R,,50,,none
+41229-25730,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,maxilla,1,1L,,100,,none
+41229-25731,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,dentary,1,1L,,75,,none
+41229-25732,1D/E,15,210,215,2.00E+05,lizard,Scincidae,,maxilla,1,1R,,100,,none
+41229-25733,1D/E,15,210,215,2.00E+05,lizard,Scincidae,,dentary,1,1R,,75,,shaft
+41229-25747,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,frontal,1,,,100,,
+41229-25748,1D/E,15,215,220,2.00E+06,lizard,,,pelvis,1,1L,,50,,
+41229-25749,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,frontal,1,,,100,,
+41229-25754,1D/E,15,215,220,2.00E+06,lizard,,,vertebra,19,,,,,
+41229-25766,1D/E,15,215,220,2.00E+06,lizard,,,vertebra,13,,,,,
+41229-25773,1D/E,15,215,220,2.00E+06,lizard,,,pelvis,1,1R,,50,,
+41229-25774,1D/E,15,215,220,2.00E+06,lizard,cf. Scincidae,,braincase,1,,,,,
+41229-25781,1D/E,15,215,220,2.00E+06,lizard,,,vertebra,14,,,,,
+41229-25785,1D/E,15,215,220,2.00E+06,lizard,,,femur,4,4L,,100,,
+41229-25786,1D/E,15,215,220,2.00E+06,lizard,,,femur,4,4R,,100,,
+41229-25787,1D/E,15,215,220,2.00E+06,lizard,,,humerus,6,6L,,100,,
+41229-25788,1D/E,15,215,220,2.00E+06,lizard,,,humerus,2,2R,,100,,
+41229-25789,1D/E,15,215,220,2.00E+06,lizard,,,vertebra,17,,,,,
+41229-25790,1D/E,15,215,220,2.00E+06,lizard,,,tibia,2,,,100,,
+41229-25791,1D/E,15,215,220,2.00E+06,lizard,,,pelvis,1,1R,,75,,
+41229-25792,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,dentary,1,1L,,75,,crown
+41229-25793,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,dentary,1,1R,,100,,crown
+41229-25794,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,maxilla,1,1L,,75,,crown
+41229-25795,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,maxilla,1,1R,pitted bone,50,,shaft
+41229-25796,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,maxilla,1,1L,,25,,none
+41229-25797,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,dentary,1,1R,,50,,shaft
+41229-25798,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,none
+41229-25799,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,frontal,1,,,100,,
+41229-25800,1D/E,15,215,220,2.00E+06,lizard,,,pelvis,1,1R,,50,,
+41229-25801,1D/E,15,215,220,2.00E+06,lizard,,,scapulocorocoid,1,1L,,100,,
+41229-25833,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,jugal,1,1L,,75,,
+41229-25834,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,parietal,1,,short horn,75,,
+41229-25835,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1L,2 short horns,75,,
+41229-25836,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,parietal,1,,,75,,
+41229-25837,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,frontal,1,,,100,,
+41229-25838,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,cf. Phrynosomatine,surangular_articular,1,1L,,100,,
+41229-25839,1D/E,15,215,220,2.00E+06,lizard,,,vertebra,1,,caudal vert,,,
+41229-25840,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,cf. Phrynosoma,quadrate,1,1L,"missing part of conch, burned",100,,
+41229-25841,1D/E,15,215,220,2.00E+06,lizard,,,humerus,7,7L,,100,,
+41229-25842,1D/E,15,215,220,2.00E+06,lizard,Scincidae,,frontal,1,1L,,50,,
+41229-25843,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,parietal,4,4L,,50,,
+41229-25844,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,parietal,1,1L,,50,,
+41229-25845,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,parietal,1,,,75,,
+41229-25846,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,jugal,1,1R,,100,,
+41229-25847,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,maxilla,1,1R,,100,,shaft
+41229-25848,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma,coronoid,1,1L,,100,,
+41229-25849,1D/E,15,215,220,2.00E+06,lizard,,,pelvis,2,2L,,50,,
+41229-25850,1D/E,15,215,220,2.00E+06,lizard,,,pelvis,3,3R,,75,,
+41229-25851,1D/E,15,215,220,2.00E+06,lizard,,,tibia,2,,,100,,
+41229-25852,1D/E,15,215,220,2.00E+06,lizard,,,axis,1,,,,,
+41229-25853,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,surangular_articular,1,1L,,100,,
+41229-25854,1D/E,15,215,220,2.00E+06,lizard,,,femur,2,2L,,25,,
+41229-25855,1D/E,15,215,220,2.00E+06,lizard,,,femur,3,3R,,100,,
+41229-25898,1C,15,215,220,2.00E+06,lizard,,,vertebra,7,,,,,
+41229-25899,1C,15,215,220,2.00E+06,lizard,Phrynosomatidae,,frontal,1,,,75,,
+41229-25900,1C,15,215,220,2.00E+06,lizard,,,femur,2,2L,,100,,
+41229-25901,1C,15,215,220,2.00E+06,lizard,,,humerus,1,1L,,100,,
+41229-25902,1C,15,215,220,2.00E+06,lizard,,,pelvis,3,3L,,50,,
+41229-25903,1C,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma,quadrate,1,1L,,100,,
+41229-25904,1C,15,215,220,2.00E+06,lizard,Scincidae,,quadrate,1,1L,,100,,
+41229-25930,1D/E,15,220,225,2.00E+07,lizard,,,vertebra,33,,,,,
+41229-25931,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,parietal,1,,,100,,
+41229-25932,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,frontal,1,,burned,100,,
+41229-25933,1D/E,15,220,225,2.00E+07,lizard,cf. Phrynosomatidae,,frontal,1,1R,,100,,
+41229-25934,1D/E,15,220,225,2.00E+07,lizard,,,pelvis,6,6L,,50,,
+41229-25935,1D/E,15,220,225,2.00E+07,lizard,,,pelvis,7,7R,,50,,
+41229-25936,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,dentary,1,1L,,75,,crown
+41229-25937,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,dentary,1,1R,burned,75,,shaft
+41229-25938,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,maxilla,1,1L,,50,,none
+41229-25939,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,crown
+41229-25940,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"closed mk, no tubercle",50,,crown
+41229-25941,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,75,,none
+41229-25942,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,75,,shaft
+41229-25943,1D/E,15,220,225,2.00E+07,lizard,Scincidae,,maxilla,1,1R,,25,,none
+41229-25944,1D/E,15,220,225,2.00E+07,lizard,Scincidae,,maxilla,1,1R,,25,,none
+41229-25945,1D/E,15,220,225,2.00E+07,lizard,Crotaphytidae,,jugal,1,1L,,100,,
+41229-25946,1D/E,15,220,225,2.00E+07,lizard,,,humerus,3,3L,,100,,
+41229-25947,1D/E,15,220,225,2.00E+07,lizard,,,femur,9,9L,,100,,
+41229-25948,1D/E,15,220,225,2.00E+07,lizard,,,femur,10,10R,,100,,
+41229-25949,1D/E,15,220,225,2.00E+07,lizard,,,vertebra,18,,,,,
+41229-25951,1D/E,15,220,225,2.00E+07,lizard,,,scapulocorocoid,3,3L,,100,,
+41229-26006,1C,15,220,225,2.00E+07,lizard,,,vertebra,53,,,,,
+41229-26007,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,frontal,1,,,100,,
+41229-26008,1C,15,220,225,2.00E+07,lizard,Scincidae,cf. Plestiodon,frontal,1,1R,,100,,
+41229-26009,1C,15,220,225,2.00E+07,lizard,,,humerus,1,1R,,100,,
+41229-26010,1C,15,220,225,2.00E+07,lizard,,,femur,1,1R,,75,,
+41229-26011,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,maxilla,1,1L,,25,,none
+41229-26012,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,maxilla,1,1R,,50,,none
+41229-26013,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,dentary,1,1L,,25,,none
+41229-26014,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,75,,none
+41229-26015,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,crown
+41229-26016,1C,15,220,225,2.00E+07,lizard,,,phalanges,2,,,,,
+41229-26017,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,cf. Phrynosomatine,postorbital,4,,,100,,
+41229-26018,1C,15,220,225,2.00E+07,lizard,Anguidae,,osteoderm,2,,,,,
+41229-26019,1C,15,220,225,2.00E+07,lizard,,,femur,1,1L,,75,,
+41229-26020,1C,15,220,225,2.00E+07,lizard,,,humerus,1,1L,,100,,
+41229-26021,1C,15,220,225,2.00E+07,lizard,,,pelvis,1,1L,,25,,
+41229-26022,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,surangular_articular,1,1L,,100,,
+41229-26023,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,pterygoid,1,1L,,50,,
+41229-26024,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,parietal,1,1L,,50,,
+41229-26025,1C,15,220,225,2.00E+07,lizard,,,interclavicle,1,,t shaped,100,,
+41229-26026,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosomatinae,quadrate,1,1L,shallow conch,100,,
+41229-26027,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosomatinae,premaxilla,1,,,75,,
+41229-26028,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,jugal,2,2R,,75,,
+41229-26029,1C,15,220,225,2.00E+07,lizard,,,scapulocorocoid,2,2L,,75,,
+41229-26030,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,frontal,1,,,75,,
+41229-26091,1D/E,16,225,230,2.00E+08,lizard,,,vertebra,28,,,,,
+41229-26092,1D/E,16,225,230,2.00E+08,lizard,,,vertebra,14,,,,,
+41229-26093,1D/E,16,225,230,2.00E+08,lizard,,,axis,1,,,,,
+41229-26094,1D/E,16,225,230,2.00E+08,lizard,,,pelvis,8,8L,,50,,
+41229-26095,1D/E,16,225,230,2.00E+08,lizard,,,pelvis,6,6R,,50,,
+41229-26096,1D/E,16,225,230,2.00E+08,lizard,,,humerus,2,2L,1 burned,100,,
+41229-26097,1D/E,16,225,230,2.00E+08,lizard,,,tibia,1,,,100,,
+41229-26098,1D/E,16,225,230,2.00E+08,lizard,,,femur,5,5L,1 burned,100,,
+41229-26099,1D/E,16,225,230,2.00E+08,lizard,,,femur,5,5R,,100,,
+41229-26100,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,,parietal,1,,,50,,
+41229-26101,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,,maxilla,1,1L,,50,,none
+41229-26102,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,,dentary,1,1L,,75,,shaft
+41229-26103,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,,frontal,1,,,100,,
+41229-26104,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,crown
+41229-26105,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,75,,none
+41229-26106,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,shaft
+41229-26107,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"burned, closed mk, no tubercle",25,,none
+41229-26108,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,75,,
+41229-26109,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,25,,crown
+41229-26110,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,,braincase,1,,,,,
+41229-26111,1D/E,16,225,230,2.00E+08,lizard,,,scapulocorocoid,3,3L,,75,,
+41229-26112,1D/E,16,225,230,2.00E+08,lizard,,,scapulocorocoid,2,2R,,75,,
+41229-26113,1D/E,16,225,230,2.00E+08,lizard,,,osteoderm,5,,,,,
+41229-26172,E1/2 comp. pit 1,16,225,240,2.00E+08,lizard,,,vertebra,1,,,,,
+41229-26181,1C,16,225,230,2.00E+08,lizard,,,vertebra,2,,,,,
+41229-26182,1C,16,225,230,2.00E+08,lizard,,,femur,2,2L,,100,,
+41229-26183,1C,16,225,230,2.00E+08,lizard,,,pelvis,3,3L,,50,,
+41229-26184,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,,frontal,1,,,50,,
+41229-26185,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,,parietal,1,,,100,,
+41229-26186,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,,dentary,1,1R,,50,,shaft
+41229-26187,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,crown
+41229-26188,1C,16,225,230,2.00E+08,lizard,,,ulna,1,,,100,,
+41229-26189,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"highly coroded bone, closed mk",50,,shaft
+41229-26190,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,,surangular_articular,1,1R,,75,,
+41229-26211,1D/E,16,230,235,2.00E+09,lizard,,,vertebra,23,,,,,
+41229-26212,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1L,"3 short horns, burned",75,,
+41229-26213,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1R,"2 med horns, burned",75,,
+41229-26214,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma,prefrontal,1,1L,,100,,
+41229-26215,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,parietal,1,1R,short horn,25,,
+41229-26216,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,75,,
+41229-26217,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma,frontal,2,,frags,25,,
+41229-26218,1D/E,16,230,235,2.00E+09,lizard,Anguidae,,osteoderm,9,,,,,
+41229-26219,1D/E,16,230,235,2.00E+09,lizard,,,pelvis,1,1R,,25,,
+41229-26220,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,jugal,1,1L,,100,,
+41229-26221,1D/E,16,230,235,2.00E+09,lizard,,,scapulocorocoid,3,3L,1 burned,100,,
+41229-26222,1D/E,16,230,235,2.00E+09,lizard,,,scapulocorocoid,4,4R,,100,,
+41229-26264,1C,16,230,235,2.00E+09,lizard,Phrynosomatidae,,parietal,2,1R,,50,,
+41229-26265,1C,16,230,235,2.00E+09,lizard,,,pelvis,1,1L,,25,,
+41229-26266,1C,16,230,235,2.00E+09,lizard,,,femur,1,1R,,75,,
+41229-26267,1C,16,230,235,2.00E+09,lizard,Phrynosomatidae,,dentary,1,1L,no teeth preserved,50,,
+41229-26268,1C,16,230,235,2.00E+09,lizard,Phrynosomatidae,,frontal,1,,,100,,
+41229-26269,1C,16,230,235,2.00E+09,lizard,Phrynosomatidae,,jugal,1,1R,,100,,
+41229-26270,1C,16,230,235,2.00E+09,lizard,,,vertebra,5,,,,,
+41229-26280,1D/E,16,230,235,2.00E+09,lizard,,,vertebra,1,,,,,
+41229-26288,1C,16,230,235,2.00E+10,lizard,,,vertebra,15,,,,,
+41229-26289,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,none
+41229-26290,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",100,,none
+41229-26291,1C,16,230,235,2.00E+10,lizard,,,humerus,1,1L,,100,,
+41229-26292,1C,16,230,235,2.00E+10,lizard,,,femur,1,1R,,100,,
+41229-26293,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,cf. Phrynosomatine,surangular_articular,1,1L,,100,,
+41229-26294,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,parietal,1,1R,,50,,
+41229-26295,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,frontal,1,,,75,,
+41229-26296,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,50,,
+41229-26297,1C,16,230,235,2.00E+10,lizard,,,pelvis,2,2L,,50,,
+41229-26298,1C,16,230,235,2.00E+10,lizard,,,pelvis,2,2R,,50,,
+41229-26299,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,surangular_articular,1,1R,no lat horns,75,,
+41229-26300,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,crown
+41229-26301,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,maxilla,1,1L,,25,,none
+41229-26302,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,dentary,1,1L,,25,,crown
+41229-26303,1C,16,230,235,2.00E+10,lizard,,cf. Phrynosoma,dentary,1,1L,,25,,crown
+41229-26304,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,maxilla,1,1L,,25,,crown
+41229-26325,1C,16,235,240,2.00E+10,lizard,,,vertebra,15,,,,,
+41229-26326,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,none
+41229-26327,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,75,,none
+41229-26328,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,,dentary,1,1R,,75,Yes,shaft
+41229-26329,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,,maxilla,1,1R,covered in travertine,75,,none
+41229-26330,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,75,,none
+41229-26331,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,,braincase,1,,,,,
+41229-26332,1C,16,235,240,2.00E+10,lizard,,,femur,1,1L,,100,,
+41229-26333,1C,16,235,240,2.00E+10,lizard,,,tibia,1,,,100,,
+41229-26334,1C,16,235,240,2.00E+10,lizard,,,pelvis,2,2L,,50,,
+41229-26335,1C,16,235,240,2.00E+10,lizard,,,humerus,1,1R,,100,,
+41229-26336,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,none
+41229-26337,1C,16,235,240,2.00E+10,lizard,,,humerus,1,1R,,100,,
+41229-26338,1C,16,235,240,2.00E+10,lizard,,,interclavicle,1,,t shaped,100,,
+41229-26339,1C,16,235,240,2.00E+10,lizard,Anguidae,,osteoderm,1,,,,,
+41229-26340,1C,16,235,240,2.00E+10,lizard,,,scapulocorocoid,1,1R,,100,,
+41229-26341,1C,16,235,240,2.00E+10,lizard,,,femur,3,3R,,100,,
+41229-26342,1C,16,235,240,2.00E+10,lizard,,,femur,1,1L,,75,,
+41229-26343,1C,16,235,240,2.00E+10,lizard,,,tibia,4,,,100,,
+41229-26344,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,parietal,1,1L,short horn,50,,
+41229-26366,1D,16,235,240,2.00E+10,lizard,,,vertebra,10,,,,,
+41229-26367,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,,braincase,1,,,,,
+41229-26368,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,,frontal,1,,,100,,
+41229-26369,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,,parietal,1,,,100,,
+41229-26370,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,none
+41229-26371,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,none
+41229-26372,1D,16,235,240,2.00E+10,lizard,,,femur,3,3R,,100,,
+41229-26373,1D,16,235,240,2.00E+10,lizard,,,humerus,2,2R,,100,,
+41229-26374,1D,16,235,240,2.00E+10,lizard,,,pelvis,4,4L,,50,,
+41229-26375,1D,16,235,240,2.00E+10,lizard,,,pelvis,4,4R,,50,,
+41229-26376,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,parietal,1,,short horn,75,,
+41229-26377,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,75,,
+41229-26378,1D,16,235,240,2.00E+10,lizard,,,scapulocorocoid,1,1L,burned,100,,
+41229-26403,?,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,prefrontal,1,1R,,75,,
+41229-26404,?,16,235,240,2.00E+10,lizard,,,femur,3,3L,1 burned,100,,
+41229-26405,?,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,surangular,1,1L,no lat horns,100,,
+41229-26410,1D,17,240,245,2.00E+11,lizard,,,vertebra,1,,,,,
+41229-26411,1D,17,240,245,2.00E+11,lizard,,,humerus,1,1L,,100,,
+41229-26412,1D,17,240,245,2.00E+11,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,frontal,1,,,100,,
+41229-26413,1D,17,240,245,2.00E+11,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,frontal,1,,,75,,
+41229-26414,1D,17,240,245,2.00E+11,lizard,,,scapulocorocoid,1,1R,,50,,
+41229-26416,1D,17,240,245,2.00E+11,,,,,1,,,,,
+41229-26454,1C,17,240,245,2.00E+11,lizard,,,vertebra,19,,,,,
+41229-26455,1C,17,240,245,2.00E+11,lizard,Phrynosomatidae,,frontal,1,,,100,,
+41229-26456,1C,17,240,245,2.00E+11,lizard,,,humerus,1,1L,burned,100,,
+41229-26457,1C,17,240,245,2.00E+11,lizard,,,pelvis,1,1L,,75,,
+41229-26458,1C,17,240,245,2.00E+11,lizard,,,pelvis,1,1R,,50,,
+41229-26459,1C,17,240,245,2.00E+11,lizard,,,pelvis,1,1R,,25,,
+41229-26460,1C,17,240,245,2.00E+11,lizard,,,humerus,1,1L,burned,100,,
+41229-26461,1C,17,240,245,2.00E+11,lizard,,,tibia,1,,burned,100,,
+41229-26489,1C,17,245,250,2.00E+12,lizard,,,vertebra,7,,,,,
+41229-26490,1C,17,245,250,2.00E+12,lizard,,,pelvis,1,1L,,50,,
+41229-26491,1C,17,245,250,2.00E+12,lizard,,,humerus,1,1L,burned,100,,
+41229-26492,1C,17,245,250,2.00E+12,lizard,,,femur,1,1R,,100,,
+41229-26493,1C,17,245,250,2.00E+12,lizard,,,femur,1,1R,,50,,
+41229-26494,1C,17,245,250,2.00E+12,lizard,,,scapulocorocoid,1,1L,,100,,
+41229-26495,1C,17,245,250,2.00E+12,lizard,,,pelvis,1,1R,,50,,
+41229-26496,1C,17,245,250,2.00E+12,lizard,,,tibia,3,,,100,,
+41229-26497,1C,17,245,250,2.00E+12,lizard,Phrynosomatidae,cf. Phrynosoma,quadrate,1,1L,deep conch,100,,
+41229-26527,1C,17,250,255,2.00E+12,lizard,,,vertebra,17,,,,,
+41229-26528,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,,dentary,1,1L,,50,,shaft
+41229-26529,1C,17,250,255,2.00E+12,lizard,,,femur,1,1R,,100,,
+41229-26530,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,,dentary,1,1L,,25,,none
+41229-26531,1C,17,250,255,2.00E+12,lizard,,,dentary,1,1L,,25,,crown
+41229-26532,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,cf. Sceloporus,postorbital,1,,,100,,
+41229-26533,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,,parietal,1,1L,,50,,
+41229-26534,1C,17,250,255,2.00E+12,lizard,,,braincase,1,,sphenoid,,,
+41229-26535,1C,17,250,255,2.00E+12,lizard,,,pelvis,1,1L,,50,,
+41229-26536,1C,17,250,255,2.00E+12,lizard,cf. Phrynosomatidae,,jugal,1,1L,,75,,
+41229-26537,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,cf. Phrynosomatine,surangular_articular,1,1R,,100,,
+41229-26538,1C,17,250,255,2.00E+12,lizard,,,scapulocorocoid,1,1L,,75,,
+41229-26539,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,,pterygoid,1,1R,,50,,
+41229-26540,1C,17,250,255,2.00E+12,lizard,,,humerus,1,1L,,75,,
+41229-26541,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,,frontal,1,,,75,,
+41229-26566,E 1/2 comp. pit 1,17,245,255,2.00E+12,lizard,,,vertebra,1,,,,,
+41229-26571,1D,18,255,260,2.00E+13,lizard,,,vertebra,4,,,,,
+41229-26572,1D,18,255,260,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,none
+41229-26573,1D,18,255,260,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,none
+41229-26574,1D,18,255,260,2.00E+13,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",50,,none
+41229-26575,1D,18,255,260,2.00E+13,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"closed mk, no tubercle",50,,none
+41229-26576,1D,18,255,260,2.00E+13,lizard,,,pelvis,1,1L,,50,,
+41229-26577,1D,18,255,260,2.00E+13,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,parietal,1,1L,short horn,50,,
+41229-26594,1D,18,260,265,2.00E+13,lizard,,,vertebra,4,,,,,
+41229-26595,1D,18,260,265,2.00E+13,lizard,,,longbones,1,,,,,
+41229-26596,1D,18,260,265,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,100,,none
+41229-26597,1D,18,260,265,2.00E+13,lizard,Anguidae,,osteoderm,3,,,,,
+41229-26598,1D,18,260,265,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,quadrate,1,1R,deep conch,100,,
+41229-26599,1D,18,260,265,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,prefrontal,1,1L,,75,,
+41229-26623,1C,18,255,260,2.00E+13,lizard,,,vertebra,4,,,,,
+41229-26624,1C,18,255,260,2.00E+13,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
+41229-26625,1C,18,255,260,2.00E+13,lizard,,,dentary,1,1L,,25,,shaft
+41229-26626,1C,18,255,260,2.00E+13,lizard,,,femur,1,1R,burned,75,,
+41229-26627,1C,18,255,260,2.00E+13,,,,?,1,,,,,
+41229-26628,1C,18,255,260,2.00E+13,lizard,Phrynosomatidae,,parietal,1,1R,,50,,
+41229-26629,1C,18,255,260,2.00E+13,lizard,,,braincase,1,,sphenoid,,,
+41229-26638,1D,18,265,270,2.00E+14,lizard,,,vertebra,3,,,,,
+41229-26639,1D,18,265,270,2.00E+14,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,75,,
+41229-26664,1D,19,270,275,2.00E+14,lizard,,,vertebra,6,,,,,
+41229-26686,1D,19,275,280,2.00E+14,lizard,Phrynosomatidae,,maxilla,1,1L,,75,,none
+41229-26688,1D,19,275,280,2.00E+14,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,100,,none
+41229-26689,1D,19,275,280,2.00E+14,lizard,,,vertebra,1,,,,,
+41229-26690,1D,19,275,280,2.00E+14,lizard,Phrynosomatidae,Phrynosoma,frontal,1,1L,,25,,
+41229-26691,1D,19,275,280,2.00E+14,lizard,,,femur,1,1L,,75,,
+41229-26692,1D,19,275,280,2.00E+14,lizard,Phrynosomatidae,Phrynosoma,prefrontal,1,1R,,100,,
+41229-26712,1D,19,280,285,2.00E+15,lizard,,,vertebra,2,,,,,
+41229-26713,1D,19,280,285,2.00E+15,lizard,Phrynosomatidae,,parietal,1,,,100,,
+41229-26714,1D,19,280,285,2.00E+15,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,none
+41229-26715,1D,19,280,285,2.00E+15,lizard,Phrynosomatidae,,maxilla,1,1R,covered in travertine,100,,shaft
+41229-26716,1D,19,280,285,2.00E+15,lizard,Phrynosomatidae,Phrynosoma,prefrontal,1,1R,,100,,
+41229-26727,1D,20,285,290,2.00E+15,lizard,,,humerus,1,1L,,100,,
+41229-26728,1D,20,285,290,2.00E+15,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,75,,
+41229-26743,1D,20,290,295,2.00E+15,lizard,,,vertebra,1,,,,,
+41229-26744,1D,20,290,295,2.00E+15,lizard,Phrynosomatidae,,maxilla,1,1L,,75,,crown
+41229-26745,1D,20,290,295,2.00E+15,lizard,,,ulna,1,,,100,,
+41229-26746,1D,20,290,295,2.00E+15,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,surangular_articular,1,1R,no lat horns,75,,
+41229-26751,1D,20,295,300,2.00E+15,lizard,,,vertebra,5,,,,,
+41229-26752,1D,20,295,300,2.00E+15,lizard,,,humerus,1,1R,,100,,
+41229-26753,1D,20,295,300,2.00E+15,lizard,,,femur,1,1R,,50,,
+41229-26754,1D,20,295,300,2.00E+15,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,none
+41229-26755,1D,20,295,300,2.00E+15,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,parietal,1,,short horn,100,,
+41229-26765,1E,20,295,300,2.00E+15,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
+41229-26766,1E,20,295,300,2.00E+15,lizard,,,femur,1,1L,,75,,
+41229-26767,1E,20,295,300,2.00E+15,lizard,Phrynosomatidae,,surangular_articular,1,1L,,100,,
+41229-26768,1E,20,295,300,2.00E+15,lizard,Phrynosomatidae,,jugal,1,1L,,100,,
+41229-26769,1E,20,295,300,2.00E+15,lizard,Phrynosomatidae,,frontal,1,1L,,25,,
 41229-26773,1,1,0,5,2A1,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, open meckels canal",75,No,
 41229-26774,1,1,0,5,2A1,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, with splenial",25,No,
 41229-26775,1,1,0,5,2A1,lizard,Phrynosomatidae,,dentary,1,1L,ant. frag,25,No,
@@ -17,7 +439,7 @@
 41229-26787,1E,1,0,5,2A1,lizard,,,radius,1,,,100,,
 41229-26788,1E,1,0,5,2A1,lizard,,,phalanges,1,,,,,
 41229-26789,1E,1,0,5,2A1,lizard,,,humerus,1,1L,,100,,
-41229-26790,1,1,5,10,2A2,lizard,Phrynosomatidae,,frontal,1,,"developed crastae cranii, developed anteromedial process",100,,
+41229-26790,1,1,5,10,2A2,lizard,Teiidae,,frontal,1,,"developed crastae cranii, developed anteromedial process",100,,
 41229-26791,1,1,5,10,2A2,lizard,Phrynosomatidae,,frontal,1,,,50,,
 41229-26792,1A,1,5,10,2A2,lizard,Phrynosomatidae,cf. Sceloporus,coronoid,1,1R,,100,,
 41229-26793,1A,1,5,10,2A2,lizard,Phrynosomatidae,,dentary,1,1L,eroded teeth,75,No,crown
@@ -33,7 +455,6 @@
 41229-26803,1E,1,5,10,2A2,lizard,,,tibia,1,,,100,,
 41229-26804,1E,1,5,10,2A2,lizard,,,vertebra,1,,,,,
 41229-26805,1,1,5,10,2A2,lizard,,,vertebra,1,,,,,
-41229-8227,1A,1,5,10,2A2,lizard,Phrynosomatidae,"""Phrynosoma""",braincase,1,,complete,,,
 41229-26806,1,1,10,15,2A3,lizard,Phrynosomatidae,cf. Sceloporus,frontal,1,,"deteriorated, wide interorbital margins",75,,shaft
 41229-26807,1,1,10,15,2A3,lizard,,,vertebra,2,,,,,
 41229-26808,1A,1,10,15,2A3,lizard,Phrynosomatidae,,maxilla,1,1R,eroded teeth,50,No,crown
@@ -58,7 +479,6 @@
 41229-26827,1A,2,15,20,2A4,lizard,Phrynosomatidae,cf. Sceloporus,frontal,1,,wide ant,100,,
 41229-26828,1A,2,15,20,2A4,lizard,Phrynosomatidae,cf. Sceloporus,frontal,1,,wide ant,75,,
 41229-26829,1A,2,15,20,2A4,lizard,,,vertebra,1,,,,,
-41229-6875,1,2,15,20,2A5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1L,2 long horns,75,,
 41229-26830,1A,2,20,25,2A5,lizard,,,femur,1,1R,,100,,
 41229-26831,1A,2,20,25,2A5,lizard,Phrynosomatidae,cf. Sceloporus,frontal,1,,wide ant,100,,
 41229-26832,1A,2,20,25,2A5,lizard,,,phalanges,3,,,,,
@@ -75,10 +495,6 @@
 41229-26843,1E,2,20,25,2A5,lizard,,,femur,1,1L,,100,,
 41229-26844,1E,2,20,25,2A5,lizard,Phrynosomatidae,,frontal,1,,slender ant,100,,
 41229-26845,1E,2,20,25,2A5,lizard,,,vertebra,2,,,,,
-41229-7805,1B,2,20,25,2A5,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,middle fragment,0,,
-41229-8994,1A,2,20,25,2A5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,2 long horns with 1 middle,100,,
-41229-8995,1A,2,20,25,2A5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1L,"1 long horn, 1 broken",75,,
-41229-10177,1C,2,25,30,2A6,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,horn,0,,
 41229-26846,1,2,25,30,2A6,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,"1 long horn, 1 middle horn",50,,
 41229-26847,1C,2,25,30,2A6,lizard,Teiidae,,maxilla,1,1L,only 1 tooth preserved,75,,
 41229-26848,1C,2,25,30,2A6,lizard,,,pelvis,1,1L,,75,,
@@ -99,11 +515,11 @@
 41229-26863,1C,2,25,30,2A7,lizard,Phrynosomatidae,,dentary,1,1R,"teeth shaft and crown eroded, open mk",75,,shaft
 41229-26864,1C,2,25,30,2A7,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded teeth, sub mk lip up",75,,crown
 41229-26865,1C,2,25,30,2A7,lizard,Phrynosomatidae,,dentary,1,1R,tricuspid,50,,
-41229-26866,1C,2,25,30,2A7,lizard,Phrynosomatidae,,dentary,1,1R,"wide tricuspid, posterior frag",0,,
+41229-26866,1C,2,25,30,2A7,lizard,Pleurodonta cf. Crotaphytidae,,dentary,1,1R,"wide tricuspid, posterior frag",0,,
 41229-26867,1C,2,25,30,2A7,lizard,Phrynosomatidae,,frontal,1,,,100,,
 41229-26868,1C,2,25,30,2A7,lizard,Phrynosomatidae,,frontal,1,,,100,,
 41229-26869,1C,2,25,30,2A7,lizard,Phrynosomatidae,,frontal,1,,,75,,
-41229-26870,1C,2,25,30,2A7,lizard,Teiidae,,frontal,1,,,100,,
+41229-26870,1C,2,25,30,2A7,lizard,Scincidae,cf. Scincella,frontal,1,,,100,,
 41229-26871,1C,2,25,30,2A7,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,25,,
 41229-26872,1C,2,25,30,2A7,lizard,Phrynosomatidae,,maxilla,1,1L,"missing facial process, slightly eroded teeth, tricuspid",100,,crown
 41229-26873,1C,2,25,30,2A7,lizard,Phrynosomatidae,,maxilla,1,1R,"missing facial process, slightly eroded teeth, tricuspid",100,,crown
@@ -114,10 +530,6 @@
 41229-26878,1E,2,25,30,2A7,lizard,Phrynosomatidae,cf. Sceloporus,frontal,1,,wide ant,100,,
 41229-26879,1E,2,25,30,2A7,lizard,Phrynosomatidae,,frontal,1,,slender ant,100,,
 41229-26880,1E,2,25,30,2A7,lizard,,,vertebra,1,,,,,
-41229-5478,1C,2,25,30,2A6,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,2 long horns with 1 middle,75,,
-41229-9242,1,2,25,30,2A6,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,2 long horns,75,,
-41229-10023,1,3,30,35,2A8,lizard,Phrynosomatidae,Phrynosoma,parietal,1,,horn? fragment,,,
-41229-10024,1,3,30,35,2A8,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,surangular_articular,1,1L,,75,,
 41229-26881,1,3,30,35,2A8,lizard,Phrynosomatidae,,dentary,1,1R,slighlty tricuspid,50,No,
 41229-26882,1,3,30,35,2A8,lizard,,,dentary,1,1L,"unicuspid ant frag, wide based teeth",25,No,
 41229-26883,1,3,30,35,2A8,lizard,Phrynosomatidae,,splenial,1,,,100,,
@@ -180,7 +592,7 @@
 41229-26941,1A,3,30,35,2A8,lizard,,,maxilla,1,1R,eroded tooth crowns,0,,crown
 41229-26942,1A,3,30,35,2A8,lizard,Phrynosomatidae,,maxilla,1,,facial process merges with pxp,25,,
 41229-26943,1A,3,30,35,2A8,lizard,Phrynosomatidae,,maxilla,1,,facial process merges with pxp,25,,
-41229-26944,1A,3,30,35,2A8,lizard,Phrynosomatidae,,maxilla,1,,facial process merges with pxp,0,,
+41229-26944,1A,3,30,35,2A8,lizard,cf. Phrynosomatidae,,maxilla,1,,facial process merges with pxp,0,,
 41229-26945,1A,3,30,35,2A8,lizard,Phrynosomatidae,,maxilla,1,1R,weak tricuspid,25,,
 41229-26946,1A,3,30,35,2A8,lizard,Teiidae,,maxilla,1,1L,weak bicuspid,75,,
 41229-26947,1A,3,30,35,2A8,lizard,Teiidae,,maxilla,1,1R,bicuspid,50,,
@@ -204,21 +616,21 @@
 41229-26965,1A,3,30,35,2A8,lizard,Phrynosomatidae,,maxilla,1,1R,"facial process merges with pxp, slightly eroded tooth crowns",50,,crown
 41229-26966,1A,3,30,35,2A8,lizard,Phrynosomatidae,,maxilla,1,1R,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-26967,1A,3,30,35,2A8,lizard,,,maxilla,1,,"fragment, some teeth preserved",0,,
-41229-26968,1A,3,30,35,2A8,lizard,Phrynosomatidae,,parietal,1,,deep sculpturing present,50,,
+41229-26968,1A,3,30,35,2A8,,,,,1,,deep sculpturing present,,,
 41229-26969,1A,3,30,35,2A8,lizard,Phrynosomatidae,,parietal,1,,,50,,
 41229-26970,1A,3,30,35,2A8,lizard,Phrynosomatidae,,parietal,1,,,50,,
 41229-26971,1A,3,30,35,2A8,lizard,,,parietal,1,,,25,,
 41229-26972,1A,3,30,35,2A8,lizard,,,pelvis,1,1L,,50,,
 41229-26973,1A,3,30,35,2A8,lizard,,,pelvis,1,1R,,50,,
 41229-26974,1A,3,30,35,2A8,lizard,,,pelvis,1,1R,burned,50,,
-41229-26975,1A,3,30,35,2A8,lizard,Phrynosomatidae,cf. Sceloporus,postorbital,1,,,100,,
+41229-26975,1A,3,30,35,2A8,lizard,Crotaphytidae,,postorbital,1,,,100,,
 41229-26976,1A,3,30,35,2A8,lizard,Pleurodonta cf. Phrynotomatidae,,prefrontal,1,1R,,100,,
 41229-26977,1A,3,30,35,2A8,lizard,Phrynosomatidae,Sceloporinae,premaxilla,1,,6 teeth,100,,
-41229-26978,1A,3,30,35,2A8,lizard,,,premaxilla,1,,"7 teeth, missing nasal process, has incisive process, maybe partially enclosed anterior foramen",25,,
+41229-26978,1A,3,30,35,2A8,lizard,Pleurodonta cf. Sceloporinae,,premaxilla,1,,"7 teeth, missing nasal process, has incisive process, maybe partially enclosed anterior foramen",25,,
 41229-26979,1A,3,30,35,2A8,lizard,Teiidae,,pterygoid,1,1L,,50,,
 41229-26980,1A,3,30,35,2A8,lizard,Phrynosomatidae,,pterygoid,1,1L,,100,,
 41229-26981,1A,3,30,35,2A8,lizard,Phrynosomatidae,,pterygoid,1,1R,,50,,
-41229-26982,1A,3,30,35,2A8,lizard,Phrynosomatidae,,quadrate,1,1L,,100,,
+41229-26982,1A,3,30,35,2A8,lizard,Teiidae,,quadrate,1,1L,,100,,
 41229-26983,1A,3,30,35,2A8,lizard,Phrynosomatidae,,quadrate,1,1L,,100,,
 41229-26984,1A,3,30,35,2A8,lizard,Phrynosomatidae,,quadrate,1,1L,,100,,
 41229-26985,1A,3,30,35,2A8,lizard,,,scapulocorocoid,1,1L,,75,,
@@ -228,10 +640,10 @@
 41229-26989,1A,3,30,35,2A8,lizard,,,scapulocorocoid,1,1R,,50,,
 41229-26990,1A,3,30,35,2A8,lizard,,,scapulocorocoid,1,1R,,100,,
 41229-26991,1A,3,30,35,2A8,lizard,Phrynosomatidae,,braincase,1,,sphenoid,100,,
-41229-26992,1A,3,30,35,2A8,lizard,Scincidae,cf. Plestiodon,surangular_articular,1,1L,,100,,
+41229-26992,1A,3,30,35,2A8,lizard,Scincidae,cf. Plestiodon,surangular_articular,1,1L,small size,100,,
 41229-26993,1A,3,30,35,2A8,lizard,Phrynosomatidae,,surangular_articular,1,1R,,50,,
 41229-26994,1A,3,30,35,2A8,lizard,,,surangular_articular,1,1R,,50,,
-41229-26995,1A,3,30,35,2A8,lizard,Phrynosomatidae,,surangular_articular,1,1L,,25,,
+41229-26995,1A,3,30,35,2A8,lizard,Phrynosomatidae,,dermarticular,1,1L,,25,,
 41229-26996,1A,3,30,35,2A8,lizard,Phrynosomatidae,,surangular_articular,1,1R,,50,,
 41229-26997,1A,3,30,35,2A8,lizard,Phrynosomatidae,,surangular_articular,1,1R,,25,,
 41229-26998,1A,3,30,35,2A8,lizard,Scincidae,cf. Plestiodon,surangular_articular,1,1R,,75,,
@@ -242,19 +654,18 @@
 41229-27003,1A,3,30,35,2A8,lizard,,,dentary,2,,"fragment, some teeth preserved",0,,
 41229-27004,1A,3,30,35,2A8,lizard,,,vertebra,7,,,,,
 41229-27005,1A,3,30,35,2A8,lizard,,,vertebra,54,,,,,
-41229-1271,1A,3,35,40,2A9,lizard,Phrynosomatidae,Phrynosoma,parietal,1,,horn? fragment,,,
 41229-27006,1,3,35,40,2A9,lizard,Phrynosomatidae,cf. Sceloporus,dentary,1,1L,"tricuspid, closed mk",50,,
 41229-27007,1,3,35,40,2A9,lizard,Phrynosomatidae,,dentary,1,1L,"teeth shaft and crown eroded, open mk",75,,shaft
 41229-27008,1,3,35,40,2A9,lizard,Phrynosomatidae,,frontal,1,,,75,,
 41229-27009,1,3,35,40,2A9,lizard,Pleurodonta,,maxilla,1,1R,,25,,
-41229-27010,1,3,35,40,2A9,lizard,Crotaphytidae,,postorbital,1,,large knob,100,,
+41229-27010,1,3,35,40,2A9,lizard,Crotaphytidae,,postorbital,1,1L,large knob,100,,
 41229-27011,1,3,35,40,2A9,lizard,Phrynosomatidae,,pterygoid,1,1L,,100,,
 41229-27012,1,3,35,40,2A9,lizard,,,braincase,1,,supraoccipital,75,,
 41229-27013,1,3,35,40,2A9,lizard,,,vertebra,4,,,,,
 41229-27014,1A,3,35,40,2A9,lizard,Phrynosomatidae,Phrynosoma,braincase,1,,,50,,
 41229-27015,1A,3,35,40,2A9,lizard,Phrynosomatidae,,coronoid,1,1R,,100,,
 41229-27016,1A,3,35,40,2A9,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slender teeth",25,,
-41229-27017,1A,3,35,40,2A9,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slender teeth, eroded bone",0,,shaft
+41229-27017,1A,3,35,40,2A9,lizard,cf. Phrynosomatidae,,dentary,1,1L,"tricuspid, slender teeth, eroded bone",25,,shaft
 41229-27018,1A,3,35,40,2A9,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",25,,crown
 41229-27019,1A,3,35,40,2A9,lizard,,,dentary,1,1L,"broken ventral border, slightly eroded crowns",25,,crown
 41229-27020,1A,3,35,40,2A9,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, open mk",25,,
@@ -334,11 +745,8 @@
 41229-27094,1A,3,40,45,2A10,lizard,Anguidae,cf. Gerrhonotus,surangular_articular,1,1R,wide spatulate reto art process,25,,
 41229-27095,1A,3,40,45,2A10,lizard,,,vertebra,2,,,,,
 41229-27096,1B,3,40,45,2A10,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded teeth",75,No,crown
-41229-5499,1B,3,40,45,2A10,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,surangular_articular,1,1L,id as squamosal,50,,
-41229-8093,1,3,40,45,2A10,lizard,Crotaphytidae,"Crotaphytus""",maxilla,1,1L,"unicuspid frag, wide teeth, eroded crowns",75,,
-41229-8094,1,3,40,45,2A10,lizard,Crotaphytidae,"""Crotaphytus""",dentary,1,1R,"unicuspid frag, wide sup mk lip, eroded crowns",25,,
-41229-27097,1,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma,coronoid,1,1L,,100,,
-41229-27098,1,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,unicuspid frag,75,,none
+41229-27097,1,4,45,50,2A11,lizard,Phrynosomatidae,,coronoid,1,1L,,100,,
+41229-27098,1,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"unicuspid frag, open mk",75,,none
 41229-27099,1,4,45,50,2A11,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",50,No,crown
 41229-27100,1,4,45,50,2A11,lizard,Phrynosomatidae,,dentary,1,1L,"eroded tooth crowns, closed mk",75,No,crown
 41229-27101,1,4,45,50,2A11,lizard,Phrynosomatidae,,dentary,1,1L,tricuspid,100,YES,none
@@ -374,8 +782,8 @@
 41229-27131,1,4,45,50,2A11,lizard,,,vertebra,6,,,,,
 41229-27132,1,4,45,50,2A11,lizard,,,vertebra,1,,,,,
 41229-27133,1,4,45,50,2A11,,,,?,1,1R,,,,
-41229-27134,1A,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,unicuspid,75,,none
-41229-27135,1A,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,unicuspid,50,,none
+41229-27134,1A,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"unicuspid, tubercles, open mk",75,,none
+41229-27135,1A,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1R,"unicuspid, tubercles, open mk",50,,none
 41229-27136,1A,4,45,50,2A11,lizard,Phrynosomatidae,,dentary,1,1L,tricuspid,50,,none
 41229-27137,1A,4,45,50,2A11,lizard,Phrynosomatidae,cf. Urosaurus,dentary,1,1L,"weak tricuspid, fused mk",75,,none
 41229-27138,1A,4,45,50,2A11,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",50,,crown
@@ -405,10 +813,7 @@
 41229-27162,1E,4,45,50,2A12,lizard,Phrynosomatidae,,maxilla,1,1L,"tricuspid, slightly eroded tooth crowns",25,,crown
 41229-27163,1E,4,45,50,2A12,lizard,,,maxilla,1,1R,eroded tooth crowns,50,,crown
 41229-27164,1E,4,45,50,2A12,lizard,Phrynosomatidae,,maxilla,1,1R,"tricuspid, slightly eroded tooth crowns",25,,crown
-41229-7132,1A,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,large L horn,50,,
-41229-7133,1A,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,,small L horn,25,,
-41229-7134,1A,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,large R horn,50,,
-41229-27167,1,4,50,55,2A13,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,unicuspid,75,,none
+41229-27167,1,4,50,55,2A13,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1R,"unicuspid, tubercles, open mk",75,,none
 41229-27168,1,4,50,55,2A13,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-27169,1,4,50,55,2A13,lizard,Anguidae,,osteoderm,1,,,,,
 41229-27170,1,4,50,55,2A13,lizard,Phrynosomatidae,Phrynosoma,frontal,1,1L,,25,,
@@ -448,8 +853,6 @@
 41229-27204,1E,4,55,60,2A14,lizard,,,tibia,1,,,50,,
 41229-27205,1E,4,55,60,2A14,lizard,Phrynosomatidae,Phrynosoma,prefrontal,1,1L,,100,,
 41229-27206,1E,4,55,60,2A14,lizard,,,vertebra,3,,,,,
-41229-626,1A,4,55,60,2A14,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,"R horn frag, long",25,,
-41229-627,1A,4,55,60,2A14,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,1L,,50,,
 41229-27207,1,5,60,65,2A15,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-27208,1,5,60,65,2A15,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-27209,1,5,60,65,2A15,lizard,,,femur,1,,,100,,
@@ -458,17 +861,17 @@
 41229-27212,1,5,60,65,2A15,lizard,Scincidae,cf. Plestiodon,maxilla,1,1R,"unicuspid, striated teeth",100,,none
 41229-27213,1,5,60,65,2A15,lizard,,,pelvis,1,1L,,100,,
 41229-27214,1,5,60,65,2A15,lizard,,,pelvis,1,,fragment,0,,
-41229-27215,1,5,60,65,2A15,lizard,Scincidae,cf. Plestiodon,prefrontal,1,1L,,75,,
+41229-27215,1,5,60,65,2A15,lizard,Teiidae,,prefrontal,1,1L,,75,,
 41229-27216,1,5,60,65,2A15,lizard,,,scapulocorocoid,1,1R,,100,,
 41229-27217,1,5,60,65,2A15,lizard,,,vertebra,3,,,,,
 41229-27218,1A,5,60,65,2A15,lizard,Teiidae,,frontal,1,,,50,,
 41229-27219,1A,5,60,65,2A15,lizard,Phrynosomatidae,,frontal,1,,,50,,
 41229-27220,1A,5,60,65,2A15,lizard,,,radius,1,,,100,,
 41229-27221,1A,5,60,65,2A15,lizard,Phrynosomatidae,,maxilla,1,1R,"tricuspid, slightly eroded tooth crowns",100,Yes,crown
-41229-27222,1A,5,60,65,2A15,lizard,Phrynosomatidae,Phrynosoma,parietal,1,,long horn with small middle horn,75,,
+41229-27222,1A,5,60,65,2A15,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,long horn with small middle horn,75,,
 41229-27223,1A,5,60,65,2A15,lizard,Phrynosomatidae,Phrynosoma,prefrontal,1,1R,,100,,
 41229-27224,1A,5,60,65,2A15,lizard,Phrynosomatidae,Phrynosoma,parietal,1,,fragment,0,,
-41229-27225,1A,5,60,65,2A15,lizard,Phrynosomatidae,Phrynosoma,squamosal,1,1R,,100,,
+41229-27225,1A,5,60,65,2A15,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,,100,,
 41229-27226,1A,5,60,65,2A15,lizard,,,vertebra,3,,,,,
 41229-27227,1B,5,60,65,2A15,lizard,Phrynosomatidae,,dentary,1,1R,tricuspid frag,25,,none
 41229-27228,1B,5,60,65,2A15,lizard,Phrynosomatidae,,dentary,1,1R,"missing crowns, with splenial",75,,crown
@@ -491,12 +894,6 @@
 41229-27245,1C,5,60,65,2A15,lizard,,,braincase,1,,sphenoid,,,
 41229-27246,1C,5,60,65,2A15,lizard,Phrynosomatidae,,surangular_articular,1,1R,,50,,
 41229-27247,1C,5,60,65,2A15,lizard,,,vertebra,5,,,,,
-41229-8120,1,5,60,65,2A15,lizard,Phrynosomatidae,Phrynosoma,surangular,1,1L,,50,,
-41229-8195,1,5,60,65,2A15,lizard,Phrynosomatidae,cf. Sceloporus,dentary,1,1L,"id as Crotaphytus, slender tricuspid teeth",100,,none
-41229-10126,1D,5,65,70,2A16,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,in 2 pieces,100,,
-41229-10178,1C,5,65,70,2A16,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,surangular,1,1L,,75,,
-41229-1027,1,5,65,70,2A16,lizard,Phrynosomatidae,"Phrynosoma ""cornutum""",frontal,1,,,50,,
-41229-1028,1,5,65,70,2A16,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,1L,long horn with small middle horn,25,,
 41229-27248,1,5,65,70,2A16,lizard,,,femur,1,,,100,,
 41229-27249,1,5,65,70,2A16,lizard,,,longbones,1,,,,,
 41229-27250,1,5,65,70,2A16,lizard,,,pelvis,1,1L,,75,,
@@ -505,8 +902,8 @@
 41229-27253,1,5,65,70,2A16,lizard,,,scapulocorocoid,1,1R,,50,,
 41229-27254,1,5,65,70,2A16,lizard,,,ulna,1,,,50,,
 41229-27255,1,5,65,70,2A16,lizard,,,vertebra,18,,,,,
-41229-27256,1A,5,65,70,2A16,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,75,,none
-41229-27257,1A,5,65,70,2A16,lizard,Phrynosomatidae,Phrynosoma,frontal,1,1R,,50,,
+41229-27256,1A,5,65,70,2A16,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1R,"unicuspid, tubercles, open mk",75,,none
+41229-27257,1A,5,65,70,2A16,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,1R,,50,,
 41229-27258,1A,5,65,70,2A16,lizard,Phrynosomatidae,,frontal,1,,,75,,
 41229-27259,1A,5,65,70,2A16,lizard,Phrynosomatidae,,maxilla,1,1R,"tricuspid, slightly eroded tooth crowns",75,Maybe,crown
 41229-27260,1A,5,65,70,2A16,lizard,,,vertebra,2,,,,,
@@ -535,7 +932,6 @@
 41229-27283,1D,5,65,70,2A16,lizard,Phrynosomatidae,,parietal,1,,,100,,
 41229-27284,1D,5,65,70,2A16,lizard,,,vertebra,4,,,,,
 41229-27285,1D,5,65,70,2A16,lizard,,,vertebra,2,,,,,
-41229-698,1,5,65,70,2A16,lizard,Phrynosomatidae,"Phrynosoma ""cornutum""",parietal,1,,2 long horns with 1 small middle,100,,
 41229-27286,1,5,70,75,2B2,lizard,Phrynosomatidae,,frontal,1,,,100,,
 41229-27287,1,5,70,75,2B2,lizard,Phrynosomatidae,,frontal,1,,,100,,
 41229-27288,1,5,70,75,2B2,lizard,,,humerus,1,1L,,100,,
@@ -546,8 +942,8 @@
 41229-27293,1A,5,70,75,2B2,lizard,Phrynosomatidae,,dentary,1,1R,open mk,50,,none
 41229-27294,1A,5,70,75,2B2,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, closed mk",100,Maybe,none
 41229-27295,1A,5,70,75,2B2,lizard,,,femur,1,,,100,,
-41229-27296,1A,5,70,75,2B2,lizard,Phrynosomatidae,Phrynosoma,frontal,1,1R,,25,,
-41229-27297,1A,5,70,75,2B2,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,mid frag,50,,
+41229-27296,1A,5,70,75,2B2,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,1R,,25,,
+41229-27297,1A,5,70,75,2B2,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,mid frag,50,,
 41229-27298,1A,5,70,75,2B2,lizard,Phrynosomatidae,,frontal,1,,,100,,
 41229-27299,1A,5,70,75,2B2,lizard,Phrynosomatidae,,frontal,1,,,50,,
 41229-27300,1A,5,70,75,2B2,lizard,,,humerus,1,1L,,100,,
@@ -557,7 +953,7 @@
 41229-27304,1A,5,70,75,2B2,lizard,Phrynosomatidae,,pterygoid,1,1R,,75,,
 41229-27305,1A,5,70,75,2B2,lizard,,,ribs,1,,,,,
 41229-27306,1A,5,70,75,2B2,lizard,,,scapulocorocoid,1,1R,,100,,
-41229-27307,1A,5,70,75,2B2,lizard,Phrynosomatidae,,surangular,1,1R,,100,,
+41229-27307,1A,5,70,75,2B2,lizard,Phrynosomatidae,,surangular_articular,1,1R,,100,,
 41229-27308,1A,5,70,75,2B2,lizard,,,vertebra,9,,,,,
 41229-27309,1A,5,70,75,2B2,lizard,,,vertebra,2,,,,,
 41229-27310,1B,5,70,75,2B2,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
@@ -572,13 +968,10 @@
 41229-27319,1D,5,70,75,2B1,lizard,Teiidae,,prefrontal,1,1L,,100,,
 41229-27320,1D,5,70,75,2B1,lizard,,,vertebra,1,,,,,
 41229-27321,1D,5,70,75,2B1,lizard,,,vertebra,1,,,,,
-41229-7214,1,5,70,75,2B2,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,horn fragment,,,
-41229-9848,1B,5,70,75,2B2,lizard,,,jugal?,1,1L,"previous id ""Phrynosoma jugal""; not convinced of id",,,
-41229-9917,1D,5,70,75,2B2,lizard,Anguidae,Gerrhonotus,maxilla,1,1L,previously id'ed as Crotaphytus,75,,none
 41229-27322,1,6,75,80,2B4,lizard,Pleurodonta cf. Phrynotomatidae,,coronoid,1,1L,,100,,
 41229-27323,1,6,75,80,2B4,lizard,Phrynosomatidae,,dentary,1,1L,tricuspid,25,,none
 41229-27324,1,6,75,80,2B4,lizard,Teiidae,,dentary,1,1R,eroded tooth shaft and crown,100,,shaft
-41229-27325,1,6,75,80,2B4,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,75,,
+41229-27325,1,6,75,80,2B4,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,moderate tubercles,75,,
 41229-27326,1,6,75,80,2B4,lizard,Phrynosomatidae,cf. Sceloporus,frontal,1,,,100,,
 41229-27327,1,6,75,80,2B4,lizard,,,interclavicle,1,,t shaped,100,,
 41229-27328,1,6,75,80,2B4,lizard,,,longbones,1,,,,,
@@ -665,7 +1058,7 @@
 41229-27409,1D,6,80,85,2B5,lizard,,,pelvis,1,1R,,75,,
 41229-27410,1D,6,80,85,2B5,lizard,,,scapulocorocoid,1,1L,,100,,
 41229-27411,1D,6,80,85,2B5,lizard,,,scapulocorocoid,1,1R,,100,,
-41229-27412,1D,6,80,85,2B5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,1 long horn,25,,
+41229-27412,1D,6,80,85,2B5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1L,1 long horn,25,,
 41229-27413,1D,6,80,85,2B5,lizard,,,vertebra,1,,,,,
 41229-27414,1D,6,80,85,2B5,lizard,,,vertebra,8,,,,,
 41229-27415,1D,6,80,85,2B5,lizard,,,vertebra,4,,,,,
@@ -674,10 +1067,7 @@
 41229-27418,1E,6,80,85,2B5,lizard,,,scapulocorocoid,1,1R,,100,,
 41229-27419,1E,6,80,85,2B5,lizard,,,scapulocorocoid,1,1R,,75,,
 41229-27420,1E,6,80,85,2B5,lizard,,,vertebra,3,,,,,
-41229-6223,1,6,80,85,2B5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,3 long horns,100,,
-41229-6224,1,6,80,85,2B5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,1L,long horn,50,,
-41229-9058,1B,6,80,85,2B5,lizard,Phrynosomatidae,Phrynosoma,parietal,1,1R,,25,,
-41229-27421,1,6,85,90,2B7,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,ant. frag,25,,none
+41229-27421,1,6,85,90,2B7,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"ant. frag, open mk",25,,none
 41229-27422,1,6,85,90,2B7,lizard,Teiidae,,dentary,1,1L,missing crowns,100,,crown
 41229-27423,1,6,85,90,2B7,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-27424,1,6,85,90,2B7,lizard,,,dentary,1,1L,"ant. frag, missing crowns",25,,crown
@@ -699,9 +1089,9 @@
 41229-27440,1,6,85,90,2B7,lizard,Phrynosomatidae,,maxilla,1,1R,"slightly tricuspid, eroded tooth crowns",25,,crown
 41229-27441,1,6,85,90,2B7,lizard,Scincidae,cf. Plestiodon,maxilla,1,1R,striated tooth,25,,crown
 41229-27442,1,6,85,90,2B7,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",0,,crown
-41229-27443,1,6,85,90,2B7,lizard,Phrynosomatidae,,maxilla,1,1R,tricuspid,0,,none
+41229-27443,1,6,85,90,2B7,lizard,cf. Phrynosomatidae,,maxilla,1,1R,tricuspid,25,,none
 41229-27444,1,6,85,90,2B7,lizard,Phrynosomatidae,,maxilla,1,1L,tricuspid,25,,none
-41229-27445,1,6,85,90,2B7,lizard,Crotaphytidae,,dentary,1,,"wide teeth, tricuspid,fragment",0,,none
+41229-27445,1,6,85,90,2B7,lizard,Pleurodonta cf. Crotaphytidae,,dentary,1,,"wide teeth, tricuspid,fragment",0,,none
 41229-27446,1,6,85,90,2B7,lizard,Pleurodonta,,dentary,1,,"tricuspid,fragment",0,,none
 41229-27447,1,6,85,90,2B7,lizard,Phrynosomatidae,,maxilla,1,1L,tricuspid,25,,none
 41229-27448,1,6,85,90,2B7,lizard,Phrynosomatidae,,maxilla,1,1L,"tricuspid, slightly eroded tooth crowns",50,,crown
@@ -713,10 +1103,10 @@
 41229-27454,1,6,85,90,2B7,lizard,,,maxilla,1,1R,"slightly tricuspid, slightly eroded tooth crowns",50,,crown
 41229-27455,1,6,85,90,2B7,lizard,,,pelvis,1,1L,,50,,
 41229-27456,1,6,85,90,2B7,lizard,,,braincase,1,,sphenoid,,,
-41229-27457,1,6,85,90,2B7,lizard,Phrynosomatidae,,maxilla,1,,"tricuspid,fragment",0,,none
+41229-27457,1,6,85,90,2B7,lizard,cf. Phrynosomatidae,,maxilla,1,,"tricuspid,fragment",0,,none
 41229-27458,1,6,85,90,2B7,lizard,,,vertebra,12,,,,,
 41229-27459,1,6,85,90,2B7,lizard,,,vertebra,11,,,,,
-41229-27460,1A,6,85,90,2B7,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,1 tubercle,100,,none
+41229-27460,1A,6,85,90,2B7,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,1 tubercle,100,,none
 41229-27461,1A,6,85,90,2B7,lizard,Phrynosomatidae,cf. Sceloporus,maxilla,1,1R,"slightly tricuspid, slightly eroded tooth crowns",100,Yes,crown
 41229-27462,1A,6,85,90,2B7,lizard,Phrynosomatidae,,parietal,1,,,100,,
 41229-27463,1A,6,85,90,2B7,lizard,,,vertebra,2,,,,,
@@ -729,9 +1119,6 @@
 41229-27470,1D,6,85,90,2B7,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",25,,crown
 41229-27471,1D,6,85,90,2B7,lizard,Teiidae,,maxilla,1,1L,"bicuspid, eroded tooth crown",25,,crown
 41229-27472,1D,6,85,90,2B7,lizard,,,vertebra,7,,,,,
-41229-799,1,6,85,90,2B7,lizard,Phrynosomatidae,Phrynosoma,jugal,1,1R,,100,,
-41229-800,1,6,85,90,2B7,lizard,Phrynosomatidae,Phrynosoma,parietal,1,,missing horns,50,,
-41229-8510,1B,6,85,90,2B7,lizard,Crotaphytidae,"""Crotaphytus""",dentary,1,1R,"wide teeth, tricuspid",25,,none
 41229-27473,1,7,90,95,2B10,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, splenial frag",75,,none
 41229-27474,1,7,90,95,2B10,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",100,Yes,crown
 41229-27475,1,7,90,95,2B10,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, broken teeth, slightly eroded crowns",50,,crown
@@ -752,7 +1139,7 @@
 41229-27490,1,7,90,95,2B10,lizard,,,scapulocorocoid,1,,fragment,25,,
 41229-27491,1,7,90,95,2B10,lizard,Phrynosomatidae,,braincase,1,,sphenoid+basioccipital,,,
 41229-27492,1,7,90,95,2B10,lizard,,,vertebra,5,,,,,
-41229-27493,1A,7,90,95,2B10,lizard,Pleurodonta cf. Phrynotomatidae,,coronoid,1,1R,,100,,
+41229-27493,1A,7,90,95,2B10,lizard,Phrynosomatidae,,coronoid,1,1R,,100,,
 41229-27494,1A,7,90,95,2B10,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-27495,1A,7,90,95,2B10,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",100,,crown
 41229-27496,1A,7,90,95,2B10,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, eroded crowns, closed mk",25,,crown
@@ -790,7 +1177,7 @@
 41229-27528,1A,7,90,95,2B10,lizard,Phrynosomatidae,Phrynosoma,squamosal,1,,one med size horn,25,,
 41229-27529,1A,7,90,95,2B10,lizard,Phrynosomatidae,Phrynosoma,squamosal,1,,"2 med size horns, eroded bone",50,,shaft
 41229-27530,1A,7,90,95,2B10,lizard,,,braincase,1,,supraoccipital,,,
-41229-27531,1A,7,90,95,2B10,lizard,Phrynosomatidae,,surangular,1,1L,,50,,
+41229-27531,1A,7,90,95,2B10,lizard,Phrynosomatidae,,surangular_articular,1,1L,,50,,
 41229-27532,1A,7,90,95,2B10,lizard,,,vertebra,15,,,,,
 41229-27533,1A,7,90,95,2B10,lizard,,,braincase,1,,sphenoid,,,
 41229-27534,1A,7,90,95,2B10,lizard,Teiidae,,postorbitofrontal,1,1L,,100,,
@@ -823,8 +1210,8 @@
 41229-27561,1B,7,95,100,2B11,lizard,,,tibia,1,,,100,,
 41229-27562,1B,7,95,100,2B11,lizard,,,vertebra,16,,,,,
 41229-27563,1D,7,95,100,2B11,lizard,Anguidae,Gerrhonotus,dentary,1,1R,"recurved chissel teeth, free ims",50,,none
-41229-27564,1D,7,95,100,2B11,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,50,,none
-41229-27565,1D,7,95,100,2B11,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,25,,none
+41229-27564,1D,7,95,100,2B11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1R,open mk,50,,none
+41229-27565,1D,7,95,100,2B11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"tubercle, open mk",25,,none
 41229-27566,1D,7,95,100,2B11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum ,frontal,1,,,100,,
 41229-27567,1D,7,95,100,2B11,lizard,,,humerus,1,1L,,100,,
 41229-27568,1D,7,95,100,2B11,lizard,Phrynosomatidae,,maxilla,1,1R,"tricuspid, slightly eroded tooth crowns",100,,crown
@@ -833,10 +1220,6 @@
 41229-27571,1D,7,95,100,2B11,lizard,,,pelvis,1,1L,,100,,
 41229-27572,1D,7,95,100,2B11,lizard,,,vertebra,2,,,,,
 41229-27573,1D,7,95,100,2B11,lizard,Phrynosomatidae,Phrynosoma,postorbital,1,1R,,75,,
-41229-590,1A,7,95,100,2B11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum ,frontal,1,,,100,,
-41229-6307,1B,7,95,100,2B11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum ,frontal,1,,,100,,
-41229-6357,1B,7,95,100,2B11,lizard,Anguidae,"""Ophisaurus attenuatus""",osteoderm,1,,,,,
-41229-1131,1B,7,100,105,2B12,lizard,Phrynosomatidae,Phrynosoma cf. cornutum ,parietal,1,1R,horn fragment,0,,
 41229-27574,1,7,100,105,2B12,lizard,Phrynosomatidae,,dentary,1,1L,"slightly tricuspid, slightly eroded tooth crowns",50,,crown
 41229-27575,1,7,100,105,2B12,lizard,Crotaphytidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns, wide teeth, wide sup mk lip",100,,crown
 41229-27576,1,7,100,105,2B12,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",25,,crown
@@ -844,7 +1227,7 @@
 41229-27578,1,7,100,105,2B12,lizard,Phrynosomatidae,,maxilla,1,1L,"slightly tricuspid, slightly eroded tooth crowns",100,,crown
 41229-27579,1,7,100,105,2B12,lizard,,,tibia,1,,,100,,
 41229-27580,1,7,100,105,2B12,lizard,,,vertebra,5,,,,,
-41229-27581,1A,7,100,105,2B12,lizard,Pleurodonta cf. Phrynotomatidae,,coronoid,1,1L,,100,,
+41229-27581,1A,7,100,105,2B12,lizard,Phrynosomatidae,,coronoid,1,1L,,100,,
 41229-27582,1A,7,100,105,2B12,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns and shaft",100,,shaft
 41229-27583,1A,7,100,105,2B12,lizard,,,femur,1,1L,,100,,
 41229-27584,1A,7,100,105,2B12,lizard,,,tibia,1,,,100,,
@@ -862,10 +1245,10 @@
 41229-27596,1D,7,100,105,2B13,lizard,,,pelvis,1,1L,,50,,
 41229-27597,1D,7,100,105,2B13,lizard,Phrynosomatidae,cf. Sceloporus,postorbital,1,,,100,,
 41229-27598,1D,7,100,105,2B13,lizard,,,vertebra,1,,sacrum ,,,
-41229-27599,1E,7,100,105,2B13,lizard,Anguidae,,coronoid,1,1L,,75,,
+41229-27599,1E,7,100,105,2B13,lizard,Anguidae,cf. Gerrhonotus,coronoid,1,1L,,75,,
 41229-27600,1E,7,100,105,2B13,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",25,,crown
-41229-27601,1E,7,100,105,2B13,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,75,,none
-41229-27602,1E,7,100,105,2B13,lizard,Phrynosomatidae,cf. Urosaurus,dentary,1,1L,"unicuspid, fused mk",100,,none
+41229-27601,1E,7,100,105,2B13,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1R,"tubercle, open mk",75,,none
+41229-27602,1E,7,100,105,2B13,lizard,Phrynosomatidae,,dentary,1,1L,"unicuspid, closed mk",100,,none
 41229-27603,1E,7,100,105,2B13,lizard,Phrynosomatidae,cf. Urosaurus,dentary,1,1L,"slightly tricuspid, fused mk",100,,crown
 41229-27604,1E,7,100,105,2B13,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-27605,1E,7,100,105,2B13,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,50,,
@@ -875,10 +1258,6 @@
 41229-27609,1E,7,100,105,2B13,lizard,Phrynosomatidae,,parietal,1,,,100,,
 41229-27610,1E,7,100,105,2B13,lizard,Teiidae,,parietal,1,,"sculpturing present,large",100,,
 41229-27611,1E,7,100,105,2B13,lizard,,,vertebra,14,,,,,
-41229-6282,1A,7,100,105,2B12,lizard,Anguidae,"""Ophisaurus""",osteoderm,1,,,,,
-41229-6283,1A,7,100,105,2B12,lizard,Anguidae,"""Ophisaurus""",osteoderm,1,,,,,
-41229-10525,1,8,105,110,2B14,lizard,Phrynosomatidae,Phrynosoma,squamosal,1,,1 small horn,25,,
-41229-11627,1E,8,105,110,2B14,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,horn fragment,0,,
 41229-27612,1,8,105,110,2B15,lizard,Phrynosomatidae,,dentary,1,1R,tricuspid,100,Yes,none
 41229-27613,1,8,105,110,2B15,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,Maybe,crown
 41229-27614,1,8,105,110,2B15,lizard,Anguidae,cf. Gerrhonotus,dentary,1,1L,"unicuspid, recurved teeth",25,,crown
@@ -887,7 +1266,7 @@
 41229-27617,1,8,105,110,2B15,lizard,Phrynosomatidae,,maxilla,1,1R,"tricuspid, slightly eroded tooth crowns",100,,crown
 41229-27618,1,8,105,110,2B15,lizard,,,ulna,1,,,100,,
 41229-27619,1,8,105,110,2B15,lizard,,,vertebra,7,,,,,
-41229-27620,1A,8,105,110,2B14,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,100,,none
+41229-27620,1A,8,105,110,2B14,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"tubercle, open mk",100,,none
 41229-27621,1A,8,105,110,2B14,lizard,,,femur,1,1L,,100,,
 41229-27622,1A,8,105,110,2B14,lizard,Phrynosomatidae,,frontal,1,,,100,,
 41229-27623,1A,8,105,110,2B15,lizard,Phrynosomatidae,Phrynosoma,frontal,1,1L,fragment,25,,
@@ -954,7 +1333,6 @@
 41229-27684,1E,8,110,115,2B16,lizard,Phrynosomatidae,,pterygoid,1,1R,,50,,
 41229-27685,1E,8,110,115,2B16,lizard,,,vertebra,1,,,,,
 41229-27686,1E,8,110,115,2B16,lizard,,,vertebra,1,,caudal,,,
-41229-12032,1D,8,115,120,2B17,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,1R,"1 long horn,fragment",50,,
 41229-27687,1,8,115,120,2B17,lizard,,,atlas,1,,,,,
 41229-27688,1,8,115,120,2B17,lizard,Teiidae,,dentary,1,1L,bicuspid some tricuspid,100,,none
 41229-27689,1,8,115,120,2B17,lizard,Teiidae,,frontal,1,,,50,,
@@ -968,7 +1346,7 @@
 41229-27697,1A,8,115,120,2B17,lizard,Anguidae,,osteoderm,3,,,,,
 41229-27698,1A,8,115,120,2B17,lizard,,,vertebra,10,,,,,
 41229-27699,1D,8,115,120,2B17,lizard,Teiidae,,coronoid,1,1L,,100,,
-41229-27700,1D,8,115,120,2B17,lizard,Pleurodonta cf. Phrynotomatidae,,coronoid,1,1R,,100,,
+41229-27700,1D,8,115,120,2B17,lizard,Phrynosomatidae,,coronoid,1,1R,,100,,
 41229-27701,1D,8,115,120,2B17,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-27702,1D,8,115,120,2B17,lizard,,,humerus,1,1L,,100,,
 41229-27703,1D,8,115,120,2B17,lizard,Teiidae,,maxilla,1,1R,bicuspid,100,,none
@@ -978,16 +1356,14 @@
 41229-27707,1D,8,115,120,2B17,lizard,,,pelvis,1,1L,,50,,
 41229-27708,1D,8,115,120,2B17,lizard,,,braincase,1,1L,otooccipital,,,
 41229-27709,1D,8,115,120,2B17,lizard,,,scapulocorocoid,1,1R,,100,,
-41229-27710,1D,8,115,120,2B17,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,2 long horns ,75,,
+41229-27710,1D,8,115,120,2B17,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1L,2 long horns ,75,,
 41229-27711,1D,8,115,120,2B17,lizard,,,vertebra,7,,,,,
 41229-27712,1D,8,115,120,2B17,lizard,,,vertebra,1,,,,,
-41229-27713,1E,8,115,120,2B17,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,100,,none
+41229-27713,1E,8,115,120,2B17,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"tubercle, open mk",100,,none
 41229-27714,1E,8,115,120,2B17,lizard,Phrynosomatidae,,dentary,1,1R,tricuspid,50,,none
 41229-27715,1E,8,115,120,2B17,lizard,Phrynosomatidae,,maxilla,1,1L,tricuspid,100,,none
 41229-27716,1E,8,115,120,2B17,lizard,Scincidae,cf. Plestiodon,prefrontal,1,1L,,100,,
 41229-27717,1E,8,115,120,2B17,lizard,,,vertebra,1,,,,,
-41229-4119,1A,8,115,120,2B17,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,1R,horn fragment,0,,
-41229-873,1,8,115,120,2B17,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,3 long horns,100,,
 41229-27718,1,9,120,125,2C1,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-27719,1,9,120,125,2C1,lizard,,,femur,1,1L,,100,,
 41229-27720,1,9,120,125,2C1,lizard,,,femur,1,1R,,100,,
@@ -1000,11 +1376,11 @@
 41229-27727,1,9,120,125,2C1,lizard,,,scapulocorocoid,1,1L,,100,,
 41229-27728,1,9,120,125,2C1,lizard,,,tibia,1,,,100,,
 41229-27729,1,9,120,125,2C1,lizard,,,vertebra,9,,,,,
-41229-27730,1A,9,120,125,2C1,lizard,Pleurodonta cf. Phrynotomatidae,,coronoid,1,1R,,75,,
+41229-27730,1A,9,120,125,2C1,lizard,Phrynosomatidae,,coronoid,1,1R,,75,,
 41229-27731,1A,9,120,125,2C1,lizard,,,dentary,1,1L,"unicuspid, striated crowns",0,,none
 41229-27732,1A,9,120,125,2C1,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",100,Yes,crown
 41229-27733,1A,9,120,125,2C1,lizard,Teiidae,,dentary,1,1L,bicuspid some tricuspid,100,,none
-41229-27734,1A,9,120,125,2C1,lizard,cf. Phrynosomatidae,,jugal,1,1L,,100,,
+41229-27734,1A,9,120,125,2C1,lizard,Phrynosomatidae,,jugal,1,1L,,100,,
 41229-27735,1A,9,120,125,2C1,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,unicuspid,100,,none
 41229-27736,1A,9,120,125,2C1,lizard,Phrynosomatidae,,maxilla,1,1L,"tricuspid, slightly eroded tooth crowns",100,,crown
 41229-27737,1A,9,120,125,2C1,lizard,,,vertebra,4,,,,,
@@ -1014,14 +1390,14 @@
 41229-27741,1B,9,120,125,2C2,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,1L,"1 long horn,fragment",25,,
 41229-27742,1B,9,120,125,2C2,lizard,,,scapulocorocoid,1,1L,fragment,25,,
 41229-27743,1B,9,120,125,2C2,lizard,,,vertebra,8,,,,,
-41229-27744,1D,9,120,125,2C2,lizard,cf. Phrynosomatidae,,coronoid,1,1R,,75,,
+41229-27744,1D,9,120,125,2C2,lizard,Phrynosomatidae,,coronoid,1,1R,,75,,
 41229-27745,1D,9,120,125,2C2,lizard,Pleurodonta cf. Phrynotomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",50,,crown
-41229-27746,1D,9,120,125,2C2,lizard,Pleurodonta cf. Phrynotomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
+41229-27746,1D,9,120,125,2C2,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-27747,1D,9,120,125,2C2,lizard,cf. Scincidae,,dentary,1,1R,slightly eroded tooth crowns,75,,crown
 41229-27748,1D,9,120,125,2C2,lizard,,,dentary,1,1R,"unicuspid, slightly eroded cown, ant frag deep gutter, fragment",0,,crown
 41229-27749,1D,9,120,125,2C2,lizard,Phrynosomatidae,,frontal,1,,anterior frag.,50,,
-41229-27750,1D,9,120,125,2C2,lizard,cf. Scincidae,,jugal,1,1L,,75,,
-41229-27751,1D,9,120,125,2C2,lizard,,,jugal,1,1L,fragment,50,,
+41229-27750,1D,9,120,125,2C2,lizard,Scincidae,,jugal,1,1L,,75,,
+41229-27751,1D,9,120,125,2C2,lizard,cf. Anguidae,,jugal,1,1L,fragment,50,,
 41229-27752,1D,9,120,125,2C2,lizard,Phrynosomatidae,,maxilla,1,1L,"tricuspid,  eroded tooth crowns",50,,crown
 41229-27753,1D,9,120,125,2C2,lizard,Pleurodonta cf. Phrynotomatidae,,maxilla,1,1R,"unicuspid, slightly eroded cown",25,,crown
 41229-27754,1D,9,120,125,2C2,lizard,Phrynosomatidae,,parietal,1,1R,fragment,50,,
@@ -1029,7 +1405,6 @@
 41229-27756,1E,9,120,125,2C1,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-27757,1E,9,120,125,2C1,lizard,,,vertebra,3,,,,,
 41229-27758,1E,9,120,125,2C1,lizard,,,vertebra,7,,,,,
-41229-6532,1B,9,120,125,2C2,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,,75,,
 41229-27759,1,9,125,130,2C4,lizard,Anguidae,Ophisaurus,dentary,1,1L,unicuspid,50,,none
 41229-27760,1,9,125,130,2C4,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid,  eroded tooth crowns",50,,crown
 41229-27761,1,9,125,130,2C4,lizard,Phrynosomatidae,,frontal,1,,,100,,
@@ -1038,7 +1413,7 @@
 41229-27764,1,9,125,130,2C4,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,"1 long horn, 1 small, 1 broken",100,,
 41229-27765,1,9,125,130,2C4,lizard,,,vertebra,13,,,,,
 41229-27766,1A,9,125,130,2C3,lizard,,,vertebra,6,,,,,
-41229-27767,1B,9,125,130,2C3,lizard,cf. Phrynosomatidae,,coronoid,1,1R,,100,,
+41229-27767,1B,9,125,130,2C3,lizard,Phrynosomatidae,,coronoid,1,1R,,100,,
 41229-27768,1B,9,125,130,2C3,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,unicuspid,75,,none
 41229-27769,1B,9,125,130,2C3,lizard,,,pelvis,1,1R,,50,,
 41229-27770,1B,9,125,130,2C3,lizard,cf. Scincidae,,pterygoid,1,1R,,25,,
@@ -1068,7 +1443,6 @@
 41229-27794,1E,9,125,130,2C4,lizard,,,vertebra,1,,,,,
 41229-27795,1E,9,125,130,2C4,lizard,,,vertebra,7,,,,,
 41229-27796,1E,9,125,130,2C4,lizard,,,vertebra,5,,,,,
-41229-534,1B,9,125,130,2C3,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,,100,,
 41229-27797,1,9,130,135,2C6,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-27798,1,9,130,135,2C6,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-27799,1,9,130,135,2C6,lizard,Phrynosomatidae,,frontal,1,,,50,,
@@ -1086,41 +1460,41 @@
 41229-27811,1A,9,130,135,2C6,lizard,Scincidae,,dentary,1,1L,"unicuspid, striated crowns",100,,none
 41229-27812,1A,9,130,135,2C6,lizard,,,femur,1,1R,,100,,
 41229-27813,1A,9,130,135,2C6,lizard,,,humerus,1,1L,,100,,
-41229-27814,1A,9,130,135,2C6,lizard,cf. Phrynosomatidae,,jugal,1,1L,,75,,
+41229-27814,1A,9,130,135,2C6,lizard,Phrynosomatidae,,jugal,1,1L,,75,,
 41229-27815,1A,9,130,135,2C6,lizard,Phrynosomatidae,cf. Sceloporus,parietal,1,,,75,,
 41229-27816,1A,9,130,135,2C6,lizard,,,pelvis,1,1R,,75,,
 41229-27817,1A,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1L,2 medium sized horns,75,,
 41229-27818,1A,9,130,135,2C6,lizard,,,tibia,1,,,100,,
 41229-27819,1A,9,130,135,2C6,lizard,,,vertebra,4,,,,,
 41229-27820,1B,9,130,135,2C5,lizard,,,humerus,1,,,75,,
-41229-27821,1B,9,130,135,2C5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1L,2 long horns,75,,
+41229-27821,1B,9,130,135,2C5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,2 long horns,75,,
 41229-27822,1B,9,130,135,2C5,lizard,,,tibia,1,,,100,,
 41229-27823,1B,9,130,135,2C5,lizard,,,vertebra,4,,,,,
 41229-27824,1D,9,130,135,2C5,lizard,Scincidae,cf. Plestiodon,dentary,1,1L,unicuspid,75,,none
 41229-27825,1D,9,130,135,2C5,lizard,Scincidae,cf. Plestiodon,dentary,1,1R,unicuspid,75,,none
-41229-27826,1D,9,130,135,2C5,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,"unicuspid, slightly eroded cown",75,,crown
+41229-27826,1D,9,130,135,2C5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"unicuspid, slightly eroded cown, open mk",75,,crown
 41229-27827,1D,9,130,135,2C5,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-27828,1D,9,130,135,2C5,lizard,Phrynosomatidae,,frontal,1,,,75,,
 41229-27829,1D,9,130,135,2C5,lizard,Phrynosomatidae,,frontal,1,,,75,,
 41229-27830,1D,9,130,135,2C5,lizard,,,humerus,1,1L,,75,,
 41229-27831,1D,9,130,135,2C5,lizard,,,vertebra,9,,,,,
-41229-27832,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,unicuspid,75,,none
-41229-27833,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,unicuspid,75,,none
-41229-27834,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,unicuspid,75,,none
-41229-27835,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,unicuspid,25,,none
-41229-27836,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,unicuspid,75,,none
-41229-27837,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,unicuspid,75,,none
-41229-27838,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,unicuspid,75,,none
-41229-27839,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,unicuspid,75,,none
-41229-27840,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,unicuspid,75,,none
-41229-27841,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,unicuspid,50,,none
-41229-27842,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,unicuspid,75,,none
-41229-27843,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,unicuspid,50,,none
-41229-27844,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,unicuspid,25,,none
-41229-27845,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,unicuspid,100,,none
-41229-27846,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,unicuspid,75,,none
-41229-27847,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,unicuspid,75,,none
-41229-27848,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,unicuspid,75,,none
+41229-27832,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"unicuspid, closed mk, no tubercles",75,,none
+41229-27833,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"unicuspid, closed mk, no tubercles",75,,none
+41229-27834,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"unicuspid, closed mk, no tubercles",75,,none
+41229-27835,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"unicuspid, closed mk, no tubercles",25,,none
+41229-27836,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"unicuspid, closed mk, no tubercles",75,,none
+41229-27837,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"unicuspid, closed mk, no tubercles",75,,none
+41229-27838,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"unicuspid, closed mk, no tubercles",75,,none
+41229-27839,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"unicuspid, closed mk, no tubercles",75,,none
+41229-27840,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"unicuspid, closed mk, no tubercles",75,,none
+41229-27841,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"unicuspid, closed mk, no tubercles",50,,none
+41229-27842,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"unicuspid, closed mk, no tubercles",75,,none
+41229-27843,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"unicuspid, closed mk, no tubercles",50,,none
+41229-27844,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"unicuspid, closed mk, no tubercles",25,,none
+41229-27845,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"unicuspid, closed mk, no tubercles",100,,none
+41229-27846,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"unicuspid, closed mk, no tubercles",75,,none
+41229-27847,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"unicuspid, closed mk, no tubercles",75,,none
+41229-27848,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"unicuspid, closed mk, no tubercles",75,,none
 41229-27849,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-27850,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",25,,crown
 41229-27851,1D/E,9,130,135,2C6,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid,  eroded tooth crowns",75,,crown
@@ -1240,7 +1614,7 @@
 41229-27965,1E,9,130,135,2C6,lizard,Phrynosomatidae,,frontal,1,,,75,,
 41229-27966,1E,9,130,135,2C6,lizard,,,humerus,1,1L,,75,,
 41229-27967,1E,9,130,135,2C6,lizard,,,humerus,1,1L,,25,,
-41229-27968,1E,9,130,135,2C6,lizard,cf. Phrynosomatidae,,jugal,1,1R,,100,,
+41229-27968,1E,9,130,135,2C6,lizard,Phrynosomatidae,,jugal,1,1R,,100,,
 41229-27969,1E,9,130,135,2C6,lizard,,,maxilla,1,1R,"unicuspid, slightly eroded cown, fragment",0,,crown
 41229-27970,1E,9,130,135,2C6,lizard,,,pelvis,1,1L,,50,,
 41229-27971,1E,9,130,135,2C6,lizard,,,pelvis,1,1R,,50,,
@@ -1248,15 +1622,12 @@
 41229-27973,1E,9,130,135,2C6,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,surangular,1,1L,2 lat horns,100,,
 41229-27974,1E,9,130,135,2C6,lizard,,,vertebra,1,,"caudal vert,fracture plane",,,
 41229-27975,1E,9,130,135,2C6,lizard,,,vertebra,3,,,,,
-41229-6181,1B,9,130,135,2C5,lizard,Phrynosomatidae,Phrynosoma,squamosal,1,,"fragment, 1 med size horn",25,,
-41229-945,1,9,130,135,2C5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,"1 small middle horn, horns broken",100,,
-41229-946,1,9,130,135,2C5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,bumpy dorsal surface,100,,
 41229-27976,1,10,135,140,2C8,lizard,Crotaphytidae,,dentary,1,1L,"tricuspid, wide teeth",25,,crown
 41229-27977,1,10,135,140,2C8,lizard,Scincidae,cf. Plestiodon,dentary,1,1L,"unicuspid, striated crowns",75,,crown
 41229-27978,1,10,135,140,2C8,lizard,Scincidae,cf. Plestiodon,dentary,1,1R,"unicuspid, striated crowns",25,,crown
 41229-27979,1,10,135,140,2C8,lizard,Scincidae,cf. Plestiodon,dentary,1,1R,"unicuspid, striated crowns",75,,none
 41229-27980,1,10,135,140,2C8,lizard,Anguidae,,dentary,1,1R,"unnicuspid, recurved teeth",100,,crown
-41229-27981,1,10,135,140,2C8,lizard,Anguidae,,dentary,1,1R,"unnicuspid, recurved teeth",75,,crown
+41229-27981,1,10,135,140,2C8,lizard,Anguidae,Ophisaurus,dentary,1,1R,"unnicuspid, recurved teeth",75,,crown
 41229-27982,1,10,135,140,2C8,lizard,,,dentary,1,1R,"unicuspid, striated crowns",25,,none
 41229-27983,1,10,135,140,2C8,lizard,,,femur,1,1L,,100,,
 41229-27984,1,10,135,140,2C8,lizard,Phrynosomatidae,,frontal,1,,,75,,
@@ -1276,7 +1647,7 @@
 41229-27999,1A,10,135,140,2C7,lizard,Phrynosomatidae,,frontal,1,,,75,,
 41229-28000,1A,10,135,140,2C7,lizard,Scincidae,cf. Plestiodon,maxilla,1,1L,,100,,crown
 41229-28001,1A,10,135,140,2C8,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,1 long horn,25,,
-41229-28002,1A,10,135,140,2C7,lizard,Phrynosomatidae,Sceloporine,premaxilla,1,,,100,,none
+41229-28002,1A,10,135,140,2C7,lizard,Phrynosomatidae,Sceloporinae,premaxilla,1,,,100,,none
 41229-28003,1A,10,135,140,2C7,lizard,,,vertebra,3,,,,,
 41229-28004,1A,10,135,140,2C7,lizard,,,vertebra,6,,,,,
 41229-28005,1B,10,135,140,2C7,lizard,Phrynosomatidae,,frontal,1,,,100,,
@@ -1292,7 +1663,7 @@
 41229-28015,1D,10,135,140,2C8,lizard,Phrynosomatidae,,tooth bearing element,2,,fragment,0,,crown
 41229-28016,1D,10,135,140,2C8,lizard,,,vertebra,4,,,,,
 41229-28017,1D,10,135,140,2C8,lizard,,,vertebra,3,,,,,
-41229-28018,1E,10,135,140,2C8,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,100,,crown
+41229-28018,1E,10,135,140,2C8,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"tubercle, open mk",100,,crown
 41229-28019,1E,10,135,140,2C8,lizard,Phrynosomatidae,,dentary,1,1L,,50,,crown
 41229-28020,1E,10,135,140,2C8,lizard,Crotaphytidae,,dentary,1,1L,,75,,crown
 41229-28021,1E,10,135,140,2C8,lizard,Phrynosomatidae,,dentary,1,1L,,75,,crown
@@ -1327,13 +1698,8 @@
 41229-28050,1E,10,135,140,2C8,lizard,,,scapulocorocoid,1,1L,,75,,
 41229-28051,1E,10,135,140,2C8,lizard,,,scapulocorocoid,1,1R,,100,,
 41229-28052,1E,10,135,140,2C8,lizard,,,scapulocorocoid,1,1R,,100,,
-41229-28053,1E,10,135,140,2C8,lizard,Scincidae,cf. Plestiodon,surangular_articular,1,1R,,100,,
+41229-28053,1E,10,135,140,2C8,lizard,Scincidae,cf. Plestiodon,surangular_articular,1,1R,small,100,,
 41229-28054,1E,10,135,140,2C8,lizard,,,vertebra,35,,,,,
-41229-11254,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma,parietal,1,1R,1 long horn,25,,
-41229-11255,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,bumpy dorsal surface,100,,
-41229-11256,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,bumpy dorsal surface,75,,
-41229-11257,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,3 long horns,100,,
-41229-25229,1,10,140,145,2C9,lizard,,,humerus,1,distal frag,,,,
 41229-28055,1,10,140,145,2C9,lizard,Scincidae,cf. Plestiodon,dentary,1,1R,"unicuspid, striated crowns",75,,crown
 41229-28056,1,10,140,145,2C9,lizard,,,femur,1,1L,,100,,
 41229-28057,1,10,140,145,2C9,lizard,,,tibia,1,,,100,,
@@ -1341,7 +1707,7 @@
 41229-28059,1,10,140,145,2C9,lizard,Pleurodonta cf. Crotaphytidae,,pterygoid,1,1R,,25,,
 41229-28060,1,10,140,145,2C9,lizard,Scincidae,cf. Plestiodon,surangular_articular,1,1R,,100,,
 41229-28061,1,10,140,145,2C9,lizard,,,vertebra,20,,,,,
-41229-28062,1A,10,140,145,2C9,lizard,cf. Scincidae,,coronoid,1,1R,,75,,
+41229-28062,1A,10,140,145,2C9,lizard,Scincidae,,coronoid,1,1R,,75,,
 41229-28063,1A,10,140,145,2C9,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-28064,1A,10,140,145,2C9,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-28065,1A,10,140,145,2C9,lizard,Phrynosomatidae,,dentary,1,1R,"with travertine, tricuspid, slightly coroded crowns, with splenial frag?",50,,crown
@@ -1353,12 +1719,12 @@
 41229-28071,1A,10,140,145,2C9,lizard,Phrynosomatidae,,maxilla,1,1L,"tricuspid, slightly eroded tooth crowns",100,,crown
 41229-28072,1A,10,140,145,2C9,lizard,Phrynosomatidae,,maxilla,1,1L,"tricuspid, slightly eroded tooth crowns",25,,crown
 41229-28073,1A,10,140,145,2C9,lizard,Pleurodonta,,maxilla,1,1L,unicuspid,25,,none
-41229-28074,1A,10,140,145,2C9,lizard,Phrynosomatidae,,dentary,1,,"tricuspid, slightly eroded tooth crowns,fragment",0,,crown
+41229-28074,1A,10,140,145,2C9,lizard,cf. Phrynosomatidae,,dentary,1,,"tricuspid, slightly eroded tooth crowns,fragment",0,,crown
 41229-28075,1A,10,140,145,2C9,lizard,Phrynosomatidae,,pterygoid,1,1L,,100,,
 41229-28076,1A,10,140,145,2C9,lizard,,,vertebra,12,,,,,
-41229-28077,1B,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,in glue,25,,none
+41229-28077,1B,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"in glue,tubercle, open mk",25,,none
 41229-28078,1B,10,140,145,2C9,lizard,Phrynosomatidae,,dentary,1,1L,"slightly tricuspid, slightly eroded tooth crowns",50,,crown
-41229-28079,1B,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,"in glue, fragment",25,,none
+41229-28079,1B,10,140,145,2C9,lizard,Phrynosomatidae,cf. Phrynosoma,dentary,1,1L,"in glue, fragment",25,,none
 41229-28080,1B,10,140,145,2C9,lizard,Phrynosomatidae,,frontal,1,,,75,,
 41229-28081,1B,10,140,145,2C9,lizard,Phrynosomatidae,,frontal,1,,,50,,
 41229-28082,1B,10,140,145,2C9,lizard,,,humerus,1,1L,,75,,
@@ -1368,9 +1734,9 @@
 41229-28086,1B,10,140,145,2C9,lizard,Phrynosomatidae,,maxilla,1,1R,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-28087,1B,10,140,145,2C9,lizard,,,dentary,1,1L,"unicuspid, in glue",0,,crown
 41229-28088,1B,10,140,145,2C9,lizard,,,vertebra,9,,,,,
-41229-28089,1C,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,50,,none
-41229-28090,1C,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,none
-41229-28091,1C,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,75,,none
+41229-28089,1C,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"tubercle, open mk",50,,none
+41229-28090,1C,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"tubercle, open mk",75,,none
+41229-28091,1C,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1R,open mk,75,,none
 41229-28092,1C,10,140,145,2C9,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",100,Yes,crown
 41229-28093,1C,10,140,145,2C9,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,Yes,crown
 41229-28094,1C,10,140,145,2C9,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,Yes,crown
@@ -1396,7 +1762,7 @@
 41229-28114,1D,10,140,145,2C9,lizard,Crotaphytidae,,maxilla,1,1L,in 2 pieces,100,,none
 41229-28115,1D,10,140,145,2C9,lizard,Phrynosomatidae,,maxilla,1,1L,missing teeth,50,,shaft
 41229-28116,1D,10,140,145,2C9,lizard,,,vertebra,10,,,,,
-41229-28117,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,none
+41229-28117,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"tubercle, open mk",75,,none
 41229-28118,1E,10,140,145,2C9,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-28119,1E,10,140,145,2C9,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-28120,1E,10,140,145,2C9,lizard,Scincidae,cf. Plestiodon,dentary,1,1L,"unicuspid, striated crowns",75,,crown
@@ -1415,7 +1781,7 @@
 41229-28133,1E,10,140,145,2C9,lizard,,,femur,4,4R,,100,,
 41229-28134,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,bumpy dorsal surface,75,,
 41229-28135,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,bumpy dorsal surface,75,,
-41229-28136,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma,parietal,1,1R,1 med horn,25,,
+41229-28136,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,1R,1 med horn,25,,
 41229-28137,1E,10,140,145,2C9,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,"2 long horns, broken",75,,
 41229-28138,1E,10,140,145,2C9,lizard,Phrynosomatidae,,frontal,1,,,100,,
 41229-28139,1E,10,140,145,2C9,lizard,,,humerus,2,2L,,100,,
@@ -1428,7 +1794,7 @@
 41229-28146,1E,10,140,145,2C9,lizard,,,humerus,1,1R,,100,,
 41229-28147,1E,10,140,145,2C9,lizard,,,phalanges,2,,,,,
 41229-28148,1E,10,140,145,2C9,lizard,Teiidae,,maxilla,1,1L,"bicuspid, some tricuspid ",100,,none
-41229-28149,1E,10,140,145,2C9,lizard,Anguidae,,maxilla,1,1L,"unicuspid, recurved teeth",50,,none
+41229-28149,1E,10,140,145,2C9,lizard,Anguidae,Ophisaurus,maxilla,1,1L,"unicuspid, recurved teeth",50,,none
 41229-28150,1E,10,140,145,2C9,lizard,Teiidae,,maxilla,1,1R,bicuspid,25,,none
 41229-28151,1E,10,140,145,2C9,lizard,Scincidae,cf. Plestiodon,maxilla,1,1R,"unicuspid, striated crowns",100,,crown
 41229-28152,1E,10,140,145,2C9,lizard,Crotaphytidae,,maxilla,1,1R,"wide teeth, tricuspid",75,,crown
@@ -1444,14 +1810,14 @@
 41229-28162,1E,10,140,145,2C9,lizard,,,ulna,1,,,100,,
 41229-28163,1E,10,140,145,2C9,lizard,,,vertebra,58,,,,,
 41229-28164,1E,10,140,145,2C9,lizard,,,vertebra,31,,,,,
-41229-28165,1A,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,50,,none
+41229-28165,1A,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1R,open mk,50,,none
 41229-28166,1A,10,145,150,2C11,lizard,,,femur,1,1R,,100,,
 41229-28167,1A,10,145,150,2C11,lizard,Phrynosomatidae,,frontal,1,,coated in travertine,75,,
 41229-28168,1A,10,145,150,2C11,lizard,Phrynosomatidae,,frontal,1,,,100,,
 41229-28169,1A,10,145,150,2C11,lizard,Phrynosomatidae,,maxilla,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-28170,1A,10,145,150,2C11,lizard,Phrynosomatidae,,maxilla,1,1R,"tricuspid, slightly eroded tooth crowns",100,Yes,crown
 41229-28171,1A,10,145,150,2C11,lizard,,,pelvis,1,1R,,75,,
-41229-28172,1A,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,3 long horns,100,,
+41229-28172,1A,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1L,3 long horns,100,,
 41229-28173,1A,10,145,165,2C11,lizard,,,humerus,1,1L,,100,,
 41229-28174,1A,10,145,165,2C11,lizard,,,vertebra,13,,,,,
 41229-28175,1A,10,145,165,2C11,lizard,,,vertebra,1,,sacral vert,,,
@@ -1486,10 +1852,10 @@
 41229-28204,1B,10,145,150,2C11,lizard,Scincidae,,maxilla,1,1R,"unicuspid, coroded crowns",50,,crown
 41229-28205,1B,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,"unicuspid, coroded crowns, asymetric palatine process.",75,,crown
 41229-28206,1B,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma,parietal,1,,"1 short,broken horn",0,,
-41229-28207,1B,10,145,150,2C11,lizard,Phrynosomatidae,Sceloporine,premaxilla,1,,unicuspid,100,,none
+41229-28207,1B,10,145,150,2C11,lizard,Phrynosomatidae,Sceloporinae,premaxilla,1,,unicuspid,100,,none
 41229-28208,1B,10,145,150,2C11,lizard,,,vertebra,13,,,,,
 41229-28209,1B,10,145,150,2C11,lizard,,,vertebra,70,,,,,
-41229-28210,1C,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,100,,none
+41229-28210,1C,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"tubercle, open mk",100,,none
 41229-28211,1C,10,145,150,2C11,lizard,Teiidae,,frontal,1,,,50,,
 41229-28212,1C,10,145,150,2C11,lizard,,,frontal,1,,,100,,
 41229-28213,1C,10,145,150,2C11,lizard,,,humerus,1,1L,,100,,
@@ -1513,7 +1879,7 @@
 41229-28231,1C,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma,squamosal,1,1R,"2 med horns, broken",75,,
 41229-28232,1C,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma cf. modestum,squamosal,1,1L,3 med horns,100,,
 41229-28233,1C,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma cf. modestum,squamosal,1,1R,3 med horns,100,,
-41229-28234,1C,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma,surangular,1,1R,"pitted bone, 3 horns",50,,
+41229-28234,1C,10,145,150,2C11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,surangular,1,1R,"pitted bone, 3 horns",50,,
 41229-28235,1C,10,145,150,2C11,lizard,,,vertebra,40,,,,,
 41229-28236,1E,10,145,150,2C13,lizard,,,braincase,1,,,,,
 41229-28237,1E,10,145,150,2C13,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",75,,crown
@@ -1594,16 +1960,11 @@
 41229-28312,1E,10,145,150,2C13,lizard,,,vertebra,60,,,,,
 41229-28313,1E,10,145,150,2C13,lizard,,,vertebra,26,,,,,
 41229-28314,1E,10,145,150,2C13,lizard,,,vertebra,1,,atlas,,,
-41229-29428,1C,10,145,150,2C13,lizard,,,vertebra,50,,,,,
-41229-29429,1C,10,145,150,2C13,lizard,,,vertebra,28,,,,,
-41229-29430,1C,10,145,150,2C13,lizard,,,ilium,1,1R,,100,,
-41229-29457,1,10,145,150,2C13,lizard,,,vertebra,1,sacral vert,,,,
-41229-29458,1,10,145,150,2C13,lizard,Phrynosomatidae,,maxilla,1,1L,,100,YES,none
-41229-28315,1A,11,150,155,2D2,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,100,,crown
+41229-28315,1A,11,150,155,2D2,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"tubercle, open mk",100,,crown
 41229-28316,1A,11,150,155,2D2,lizard,,,femur,1,1L,,100,,
 41229-28317,1A,11,150,155,2D2,lizard,,,metacarpals_metatarsals,1,,,,,
 41229-28318,1A,11,150,155,2D2,lizard,,,vertebra,15,,,,,
-41229-28319,1B,11,150,155,2D1,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,100,,none
+41229-28319,1B,11,150,155,2D1,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1R,"tubercle, open mk",100,,none
 41229-28320,1B,11,150,155,2D1,lizard,Teiidae,,dentary,1,1R,"bicuspid, some tricuspid ",100,,none
 41229-28321,1B,11,150,155,2D1,lizard,Scincidae,cf. Plestiodon,dentary,1,1R,"unicuspid, striated crowns",75,,none
 41229-28322,1B,11,150,155,2D1,lizard,,,femur,1,1L,,100,,
@@ -1639,7 +2000,7 @@
 41229-28352,1E,11,150,155,2D2,lizard,Phrynosomatidae,,parietal,1,,,50,,
 41229-28353,1E,11,150,155,2D2,lizard,,,pelvis,1,1R,,75,,
 41229-28354,1E,11,150,155,2D2,lizard,,,pelvis,1,1L,,75,,
-41229-28355,1E,11,150,155,2D2,lizard,Crotaphytidae,,squamosal,1,,,100,,
+41229-28355,1E,11,150,155,2D2,lizard,Crotaphytidae,,squamosal,1,1L,,100,,
 41229-28356,1E,11,150,155,2D2,lizard,Anguidae,Ophisaurus,pterygoid,1,1L,,100,,
 41229-28357,1E,11,150,155,2D2,lizard,Phrynosomatidae,Phrynosoma,postorbital,1,1L,,100,,
 41229-28358,1E,11,150,155,2D2,lizard,,,scapulocorocoid,1,1R,,75,,
@@ -1657,7 +2018,6 @@
 41229-28370,1,11,150,165,2D1,lizard,cf. Scincidae,,dentary,1,1R,missng crowns,25,,crown
 41229-28371,1,11,150,165,2D1,lizard,Anguidae,cf. Ophisaurus,maxilla,1,1L,"recurved, unicuspid teeth",100,,none
 41229-28372,1,11,150,165,2D1,lizard,Anguidae,cf. Ophisaurus,maxilla,1,1L,"recurved, unicuspid teeth",50,,shaft
-41229-292,1,11,150,165,2D1,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-28373,1D,11,152,155,2D1,lizard,Phrynosomatidae,cf. Sceloporus,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",100,Yes,crown
 41229-28374,1D,11,152,155,2D1,lizard,Teiidae,,dentary,1,1L,bicuspid slightly eroded tooth crowns,100,,crown
 41229-28375,1D,11,152,155,2D1,lizard,,,dentary,1,1R,eroded tooth shaft and crown,25,,shaft
@@ -1669,11 +2029,11 @@
 41229-28381,1D,11,152,155,2D1,lizard,Phrynosomatidae,,maxilla,1,1L,"tricuspid, slightly eroded tooth crowns",100,Yes,crown
 41229-28382,1D,11,152,155,2D1,lizard,Teiidae,,maxilla,1,1L,"bicuspid, some tricuspid ",100,,none
 41229-28383,1D,11,152,155,2D1,lizard,Phrynosomatidae,,maxilla,1,1R,"tricuspid,  eroded tooth crowns",75,,crown
-41229-28384,1D,11,152,155,2D1,lizard,Anguidae,cf. Ophisaurus,parietal,1,,table,50,,
+41229-28384,1D,11,152,155,2D1,lizard,Anguidae,Ophisaurus,parietal,1,,table,50,,
 41229-28385,1D,11,152,155,2D1,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,"broken horns, 1 middle, complete",100,,
 41229-28386,1D,11,152,155,2D1,lizard,,,vertebra,38,,,,,
 41229-28387,1D,11,152,155,2D1,lizard,,,vertebra,1,,axis,,,
-41229-28388,1A,11,155,160,2D4,lizard,Anguidae,cf. Ophisaurus,dentary,1,1L,"unicuspid, recurved teeth, su pr.",100,,crown
+41229-28388,1A,11,155,160,2D4,lizard,Anguidae,Ophisaurus,dentary,1,1L,"unicuspid, recurved teeth, su pr.",100,,crown
 41229-28389,1A,11,155,160,2D4,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid,  eroded tooth crowns, with travertine, broken teeth, with splenial",75,,crown
 41229-28390,1A,11,155,160,2D4,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid,  eroded tooth crowns, with travertine",100,,crown
 41229-28391,1A,11,155,160,2D4,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid,  eroded tooth crowns",50,,crown
@@ -1727,11 +2087,10 @@
 41229-28439,1D,11,155,160,2D3,lizard,,,pelvis,1,1R,,75,,
 41229-28440,1D,11,155,160,2D3,lizard,,,scapulocorocoid,1,1L,,100,,
 41229-28441,1D,11,155,160,2D3,lizard,Phrynosomatidae,Phrynosoma,postorbital,1,1L,,100,,
-41229-28442,1D,11,155,160,2D3,lizard,Phrynosomatidae,,surangular,1,1R,,100,,
+41229-28442,1D,11,155,160,2D3,lizard,Phrynosomatidae,,surangular_articular,1,1R,,100,,
 41229-28443,1D,11,155,160,2D3,lizard,,,vertebra,46,,,,,
 41229-28444,1E,11,155,160,2D4,lizard,,,vertebra,82,,,,,
-41229-1071,1A,11,160,165,2D6,lizard,Phrynosomatidae,Phrynosoma,squamosal,1,,horn,25,,
-41229-28445,1A,11,160,165,2D6,lizard,Anguidae,cf. Ophisaurus,coronoid,1,1L,,75,,
+41229-28445,1A,11,160,165,2D6,lizard,Anguidae,Ophisaurus,coronoid,1,1L,,75,,
 41229-28446,1A,11,160,165,2D6,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-28447,1A,11,160,165,2D6,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, some missing tooth crowns",75,,shaft
 41229-28448,1A,11,160,165,2D6,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
@@ -1753,7 +2112,7 @@
 41229-28464,1A,11,160,165,2D6,lizard,,,pelvis,1,1R,,50,,
 41229-28465,1A,11,160,165,2D6,lizard,,,pelvis,1,1L,,75,,
 41229-28466,1A,11,160,165,2D6,lizard,,,phalanges,4,,,,,
-41229-28467,1A,11,160,165,2D6,lizard,cf. Anguidae,cf. Ophisaurus,postfrontal,1,,,,,
+41229-28467,1A,11,160,165,2D6,lizard,Anguidae,Ophisaurus,postfrontal,1,,,,,
 41229-28468,1A,11,160,165,2D6,lizard,,,scapulocorocoid,1,1R,,75,,
 41229-28469,1A,11,160,165,2D6,lizard,,,tibia,1,,,75,,
 41229-28470,1A,11,160,165,2D6,lizard,,,ulna,1,,,100,,
@@ -1773,8 +2132,8 @@
 41229-28484,1E,11,160,165,2D6,lizard,,,axis,1,,,,,
 41229-28485,1E,11,160,165,2D6,lizard,Anguidae,Ophisaurus,dentary,1,1L,"unicuspid, su pr.",100,,crown
 41229-28486,1E,11,160,165,2D6,lizard,Anguidae,Ophisaurus,dentary,1,1L,"unicuspid, recurved teeth, su pr.",100,,none
-41229-28487,1E,11,160,165,2D6,lizard,Anguidae,,dentary,1,1L,eroded tooth shaft and crown,100,,shaft
-41229-28488,1E,11,160,165,2D6,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,eroded tooth shaft and crown and bone,50,,shaft
+41229-28487,1E,11,160,165,2D6,lizard,Anguidae,Ophisaurus,dentary,1,1L,eroded tooth shaft and crown,100,,shaft
+41229-28488,1E,11,160,165,2D6,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,dentary,1,1L,"eroded tooth shaft and crown and bone, open mk",50,,shaft
 41229-28489,1E,11,160,165,2D6,lizard,Crotaphytidae,,dentary,1,1L,"wide teeth, tricuspid",100,,none
 41229-28490,1E,11,160,165,2D6,lizard,Phrynosomatidae,,dentary,1,1L,missng crowns and part of shaft,100,Yes,shaft
 41229-28491,1E,11,160,165,2D6,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",75,,crown
@@ -1791,7 +2150,7 @@
 41229-28502,1E,11,160,165,2D6,lizard,Anguidae,Ophisaurus,maxilla,1,1R,,50,,none
 41229-28503,1E,11,160,165,2D6,lizard,Scincidae,cf. Plestiodon,maxilla,1,1R,"unicuspid, striated crowns",75,,none
 41229-28504,1E,11,160,165,2D6,lizard,Anguidae,Ophisaurus,maxilla,1,1R,,75,,crown
-41229-28505,1E,11,160,165,2D6,lizard,Pleurodonta cf. Crotaphytidae,,parietal,1,,holes in table,100,,
+41229-28505,1E,11,160,165,2D6,lizard,Crotaphytidae,,parietal,1,,holes in table,100,,
 41229-28506,1E,11,160,165,2D6,lizard,,,pelvis,1,1L,,75,,
 41229-28507,1E,11,160,165,2D6,lizard,,,pelvis,1,1L,,50,,
 41229-28508,1E,11,160,165,2D6,lizard,,,pelvis,1,1R,,50,,
@@ -1818,7 +2177,7 @@
 41229-28529,1A,12,165,170,2D7,lizard,Phrynosomatidae,,maxilla,1,1L,"tricuspid, slightly eroded tooth crowns",75,,crown
 41229-28530,1A,12,165,170,2D7,lizard,Phrynosomatidae,,maxilla,1,1L,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-28531,1A,12,165,170,2D7,lizard,Phrynosomatidae,,maxilla,1,1R,"tricuspid, slightly eroded tooth crowns",50,,crown
-41229-28532,1A,12,165,170,2D7,lizard,Phrynosomatidae,,maxilla,1,,"tricuspid,  eroded tooth crowns, frag",0,,crown
+41229-28532,1A,12,165,170,2D7,lizard,cf. Phrynosomatidae,,maxilla,1,,"tricuspid,  eroded tooth crowns, frag",25,,crown
 41229-28533,1A,12,165,170,2D7,lizard,,,pelvis,1,1L,,50,,
 41229-28534,1A,12,165,170,2D7,lizard,,,vertebra,44,,,,,
 41229-28535,1B,12,165,170,2D7,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",100,,crown
@@ -1870,7 +2229,7 @@
 41229-28581,1E,12,165,180,2D9,lizard,Anguidae,Ophisaurus,maxilla,1,1L,"unicuspid,eroded tooth crowns and shafts and bone",75,,shaft
 41229-28582,1E,12,165,180,2D9,lizard,Crotaphytidae,,maxilla,1,1R,"wide teeth, tricuspid",25,,crown
 41229-28583,1E,12,165,180,2D9,lizard,Crotaphytidae,,maxilla,1,1R,"wide teeth,",25,,crown
-41229-28584,1E,12,170,175,2D8,lizard,Anguidae,,dentary,1,1L,"unicuspid, recurved teeth, small su pr., extra angular process",100,,none
+41229-28584,1E,12,170,175,2D8,lizard,Anguidae,Ophisaurus,dentary,1,1L,"unicuspid, recurved teeth, small su pr., extra angular process",100,,none
 41229-28585,1E,12,170,175,2D8,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",100,,crown
 41229-28586,1E,12,170,175,2D8,lizard,Scincidae,cf. Plestiodon,dentary,1,1R,"unicuspid, striated crowns",100,,crown
 41229-28587,1E,12,170,175,2D8,lizard,,,dentary,1,1L,eroded tooth shaft and crown and bone,75,,shaft
@@ -1903,7 +2262,7 @@
 41229-28619,1A,12,175,180,2D9,lizard,Scincidae,cf. Plestiodon,parietal,1,,,50,,
 41229-28620,1A,12,175,180,2D9,lizard,,,scapulocorocoid,1,1R,,100,,
 41229-28621,1A,12,175,180,2D9,lizard,,,vertebra,17,,,,,
-41229-28622,1D/E,12,175,180,2D9,lizard,Anguidae,,dentary,1,1R,"unicuspid, recurved teeth, small su pr",100,,none
+41229-28622,1D/E,12,175,180,2D9,lizard,Anguidae,Ophisaurus,dentary,1,1R,"unicuspid, recurved teeth, small su pr",100,,none
 41229-28623,1D/E,12,175,180,2D9,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid,  eroded tooth crowns",75,,crown
 41229-28624,1D/E,12,175,180,2D9,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid,  eroded tooth crowns",50,,crown
 41229-28625,1D/E,12,175,180,2D9,lizard,Phrynosomatidae,,dentary,1,1R,"unicuspid,  eroded crowns",25,,crown
@@ -1938,7 +2297,7 @@
 41229-28654,1A,13,180,185,2D10,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid, slightly eroded tooth crowns",100,,crown
 41229-28655,1A,13,180,185,2D10,lizard,,,dentary,1,1R,"eroded crown and some tooth shafts, frag",0,,shaft
 41229-28656,1A,13,180,185,2D10,lizard,Phrynosomatidae,,frontal,1,,,100,,
-41229-28657,1A,13,180,185,2D10,lizard,Crotaphytidae,,frontal,1,,,100,,
+41229-28657,1A,13,180,185,2D10,lizard,Pleurodonta cf. Crotaphytidae,,frontal,1,,,100,,
 41229-28658,1A,13,180,185,2D10,lizard,,,vertebra,4,,,,,
 41229-28659,1B,13,180,185,2D11,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid,  eroded tooth crowns and shaft",25,,shaft
 41229-28660,1B,13,180,185,2D11,lizard,Phrynosomatidae,,frontal,1,,,50,,
@@ -1959,7 +2318,7 @@
 41229-28675,1C,13,180,185,2D10,lizard,,,vertebra,16,,,,,
 41229-28676,1C,13,180,185,2D11,lizard,,,vertebra,11,,,,,
 41229-28677,1E,13,180,185,2D10,lizard,,,braincase,1,,pitted bone,,,
-41229-28678,1E,13,180,185,2D10,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,100,,none
+41229-28678,1E,13,180,185,2D10,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1R,"closed mk, no tubercle",100,,none
 41229-28679,1E,13,180,185,2D10,lizard,Anguidae,Ophisaurus,maxilla,1,1L,"unicuspid, recurved teeth",100,,none
 41229-28680,1E,13,180,185,2D10,lizard,Scincidae,cf. Plestiodon,maxilla,1,1L,"unicuspid, striated crowns",75,,none
 41229-28681,1E,13,180,185,2D11,lizard,,,pelvis,1,1R,,25,,
@@ -1978,7 +2337,6 @@
 41229-28696,1D/E,13,185,190,2D12,lizard,,,humerus,1,1R,,50,,
 41229-28697,1D/E,13,185,190,2D12,lizard,,,pelvis,1,1R,,75,,
 41229-28698,1D/E,13,185,190,2D12,lizard,,,vertebra,1,,,,,
-41229-535,1B,13,185,190,2D12,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,parietal,1,,,100,,
 41229-28699,1A,13,190,195,2D13,lizard,,,vertebra,1,,,,,
 41229-28700,1B,13,190,195,2D14,lizard,,,femur,1,1L,,100,,
 41229-28701,1B,13,190,195,2D14,lizard,,,vertebra,4,,,,,
@@ -1989,13 +2347,10 @@
 41229-28706,1C,13,190,195,2D13,lizard,,,scapulocorocoid,1,1L,,100,,
 41229-28707,1C,13,190,195,2D13,lizard,,,vertebra,4,,,,,
 41229-28708,1D/E,13,190,195,2D13,lizard,Phrynosomatidae,,frontal,1,,,75,,
-41229-28709,1D/E,13,190,195,2D13,lizard,Scincidae,,parietal,1,,,75,,
+41229-28709,1D/E,13,190,195,2D13,lizard,Scincidae,cf. Plestiodon,parietal,1,,,75,,
 41229-28710,1D/E,13,190,195,2D13,lizard,,,phalanges,1,,,,,
 41229-28711,1D/E,13,190,195,2D13,lizard,,,scapulocorocoid,1,1L,,75,,
 41229-28712,1D/E,13,190,195,2D13,lizard,,,vertebra,4,,,,,
-41229-11091,1D/E,14,195,200,2D15,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1L,"unicuspid,  some missing crowns",100,,shaft
-41229-11092,1D/E,14,195,200,2D15,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",75,,crown
-41229-11093,1D/E,14,195,200,2D15,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,eroded crown and some tooth shafts,50,,shaft
 41229-28727,1B,14,195,200,2D15,lizard,,,vertebra,4,,,,,
 41229-28728,1C,14,195,200,2D15,lizard,Anguidae,Ophisaurus,maxilla,1,1R,"unicuspid, recurved teeth",100,,none
 41229-28729,1C,14,195,200,2D15,lizard,Phrynosomatidae,,parietal,1,,,100,,
@@ -2013,7 +2368,7 @@
 41229-28741,1D/E,14,195,200,2D15,lizard,,,parietal,1,,sculpting present,25,,
 41229-28742,1D/E,14,195,200,2D15,lizard,,,pelvis,1,1R,,50,,
 41229-28743,1D/E,14,195,200,2D15,lizard,,,vertebra,6,,,,,
-41229-28744,1C,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1R,,100,,none
+41229-28744,1C,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1R,"closed mk, no tubercle",100,,none
 41229-28745,1C,14,200,205,2.00E+01,lizard,,,pelvis,1,1L,,75,,
 41229-28746,1C,14,200,205,2.00E+01,lizard,,,pelvis,1,1R,,75,,
 41229-28747,1C,14,200,205,2.00E+01,lizard,,,tibia,1,,,100,,
@@ -2021,11 +2376,11 @@
 41229-28749,1D/E,14,200,205,2.00E+01,lizard,,,axis,2,,,,,
 41229-28750,1D/E,14,200,205,2.00E+01,lizard,,,axis,2,,,,,
 41229-28751,1D/E,14,200,205,2.00E+01,lizard,,,coronoid,1,1R,,50,,
-41229-28752,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1L,,75,,none
-41229-28753,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1L,,75,,none
-41229-28754,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1L,,25,,none
-41229-28755,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1R,erosion creates tricuspid illusion,100,,crown
-41229-28756,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,none
+41229-28752,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1L,"closed mk, no tubercle",75,,none
+41229-28753,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1L,"closed mk, no tubercle",75,,none
+41229-28754,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1L,closed mk,25,,none
+41229-28755,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1R,"erosion creates tricuspid illusion, closed mk, no tubercle",100,,crown
+41229-28756,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1L,"closed mk, no tubercle",75,,none
 41229-28757,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,eroded crown and some tooth shafts,75,,shaft
 41229-28758,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-28759,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",100,,crown
@@ -2058,7 +2413,7 @@
 41229-28786,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,dentary,1,1R,,50,,crown
 41229-28787,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,dentary,1,1R,,100,,shaft
 41229-28788,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,dentary,1,1R,,50,,crown
-41229-28789,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,25,,none
+41229-28789,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1R,closed mk,25,,none
 41229-28790,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
 41229-28791,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,dentary,1,1R,,50,,crown
 41229-28792,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,dentary,1,1R,,50,,crown
@@ -2134,7 +2489,7 @@
 41229-28862,1D/E,14,200,205,2.00E+01,lizard,,,pelvis,2,2R,,25,,
 41229-28863,1D/E,14,200,205,2.00E+01,lizard,,,phalanges,1,,,,,
 41229-28864,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,cf. Phrynosomatine,postorbital,7,,,100,,
-41229-28865,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosomatine,premaxilla,1,,,75,,
+41229-28865,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,Phrynosomatinae,premaxilla,1,,,75,,
 41229-28866,1D/E,14,200,205,2.00E+01,lizard,Crotaphytidae,,pterygoid,1,1R,,50,,
 41229-28867,1D/E,14,200,205,2.00E+01,lizard,Scincidae,cf. Plestiodon,quadrate,1,,,100,,
 41229-28868,1D/E,14,200,205,2.00E+01,lizard,,,scapulocorocoid,1,1L,,100,,
@@ -2145,31 +2500,27 @@
 41229-28873,1D/E,14,200,205,2.00E+01,lizard,,,scapulocorocoid,2,2R,,50,,
 41229-28874,1D/E,14,200,205,2.00E+01,lizard,,,scapulocorocoid,4,4R,,75,,
 41229-28875,1D/E,14,200,205,2.00E+01,lizard,,,scapulocorocoid,1,1R,,100,,
-41229-28876,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,surangular,1,1L,,50,,
-41229-28877,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,surangular,1,1L,,50,,
-41229-28878,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,surangular,1,1L,,75,,
-41229-28879,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,surangular,1,1L,,75,,
-41229-28880,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,surangular,1,1L,,50,,
-41229-28881,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,surangular,1,1R,,50,,
+41229-28876,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,surangular_articular,1,1L,,50,,
+41229-28877,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,surangular_articular,1,1L,,50,,
+41229-28878,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,cf. Phrynosomatine,surangular_articular,1,1L,,75,,
+41229-28879,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,surangular_articular,1,1L,,75,,
+41229-28880,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,surangular_articular,1,1L,,50,,
+41229-28881,1D/E,14,200,205,2.00E+01,lizard,Phrynosomatidae,,surangular_articular,1,1R,,50,,
 41229-28882,1D/E,14,200,205,2.00E+01,lizard,,,tibia,1,,,75,,
 41229-28883,1D/E,14,200,205,2.00E+01,lizard,,,ulna,1,,,100,,
 41229-28884,1D/E,14,200,205,2.00E+01,lizard,,,vertebra,40,,,,,
 41229-28885,1D/E,14,200,205,2.00E+01,lizard,,,vertebra,161,,,,,
-41229-28887,1C,14,205,210,2.00E+03,lizard,Anguidae,cf. Ophisaurus,dentary,1,1R,"unicuspid, slightly eroded crowns",75,,crown
+41229-28887,1C,14,205,210,2.00E+03,lizard,Anguidae,Ophisaurus,dentary,1,1R,"unicuspid, slightly eroded crowns",75,,crown
 41229-28888,1C,14,205,210,2.00E+03,lizard,,,humerus,3,3L,,100,,
 41229-28889,1C,14,205,210,2.00E+03,lizard,,,humerus,1,1R,,100,,
 41229-28890,1C,14,205,210,2.00E+03,lizard,Phrynosomatidae,,parietal,1,,,50,,
 41229-28891,1C,14,205,210,2.00E+03,lizard,,,vertebra,7,,,,,
-41229-11214,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma cf. modestum or hernandezi,frontal,1,1,,75,,
-41229-11215,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma cf. modestum or hernandezi,frontal,1,1,,50,,
-41229-11216,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma cf. modestum or hernandezi,frontal,1,1,,75,,
-41229-11217,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma cf. modestum or hernandezi,frontal,1,1,,25,,
 41229-28892,1D/E,14,205,210,2.00E+03,lizard,,,axis,3,,,,,
 41229-28893,1D/E,14,205,210,2.00E+03,lizard,,,braincase,1,,,,,
-41229-28894,1D/E,14,205,210,2.00E+03,lizard,Pleurodonta,,coronoid,1,1L,,100,,
-41229-28895,1D/E,14,205,210,2.00E+03,lizard,Pleurodonta,,coronoid,1,1L,burned,100,,
-41229-28896,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1L,burned,100,,none
-41229-28897,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1L,burned,75,,none
+41229-28894,1D/E,14,205,210,2.00E+03,lizard,Pleurodonta cf. Crotaphytidae,,coronoid,1,1L,,100,,
+41229-28895,1D/E,14,205,210,2.00E+03,lizard,Pleurodonta cf. Phrynosomatidae,,coronoid,1,1L,burned,100,,
+41229-28896,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1L,"burned, closed mk, no tubercle",100,,none
+41229-28897,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1L,"burned, closed mk, no tubercle",75,,none
 41229-28898,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,dentary,1,1L,eroded crown and some tooth shafts,75,,shaft
 41229-28899,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,dentary,1,1L,,75,,crown
 41229-28900,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,dentary,1,1L,,75,,crown
@@ -2180,7 +2531,7 @@
 41229-28905,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,dentary,1,1L,eroded tooth shaft and crown,75,,shaft
 41229-28906,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,dentary,1,1L,burned,25,,crown
 41229-28907,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,dentary,1,1L,burned,75,,crown
-41229-28908,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1L,,25,,crown
+41229-28908,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,dentary,1,1L,closed mk,25,,crown
 41229-28909,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",25,,crown
 41229-28910,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,dentary,1,1R,"unicuspid,  slightly eroded crowns",100,,crown
 41229-28911,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,dentary,1,1R,,25,,crown
@@ -2195,7 +2546,7 @@
 41229-28920,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,dentary,1,1R,"unicuspid,  slightly eroded crowns",50,,crown
 41229-28921,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,dentary,1,1R,eroded crown and some tooth shafts,75,,shaft
 41229-28922,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,dentary,1,1R,eroded crown and some tooth shafts,75,,shaft
-41229-28923,1D/E,14,205,210,2.00E+03,lizard,Crotaphytidae,,dentary,1,,"wide teeth, tricuspid",0,,none
+41229-28923,1D/E,14,205,210,2.00E+03,lizard,Crotaphytidae,,dentary,1,1R,"wide teeth, tricuspid",25,,none
 41229-28924,1D/E,14,205,210,2.00E+03,lizard,,,femur,4,4L,,100,,
 41229-28925,1D/E,14,205,210,2.00E+03,lizard,,,femur,1,1R,,75,,
 41229-28926,1D/E,14,205,210,2.00E+03,lizard,,,femur,1,1R,,50,,
@@ -2231,8 +2582,8 @@
 41229-28956,1D/E,14,205,210,2.00E+03,lizard,,,humerus,1,1R,,75,,
 41229-28957,1D/E,14,205,210,2.00E+03,lizard,,,humerus,2,2R,,25,,
 41229-28958,1D/E,14,205,210,2.00E+03,lizard,,,interclavicle,1,,t shaped,,,
-41229-28959,1D/E,14,205,210,2.00E+03,lizard,,,jugal,2,2R,,100,,
-41229-28960,1D/E,14,205,210,2.00E+03,lizard,,,jugal,1,1R,,50,,
+41229-28959,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,jugal,2,2R,,100,,
+41229-28960,1D/E,14,205,210,2.00E+03,lizard,cf. Phrynosomatidae,,jugal,1,1R,,50,,
 41229-28961,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,Phrynosoma ,maxilla,1,1R,,100,,none
 41229-28962,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,maxilla,1,1L,,50,,none
 41229-28963,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,maxilla,1,1L,,100,,crown
@@ -2274,103 +2625,14 @@
 41229-28999,1D/E,14,205,210,2.00E+03,lizard,,,surangular,1,1L,,100,,
 41229-29000,1D/E,14,205,210,2.00E+03,lizard,,,surangular,1,1L,,100,,
 41229-29001,1D/E,14,205,210,2.00E+03,lizard,Anguidae,Ophisaurus,surangular_articular,1,1R,,75,,
-41229-29002,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,surangular_articular,1,1L,,100,,
+41229-29002,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,cf. Phrynosomatine,surangular_articular,1,1L,,100,,
 41229-29003,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,surangular_articular,1,1L,,100,,
 41229-29004,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,surangular_articular,1,1R,,75,,
-41229-29005,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,,surangular_articular,1,1R,,100,,
+41229-29005,1D/E,14,205,210,2.00E+03,lizard,Phrynosomatidae,cf. Phrynosomatine,surangular_articular,1,1R,,100,,
 41229-29006,1D/E,14,205,210,2.00E+03,lizard,,,vertebra,15,,,,,
 41229-29007,1D/E,14,205,210,2.00E+03,lizard,,,vertebra,115,,,,,
-41229-25557,1D/E,15,210,215,2.00E+05,lizard,,,vertebra,204,,,,,
-41229-25558,1D/E,15,210,215,2.00E+05,lizard,,,vertebra,186,,,,,
-41229-25559,1D/E,15,210,215,2.00E+05,lizard,,,axis,6,,,,,
-41229-25560,1D/E,15,210,215,2.00E+05,lizard,,,braincase,1,,sphenoid,,,
-41229-25561,1D/E,15,210,215,2.00E+05,lizard,Pleurodonta,,coronoid,1,1R,,75,,
-41229-25562,1D/E,15,210,215,2.00E+05,lizard,,,nasal,1,,,100,,
-41229-25563,1D/E,15,210,215,2.00E+05,lizard,,,tibia,1,,,100,,
-41229-25564,1D/E,15,210,215,2.00E+05,lizard,,,metacarpals_metatarsals,5,,,,,
-41229-25565,1D/E,15,210,215,2.00E+05,lizard,,,humerus,8,8L,,100,,
-41229-25566,1D/E,15,210,215,2.00E+05,lizard,,,humerus,4,4R,,100,,
-41229-25567,1D/E,15,210,215,2.00E+05,lizard,,,femur,2,2L,,75,,
-41229-25568,1D/E,15,210,215,2.00E+05,lizard,,,femur,7,7R,,100,,
-41229-25569,1D/E,15,210,215,2.00E+05,lizard,,,pelvis,4,4L,,50,,
-41229-25570,1D/E,15,210,215,2.00E+05,lizard,,,pelvis,3,3R,,50,,
-41229-25571,1D/E,15,210,215,2.00E+05,lizard,,,vertebra,121,,,,,
-41229-25572,1D/E,15,210,215,2.00E+05,lizard,,,humerus,1,1L,,100,,
-41229-25573,1D/E,15,210,215,2.00E+05,lizard,,,femur,4,4R,,75,,
-41229-25574,1D/E,15,210,215,2.00E+05,lizard,,,radius,1,,,75,,
-41229-25575,1D/E,15,210,215,2.00E+05,lizard,,,coronoid,1,1L,,75,,
-41229-25576,1D/E,15,210,215,2.00E+05,lizard,,,braincase,1,,sphenoid burned,,,
-41229-25577,1D/E,15,210,215,2.00E+05,lizard,,,tibia,1,,,75,,
-41229-25578,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,coronoid,1,1R,,75,,
-41229-25579,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,quadrate,1,1L,,100,,
-41229-25580,1D/E,15,210,215,2.00E+05,lizard,,,braincase,1,,basioccipital,,,
-41229-25581,1D/E,15,210,215,2.00E+05,lizard,,,metacarpals_metatarsals,1,,,,,
-41229-25582,1D/E,15,210,215,2.00E+05,lizard,Anguidae,Ophisaurus,quadrate,1,1R,,100,,
-41229-25583,1D/E,15,210,215,2.00E+05,lizard,,,braincase,2,2L,otooccipital,,,
-41229-25584,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,cf. Phrynosomatine,postorbital,10,,,100,,
-41229-25585,1D/E,15,210,215,2.00E+05,lizard,Anguidae,Ophisaurus,quadrate,1,1R,,100,,
-41229-25586,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma cf. modestum,quadrate,1,1R,,,,
-41229-25587,1D/E,15,210,215,2.00E+05,lizard,,,scapulocorocoid,7,7L,,100,,
-41229-25588,1D/E,15,210,215,2.00E+05,lizard,,,scapulocorocoid,6,6R,,100,,
-41229-25589,1D/E,15,210,215,2.00E+05,lizard,,,pelvis,3,3R,,50,,
-41229-25590,1D/E,15,210,215,2.00E+05,lizard,,,pelvis,5,5R,,25,,
-41229-25591,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,postorbital,12,,"3 burned, 2 cf sceloporus 10 cf phrynosomatine",,,
-41229-25592,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,ectopterygoid,1,,,100,,
-41229-25593,1D/E,15,210,215,2.00E+05,lizard,,,interclavicle,4,,t shaped,100,,
-41229-25594,1D/E,15,210,215,2.00E+05,lizard,,,braincase,4,,sphenoid,,,
-41229-25595,1D/E,15,210,215,2.00E+05,lizard,,,braincase,1,,sphenoid deep pituitary fossa,,,
-41229-25596,1D/E,15,210,215,2.00E+05,lizard,,,axis,1,,,,,
-41229-25597,1D/E,15,210,215,2.00E+05,lizard,Anguidae,cf. Ophisaurus,prefrontal,1,1L,,100,,
-41229-25598,1D/E,15,210,215,2.00E+05,lizard,,,braincase,3,"1L,2R",otooccipital,,,
-41229-25600,1D/E,15,210,215,2.00E+05,lizard,Anguidae,,osteoderm,15,,,,,
-41229-25601,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,pterygoid,1,1L,,75,,
-41229-25602,1D/E,15,210,215,2.00E+05,lizard,Anguidae,Ophisaurus,pterygoid,1,1R,,50,,
-41229-25603,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,jugal,1,1L,,100,,
-41229-25604,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,jugal,4,4R,,100,,
-41229-25605,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,jugal,1,1L,,50,,
-41229-25606,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma,jugal,1,1R,burned,75,,
-41229-25607,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1R,"2 short horns, burned",50,,
-41229-25608,1D/E,15,210,215,2.00E+05,lizard,Scincidae,Eumeces,frontal,1,1R,,75,,
-41229-25609,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,surangular_articular,4,4L,,100,,
-41229-25610,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,surangular_articular,5,5R,1 burned,100,,
-41229-25611,1D/E,15,210,215,2.00E+05,lizard,,,surangular,1,1L,,100,,
-41229-25612,1D/E,15,210,215,2.00E+05,lizard,,,articular,1,1R,,50,,
-41229-25613,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,articular,1,1L,,50,,
-41229-25614,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,frontal,5,,,100,,
-41229-25615,1D/E,15,210,215,2.00E+05,lizard,Pleurodonta,,frontal,2,,,50,,
-41229-25616,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,parietal,1,,,100,,
-41229-25617,1D/E,15,210,215,2.00E+05,lizard,,,scapulocorocoid,2,2L,,75,,
-41229-25618,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosomatinae,premaxilla,2,,,50,,
-41229-25619,1D/E,15,210,215,2.00E+05,lizard,Scincidae,Eumeces,parietal,1,,,75,,
-41229-25620,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,1 tooth missing top,75,,shaft
-41229-25621,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1L,missing most teeth,50,,crown
-41229-25622,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
-41229-25623,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1L,,25,,none
-41229-25624,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1R,,25,,shaft
-41229-25625,1D/E,15,210,215,2.00E+05,lizard,Scincidae,,dentary,1,1L,,25,,shaft
-41229-25626,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,maxilla,1,1L,,50,,shaft
-41229-25627,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,maxilla,1,1R,,75,,shaft
-41229-25628,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,maxilla,1,1L,,50,,none
-41229-25629,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma?,maxilla,1,1L,,75,,shaft
-41229-25630,1D/E,15,210,215,2.00E+05,lizard,cf. Anguidae,,maxilla,1,1R,,25,,none
-41229-25631,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,maxilla,1,1R,,25,,none
-41229-25719,1D/E,15,210,215,2.00E+05,lizard,,,vertebra,29,,,,,
-41229-25720,1D/E,15,210,215,2.00E+05,lizard,,,vertebra,26,,,,,
-41229-25721,1D/E,15,210,215,2.00E+05,lizard,,,braincase,1,,,,,
-41229-25722,1D/E,15,210,215,2.00E+05,lizard,,,vertebra,22,,,,,
-41229-25723,1D/E,15,210,215,2.00E+05,lizard,,,pelvis,1,1R,,50,,
-41229-25724,1D/E,15,210,215,2.00E+05,lizard,,,braincase,1,,,,,
-41229-25725,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma,premaxilla,1,,,100,,
-41229-25726,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,75,,none
-41229-25727,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,50,,none
-41229-25728,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1L,,100,,crown
-41229-25729,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,maxilla,1,1R,,50,,none
-41229-25730,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,maxilla,1,1L,,100,,none
-41229-25731,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,dentary,1,1L,,75,,none
-41229-25732,1D/E,15,210,215,2.00E+05,lizard,Scincidae,,maxilla,1,1R,,100,,none
-41229-25733,1D/E,15,210,215,2.00E+05,lizard,Scincidae,,dentary,1,1R,,75,,shaft
 41229-29008,1B,15,210,215,2.00E+04,lizard,,,vertebra,3,,,,,
-41229-29009,1C,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1L,coated in travertine,75,,
+41229-29009,1C,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"coated in travertine, closed mk, no tubercle",75,,
 41229-29010,1C,15,210,215,2.00E+04,lizard,Scincidae,,dentary,1,1L,"unicuspid,  slightly eroded crowns",75,,crown
 41229-29011,1C,15,210,215,2.00E+04,lizard,Phrynosomatidae,,dentary,1,1R,,25,,crown
 41229-29012,1C,15,210,215,2.00E+04,lizard,Phrynosomatidae,,dentary,1,1R,"tricuspid,  eroded tooth crowns and shaft",25,,shaft
@@ -2391,18 +2653,18 @@
 41229-29027,1C,15,210,215,2.00E+04,lizard,,,pelvis,2,2L,,50,,
 41229-29028,1C,15,210,215,2.00E+04,lizard,Phrynosomatidae,cf. Phrynosomatine,postorbital,1,,,100,,
 41229-29029,1C,15,210,215,2.00E+04,lizard,,,scapulocorocoid,1,1L,,50,,
-41229-29030,1C,15,210,215,2.00E+04,lizard,Phrynosomatidae,,surangular_articular,1,1R,,100,,
+41229-29030,1C,15,210,215,2.00E+04,lizard,Phrynosomatidae,cf. Phrynosomatine,surangular_articular,1,1R,,100,,
 41229-29031,1C,15,210,215,2.00E+04,lizard,,,surangular,3,3L,,100,,
 41229-29032,1C,15,210,215,2.00E+04,lizard,,,vertebra,23,,,,,
 41229-29033,1C,15,210,215,2.00E+04,lizard,,,vertebra,7,,,,,
 41229-29034,1D/E,15,210,215,2.00E+04,lizard,,,axis,2,,,,,
-41229-29035,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1L,burned,100,,none
-41229-29036,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1L,,100,,none
-41229-29037,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1L,,75,,none
-41229-29038,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1R,,75,,none
-41229-29039,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1R,,75,,crown
-41229-29040,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1R,,75,,shaft
-41229-29041,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1R,,50,,crown
+41229-29035,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"burned, closed mk, no tubercle",100,,none
+41229-29036,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",100,,none
+41229-29037,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,none
+41229-29038,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"closed mk, no tubercle",75,,none
+41229-29039,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"closed mk, no tubercle",75,,crown
+41229-29040,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,closed mk,75,,shaft
+41229-29041,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"closed mk, no tubercle",50,,crown
 41229-29042,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma ,dentary,1,1R,,75,,crown
 41229-29043,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,,dentary,1,1L,,100,,crown
 41229-29044,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,,dentary,1,1L,,100,,shaft
@@ -2410,7 +2672,7 @@
 41229-29046,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,,dentary,1,1L,,75,,shaft
 41229-29047,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,,dentary,1,1L,,50,,shaft
 41229-29048,1D/E,15,210,215,2.00E+04,lizard,Scincidae,cf. Plestiodon,dentary,1,1L,"unicuspid,  slightly eroded crowns",25,,shaft
-41229-29049,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,burned,50,,none
+41229-29049,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"burned, closed mk, no tubercle",50,,none
 41229-29050,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,,dentary,1,1R,,100,,crown
 41229-29051,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
 41229-29052,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,,dentary,1,1R,,100,,none
@@ -2420,7 +2682,7 @@
 41229-29056,1D/E,15,210,215,2.00E+04,lizard,,,dentary,1,1L,,75,,shaft
 41229-29057,1D/E,15,210,215,2.00E+04,lizard,Crotaphytidae,,dentary,1,1L,"wide teeth, tricuspid",75,,none
 41229-29058,1D/E,15,210,215,2.00E+04,lizard,Scincidae,cf. Plestiodon,dentary,1,1R,,75,,crown
-41229-29059,1D/E,15,210,215,2.00E+04,lizard,Anguidae,,dentary,1,1R,"unicuspid, recurved teeth",50,,shaft
+41229-29059,1D/E,15,210,215,2.00E+04,lizard,Anguidae,Ophisaurus,dentary,1,1R,"unicuspid, recurved teeth",50,,shaft
 41229-29060,1D/E,15,210,215,2.00E+04,lizard,,,femur,1,1L,,100,,
 41229-29061,1D/E,15,210,215,2.00E+04,lizard,,,femur,14,14R,,100,,
 41229-29062,1D/E,15,210,215,2.00E+04,lizard,,,femur,2,2R,,75,,
@@ -2456,7 +2718,7 @@
 41229-29092,1D/E,15,210,215,2.00E+04,lizard,,,pelvis,1,1R,,50,,
 41229-29093,1D/E,15,210,215,2.00E+04,lizard,,,pelvis,1,1R,,25,,
 41229-29094,1D/E,15,210,215,2.00E+04,lizard,,,phalanges,1,,,,,
-41229-29095,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Sceloporinae,premaxilla,1,,,100,,
+41229-29095,1D/E,15,210,215,2.00E+04,lizard,Crotaphytidae,,premaxilla,1,,,100,,
 41229-29096,1D/E,15,210,215,2.00E+04,lizard,Phrynosomatidae,Sceloporinae,premaxilla,1,,,100,,
 41229-29097,1D/E,15,210,215,2.00E+04,lizard,,,scapulocorocoid,1,1L,burned,75,,
 41229-29098,1D/E,15,210,215,2.00E+04,lizard,,,scapulocorocoid,4,4R,,100,,
@@ -2483,20 +2745,20 @@
 41229-29119,1D/E,15,210,215,2.00E+05,lizard,,,humerus,1,1R,,25,,
 41229-29120,1D/E,15,210,215,2.00E+05,lizard,,,humerus,1,1R,,100,,
 41229-29121,1D/E,15,210,215,2.00E+05,lizard,,,humerus,1,1R,,75,,
-41229-29122,1D/E,15,210,215,2.00E+05,lizard,,,coronoid,1,1R,,100,,
+41229-29122,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,coronoid,1,1R,,100,,
 41229-29123,1D/E,15,210,215,2.00E+05,lizard,,,scapulocorocoid,4,4L,,75,,
 41229-29124,1D/E,15,210,215,2.00E+05,lizard,,,scapulocorocoid,2,2L,,50,,
 41229-29125,1D/E,15,210,215,2.00E+05,lizard,,,scapulocorocoid,11,11R,,75,,
 41229-29126,1D/E,15,210,215,2.00E+05,lizard,,,scapulocorocoid,2,2R,,50,,
 41229-29160,1D/E,15,210,215,2.00E+05,lizard,,,pelvis,3,3R,,25,,
 41229-29161,1D/E,15,210,215,2.00E+05,lizard,,,pelvis,1,1R,,50,,
-41229-29162,1D/E,15,210,215,2.00E+05,lizard,Anguidae,cf. Ophisaurus,prefrontal,1,1R,,100,,
+41229-29162,1D/E,15,210,215,2.00E+05,lizard,Scincidae,cf. Plestiodon,prefrontal,1,1R,,100,,
 41229-29163,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,pterygoid,1,1R,,50,,
 41229-29164,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,jugal,3,3R,,75,,
 41229-29165,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,jugal,1,1R,,75,,
 41229-29166,1D/E,15,210,215,2.00E+05,,,,,1,,,100,,
 41229-29167,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,jugal,1,1R,,50,,
-41229-29168,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma,jugal,1,1R,burned,75,,
+41229-29168,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,jugal,1,1R,burned,75,,
 41229-29169,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,surangular_articular,2,2L,,75,,
 41229-29170,1D/E,15,210,215,2.00E+05,lizard,,,surangular,1,1L,,25,,
 41229-29171,1D/E,15,210,215,2.00E+05,lizard,,,surangular,2,2R,,100,,
@@ -2508,7 +2770,7 @@
 41229-29177,1D/E,15,210,215,2.00E+05,lizard,Pleurodonta,,parietal,2,,,25,,
 41229-29178,1D/E,15,210,215,2.00E+05,lizard,,,scapulocorocoid,1,1R,,75,,
 41229-29179,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosomatinae,premaxilla,1,,,75,,
-41229-29180,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,75,,none
+41229-29180,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"closed mk, no tubercle",75,,none
 41229-29181,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1L,missing most teeth,50,,crown
 41229-29182,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1L,3 teeth missing tops,50,,shaft
 41229-29183,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1L,,50,,crown
@@ -2528,6 +2790,7 @@
 41229-29197,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
 41229-29198,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
 41229-29199,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
+41229-292,1,11,150,165,2D1,lizard,Phrynosomatidae,,dentary,1,1L,"tricuspid, slightly eroded tooth crowns",50,,crown
 41229-29200,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
 41229-29201,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1R,,25,,shaft
 41229-29202,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1R,some teeth covered in travertine,25,,none
@@ -2582,66 +2845,10 @@
 41229-29251,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,maxilla,1,1L,,100,,none
 41229-29252,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,100,,none
 41229-29253,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,75,,none
-41229-29254,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,burned,100,,none
+41229-29254,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"burned, closed mk, no tubercle",100,,none
 41229-29255,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,,dentary,1,1L,,100,,none
 41229-29256,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,maxilla,1,1R,,100,,none
 41229-29257,1D/E,15,210,215,2.00E+05,lizard,Crotaphytidae,,maxilla,1,1R,,100,,none
-41229-10970,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1L,2 short horns,75,,
-41229-25747,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,frontal,1,,,100,,
-41229-25748,1D/E,15,215,220,2.00E+06,lizard,,,pelvis,1,1L,,50,,
-41229-25749,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,frontal,1,,,100,,
-41229-25754,1D/E,15,215,220,2.00E+06,lizard,,,vertebra,19,,,,,
-41229-25766,1D/E,15,215,220,2.00E+06,lizard,,,vertebra,13,,,,,
-41229-25773,1D/E,15,215,220,2.00E+06,lizard,,,pelvis,1,1R,,50,,
-41229-25774,1D/E,15,215,220,2.00E+06,lizard,cf. Scincidae,,braincase,1,,,,,
-41229-25781,1D/E,15,215,220,2.00E+06,lizard,,,vertebra,14,,,,,
-41229-25785,1D/E,15,215,220,2.00E+06,lizard,,,femur,4,4L,,100,,
-41229-25786,1D/E,15,215,220,2.00E+06,lizard,,,femur,4,4R,,100,,
-41229-25787,1D/E,15,215,220,2.00E+06,lizard,,,humerus,6,6L,,100,,
-41229-25788,1D/E,15,215,220,2.00E+06,lizard,,,humerus,2,2R,,100,,
-41229-25789,1D/E,15,215,220,2.00E+06,lizard,,,vertebra,17,,,,,
-41229-25790,1D/E,15,215,220,2.00E+06,lizard,,,tibia,2,,,100,,
-41229-25791,1D/E,15,215,220,2.00E+06,lizard,,,pelvis,1,1R,,75,,
-41229-25792,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,dentary,1,1L,,75,,crown
-41229-25793,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,dentary,1,1R,,100,,crown
-41229-25794,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,maxilla,1,1L,,75,,crown
-41229-25795,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,maxilla,1,1R,pitted bone,50,,shaft
-41229-25796,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,maxilla,1,1L,,25,,none
-41229-25797,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,dentary,1,1R,,50,,shaft
-41229-25798,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,none
-41229-25799,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,frontal,1,,,100,,
-41229-25800,1D/E,15,215,220,2.00E+06,lizard,,,pelvis,1,1R,,50,,
-41229-25801,1D/E,15,215,220,2.00E+06,lizard,,,scapulocorocoid,1,1L,,100,,
-41229-25833,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,jugal,1,1L,,75,,
-41229-25834,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,parietal,1,,short horn,75,,
-41229-25835,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1L,2 short horns,75,,
-41229-25836,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,parietal,1,,,75,,
-41229-25837,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,frontal,1,,,100,,
-41229-25838,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,cf. Phrynosomatine,surangular_articular,1,1L,,100,,
-41229-25839,1D/E,15,215,220,2.00E+06,lizard,,,vertebra,1,,caudal vert,,,
-41229-25840,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,cf. Phrynosoma,quadrate,1,1L,"missing part of conch, burned",100,,
-41229-25841,1D/E,15,215,220,2.00E+06,lizard,,,humerus,7,7L,,100,,
-41229-25842,1D/E,15,215,220,2.00E+06,lizard,Scincidae,,frontal,1,1L,,50,,
-41229-25843,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,parietal,4,4L,,50,,
-41229-25844,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,parietal,1,1L,,50,,
-41229-25845,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,parietal,1,,,75,,
-41229-25846,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma,jugal,1,1R,,100,,
-41229-25847,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,maxilla,1,1R,,100,,shaft
-41229-25848,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,cf. Phrynosoma,coronoid,1,1L,,100,,
-41229-25849,1D/E,15,215,220,2.00E+06,lizard,,,pelvis,2,2L,,50,,
-41229-25850,1D/E,15,215,220,2.00E+06,lizard,,,pelvis,3,3R,,75,,
-41229-25851,1D/E,15,215,220,2.00E+06,lizard,,,tibia,2,,,100,,
-41229-25852,1D/E,15,215,220,2.00E+06,lizard,,,axis,1,,,,,
-41229-25853,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,surangular_articular,1,1L,,100,,
-41229-25854,1D/E,15,215,220,2.00E+06,lizard,,,femur,2,2L,,25,,
-41229-25855,1D/E,15,215,220,2.00E+06,lizard,,,femur,3,3R,,100,,
-41229-25898,1C,15,215,220,2.00E+06,lizard,,,vertebra,7,,,,,
-41229-25899,1C,15,215,220,2.00E+06,lizard,Phrynosomatidae,,frontal,1,,,75,,
-41229-25900,1C,15,215,220,2.00E+06,lizard,,,femur,2,2L,,100,,
-41229-25901,1C,15,215,220,2.00E+06,lizard,,,humerus,1,1L,,100,,
-41229-25902,1C,15,215,220,2.00E+06,lizard,,,pelvis,3,3L,,50,,
-41229-25903,1C,15,215,220,2.00E+06,lizard,Phrynosomatidae,cf. Phrynosoma,quadrate,1,1L,,100,,
-41229-25904,1C,15,215,220,2.00E+06,lizard,Scincidae,,quadrate,1,1L,,100,,
 41229-29258,1D/E,15,215,220,2.00E+06,lizard,,,tibia,1,,,75,,
 41229-29259,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,dentary,1,1L,a.i.a.f notch present,100,,crown
 41229-29260,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,dentary,1,1R,,75,,none
@@ -2649,7 +2856,7 @@
 41229-29262,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,dentary,1,1R,,75,,shaft
 41229-29263,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,maxilla,1,1L,"weak tricuspid, assymetric pa.pr",100,,none
 41229-29264,1D/E,15,215,220,2.00E+06,lizard,Crotaphytidae,,dentary,1,1R,,50,,none
-41229-29265,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,75,,crown
+41229-29265,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"closed mk, no tubercle",75,,crown
 41229-29266,1D/E,15,215,220,2.00E+06,lizard,,,scapulocorocoid,1,1R,,100,,
 41229-29267,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1L,,75,,
 41229-29268,1D/E,15,215,220,2.00E+06,lizard,Phrynosomatidae,,frontal,1,,,100,,
@@ -2674,56 +2881,6 @@
 41229-29287,1C,15,215,220,2.00E+06,lizard,,,humerus,2,2R,,100,,
 41229-29288,1C,15,215,220,2.00E+06,lizard,,,pelvis,1,1R,,50,,
 41229-29289,1C,15,215,220,2.00E+06,lizard,,,pelvis,1,1R,,75,,
-41229-10883,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,"""Phrynosoma douglassi""",parietal,1,,,100,,
-41229-10884,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,"""Phrynosoma douglassi""",frontal,1,1R,,25,,
-41229-10885,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,"""Phrynosoma douglassi""",squamosal,1,1R,3 short horns,75,,
-41229-10886,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,"""Phrynosoma douglassi""",squamosal,1,1L,2 short horns,75,,
-41229-25930,1D/E,15,220,225,2.00E+07,lizard,,,vertebra,33,,,,,
-41229-25931,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,parietal,1,,,100,,
-41229-25932,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,frontal,1,,burned,100,,
-41229-25933,1D/E,15,220,225,2.00E+07,lizard,cf. Crotaphytidae,,frontal,1,1R,,100,,
-41229-25934,1D/E,15,220,225,2.00E+07,lizard,,,pelvis,6,6L,,50,,
-41229-25935,1D/E,15,220,225,2.00E+07,lizard,,,pelvis,7,7R,,50,,
-41229-25936,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,dentary,1,1L,,75,,crown
-41229-25937,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,dentary,1,1R,burned,75,,shaft
-41229-25938,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,maxilla,1,1L,,50,,none
-41229-25939,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,crown
-41229-25940,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,50,,crown
-41229-25941,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,75,,none
-41229-25942,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,75,,shaft
-41229-25943,1D/E,15,220,225,2.00E+07,lizard,Scincidae,,maxilla,1,1R,,25,,none
-41229-25944,1D/E,15,220,225,2.00E+07,lizard,Scincidae,,maxilla,1,1R,,25,,none
-41229-25945,1D/E,15,220,225,2.00E+07,lizard,Crotaphytidae,,jugal,1,1L,,100,,
-41229-25946,1D/E,15,220,225,2.00E+07,lizard,,,humerus,3,3L,,100,,
-41229-25947,1D/E,15,220,225,2.00E+07,lizard,,,femur,9,9L,,100,,
-41229-25948,1D/E,15,220,225,2.00E+07,lizard,,,femur,10,10R,,100,,
-41229-25949,1D/E,15,220,225,2.00E+07,lizard,,,vertebra,18,,,,,
-41229-25951,1D/E,15,220,225,2.00E+07,lizard,,,scapulocorocoid,3,3L,,100,,
-41229-26006,1C,15,220,225,2.00E+07,lizard,,,vertebra,53,,,,,
-41229-26007,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,frontal,1,,,100,,
-41229-26008,1C,15,220,225,2.00E+07,lizard,Scincidae,cf. Plestiodon,frontal,1,1R,,100,,
-41229-26009,1C,15,220,225,2.00E+07,lizard,,,humerus,1,1R,,100,,
-41229-26010,1C,15,220,225,2.00E+07,lizard,,,femur,1,1R,,75,,
-41229-26011,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,maxilla,1,1L,,25,,none
-41229-26012,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,maxilla,1,1R,,50,,none
-41229-26013,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,dentary,1,1L,,25,,none
-41229-26014,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,75,,none
-41229-26015,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,crown
-41229-26016,1C,15,220,225,2.00E+07,lizard,,,phalanges,2,,,,,
-41229-26017,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,cf. Phrynosomatine,postorbital,4,,,100,,
-41229-26018,1C,15,220,225,2.00E+07,lizard,Anguidae,,osteoderm,2,,,,,
-41229-26019,1C,15,220,225,2.00E+07,lizard,,,femur,1,1L,,75,,
-41229-26020,1C,15,220,225,2.00E+07,lizard,,,humerus,1,1L,,100,,
-41229-26021,1C,15,220,225,2.00E+07,lizard,,,pelvis,1,1L,,25,,
-41229-26022,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,surangular_articular,1,1L,,100,,
-41229-26023,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,pterygoid,1,1L,,50,,
-41229-26024,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,parietal,1,1L,,50,,
-41229-26025,1C,15,220,225,2.00E+07,lizard,,,interclavicle,1,,t shaped,100,,
-41229-26026,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,quadrate,1,1L,shallow conch,100,,
-41229-26027,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosomatinae,premaxilla,1,,,75,,
-41229-26028,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,jugal,2,2R,,75,,
-41229-26029,1C,15,220,225,2.00E+07,lizard,,,scapulocorocoid,2,2L,,75,,
-41229-26030,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,frontal,1,,,75,,
 41229-29290,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,frontal,1,,,100,,
 41229-29291,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,frontal,1,,,100,,
 41229-29292,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,frontal,1,,,100,,
@@ -2750,10 +2907,10 @@
 41229-29313,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
 41229-29314,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,,maxilla,1,1L,,50,,crown
 41229-29315,1D/E,15,220,225,2.00E+07,lizard,Anguidae,cf. Ophisaurus,maxilla,1,1L,,50,,none
-41229-29316,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,crown
-41229-29317,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,crown
-41229-29318,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,crown
-41229-29319,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,25,,crown
+41229-29316,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,crown
+41229-29317,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,crown
+41229-29318,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,crown
+41229-29319,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",25,,crown
 41229-29320,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,none
 41229-29321,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,75,,shaft
 41229-29322,1D/E,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,100,,none
@@ -2775,48 +2932,13 @@
 41229-29338,1C,15,220,225,2.00E+07,lizard,,,humerus,1,1L,,25,,
 41229-29339,1C,15,220,225,2.00E+07,lizard,,,humerus,1,1L,,50,,
 41229-29340,1C,15,220,225,2.00E+07,lizard,,,humerus,1,1R,,100,,
-41229-29341,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma,surangular,1,1L,,100,,
-41229-29342,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,surangular,1,1L,,100,,
+41229-29341,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,surangular,1,1L,no lat horns,100,,
+41229-29342,1C,15,220,225,2.00E+07,lizard,Pleurodonta cf. Phrynosomatidae,,surangular,1,1L,,100,,
 41229-29343,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,parietal,1,1R,,50,,
 41229-29344,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,parietal,1,1R,,50,,
 41229-29345,1C,15,220,225,2.00E+07,lizard,,,scapulocorocoid,1,1R,,75,,
 41229-29346,1C,15,220,225,2.00E+07,lizard,,,scapulocorocoid,1,1R,,100,,
 41229-29347,1C,15,220,225,2.00E+07,lizard,Phrynosomatidae,,frontal,1,,,50,,
-41229-6626,1C,15,220,225,2.00E+07,lizard,Anguidae,"""Ophisaurus attenuatus""",osteoderm,1,,,,,
-41229-26091,1D/E,16,225,230,2.00E+08,lizard,,,vertebra,28,,,,,
-41229-26092,1D/E,16,225,230,2.00E+08,lizard,,,vertebra,14,,,,,
-41229-26093,1D/E,16,225,230,2.00E+08,lizard,,,axis,1,,,,,
-41229-26094,1D/E,16,225,230,2.00E+08,lizard,,,pelvis,8,8L,,50,,
-41229-26095,1D/E,16,225,230,2.00E+08,lizard,,,pelvis,6,6R,,50,,
-41229-26096,1D/E,16,225,230,2.00E+08,lizard,,,humerus,2,2L,1 burned,100,,
-41229-26097,1D/E,16,225,230,2.00E+08,lizard,,,tibia,1,,,100,,
-41229-26098,1D/E,16,225,230,2.00E+08,lizard,,,femur,5,5L,1 burned,100,,
-41229-26099,1D/E,16,225,230,2.00E+08,lizard,,,femur,5,5R,,100,,
-41229-26100,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,,parietal,1,,,50,,
-41229-26101,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,,maxilla,1,1L,,50,,none
-41229-26102,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,,dentary,1,1L,,75,,shaft
-41229-26103,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,,frontal,1,,,100,,
-41229-26104,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,crown
-41229-26105,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,75,,none
-41229-26106,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,shaft
-41229-26107,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,burned,25,,none
-41229-26108,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,75,,
-41229-26109,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,25,,crown
-41229-26110,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,,braincase,1,,,,,
-41229-26111,1D/E,16,225,230,2.00E+08,lizard,,,scapulocorocoid,3,3L,,75,,
-41229-26112,1D/E,16,225,230,2.00E+08,lizard,,,scapulocorocoid,2,2R,,75,,
-41229-26113,1D/E,16,225,230,2.00E+08,lizard,,,osteoderm,5,,,,,
-41229-26172,E1/2 comp. pit 1,16,225,240,2.00E+08,lizard,,,vertebra,1,,,,,
-41229-26181,1C,16,225,230,2.00E+08,lizard,,,vertebra,2,,,,,
-41229-26182,1C,16,225,230,2.00E+08,lizard,,,femur,2,2L,,100,,
-41229-26183,1C,16,225,230,2.00E+08,lizard,,,pelvis,3,3L,,50,,
-41229-26184,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,,frontal,1,,,50,,
-41229-26185,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,,parietal,1,,,100,,
-41229-26186,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,,dentary,1,1R,,50,,shaft
-41229-26187,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,crown
-41229-26188,1C,16,225,230,2.00E+08,lizard,,,ulna,1,,,100,,
-41229-26189,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,highly coroded bone,50,,shaft
-41229-26190,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,cf. Phrynosomatine,surangular_articular,1,1R,,75,,
 41229-29348,1D/E,16,225,230,2.00E+08,lizard,,,pelvis,1,1L,,75,,
 41229-29349,1D/E,16,225,230,2.00E+08,lizard,,,pelvis,1,1R,,75,,
 41229-29350,1D/E,16,225,230,2.00E+08,lizard,,,humerus,1,1L,,50,,
@@ -2840,9 +2962,9 @@
 41229-29368,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,100,,none
 41229-29369,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,100,,none
 41229-29370,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,75,,shaft
-41229-29371,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,crown
-41229-29372,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,50,,none
-41229-29373,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,75,,crown
+41229-29371,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,crown
+41229-29372,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"closed mk, no tubercle",50,,none
+41229-29373,1D/E,16,225,230,2.00E+08,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,"closed mk, no tubercle",75,,crown
 41229-29374,1D/E,16,225,230,2.00E+08,lizard,,,scapulocorocoid,1,1R,,100,,
 41229-29375,1C,16,225,230,2.00E+08,lizard,,,femur,1,1R,burned,75,,
 41229-29376,1C,16,225,230,2.00E+08,lizard,,,femur,1,1R,,100,,
@@ -2850,48 +2972,6 @@
 41229-29378,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,,frontal,1,,,100,,
 41229-29379,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,,frontal,1,,,75,,
 41229-29380,1C,16,225,230,2.00E+08,lizard,Phrynosomatidae,,frontal,1,,,100,,
-41229-11075,1D,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,frontal,1,,,100,,
-41229-11076,1D,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,frontal,1,,burned,75,,
-41229-11077,1D,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,frontal,2,,in 2 pieces,50,,
-41229-11078,1D,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,frontal,1,,,75,,
-41229-11079,1D,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1L,3 short horns,75,,
-41229-26211,1D/E,16,230,235,2.00E+09,lizard,,,vertebra,23,,,,,
-41229-26212,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1L,"3 short horns, burned",75,,
-41229-26213,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1R,"2 med horns, burned",75,,
-41229-26214,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma,prefrontal,1,1L,,100,,
-41229-26215,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,parietal,1,1R,short horn,25,,
-41229-26216,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,75,,
-41229-26217,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma,frontal,2,,frags,25,,
-41229-26218,1D/E,16,230,235,2.00E+09,lizard,Anguidae,,osteoderm,9,,,,,
-41229-26219,1D/E,16,230,235,2.00E+09,lizard,,,pelvis,1,1R,,25,,
-41229-26220,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma,jugal,1,1L,,100,,
-41229-26221,1D/E,16,230,235,2.00E+09,lizard,,,scapulocorocoid,3,3L,1 burned,100,,
-41229-26222,1D/E,16,230,235,2.00E+09,lizard,,,scapulocorocoid,4,4R,,100,,
-41229-26264,1C,16,230,235,2.00E+09,lizard,Phrynosomatidae,,parietal,2,1R,,50,,
-41229-26265,1C,16,230,235,2.00E+09,lizard,,,pelvis,1,1L,,25,,
-41229-26266,1C,16,230,235,2.00E+09,lizard,,,femur,1,1R,,75,,
-41229-26267,1C,16,230,235,2.00E+09,lizard,Phrynosomatidae,,dentary,1,1L,no teeth preserved,50,,
-41229-26268,1C,16,230,235,2.00E+09,lizard,Phrynosomatidae,,frontal,1,,,100,,
-41229-26269,1C,16,230,235,2.00E+09,lizard,Phrynosomatidae,,jugal,1,1R,,100,,
-41229-26270,1C,16,230,235,2.00E+09,lizard,,,vertebra,5,,,,,
-41229-26280,1D/E,16,230,235,2.00E+09,lizard,,,vertebra,1,,,,,
-41229-26288,1C,16,230,235,2.00E+10,lizard,,,vertebra,15,,,,,
-41229-26289,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,none
-41229-26290,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,100,,none
-41229-26291,1C,16,230,235,2.00E+10,lizard,,,humerus,1,1L,,100,,
-41229-26292,1C,16,230,235,2.00E+10,lizard,,,femur,1,1R,,100,,
-41229-26293,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,cf. Phrynosomatine,surangular_articular,1,1L,,100,,
-41229-26294,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,parietal,1,1R,,50,,
-41229-26295,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,frontal,1,,,75,,
-41229-26296,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,50,,
-41229-26297,1C,16,230,235,2.00E+10,lizard,,,pelvis,2,2L,,50,,
-41229-26298,1C,16,230,235,2.00E+10,lizard,,,pelvis,2,2R,,50,,
-41229-26299,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,surangular_articular,1,1R,no lat horns,75,,
-41229-26300,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,crown
-41229-26301,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,maxilla,1,1L,,25,,none
-41229-26302,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,dentary,1,1L,,25,,crown
-41229-26303,1C,16,230,235,2.00E+10,lizard,,cf. Phrynosoma,dentary,1,1L,,25,,crown
-41229-26304,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,maxilla,1,1L,,25,,crown
 41229-29381,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1L,2 med horns,75,,
 41229-29382,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1L,2 short horns,50,,
 41229-29383,1D/E,16,230,235,2.00E+09,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1R,3 short horns,75,,
@@ -2905,50 +2985,14 @@
 41229-29391,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,frontal,1,,,50,,
 41229-29392,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,frontal,1,,,100,,
 41229-29393,1C,16,230,235,2.00E+10,lizard,,,pelvis,2,2R,,75,,
-41229-29394,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,50,,crown
-41229-29395,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,50,,none
+41229-29394,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",50,,crown
+41229-29395,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1R,closed mk,50,,none
 41229-29396,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,maxilla,1,1L,,75,,none
 41229-29397,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,maxilla,1,1R,,75,,none
 41229-29398,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,dentary,1,1R,,75,,shaft
 41229-29399,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,dentary,1,1R,,75,,none
 41229-29400,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,dentary,1,1R,,100,,crown
 41229-29401,1C,16,230,235,2.00E+10,lizard,Phrynosomatidae,,maxilla,1,1L,,25,,none
-41229-26325,1C,16,235,240,2.00E+10,lizard,,,vertebra,15,,,,,
-41229-26326,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,none
-41229-26327,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,75,,none
-41229-26328,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,,dentary,1,1R,,75,Yes,shaft
-41229-26329,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,,maxilla,1,1R,covered in travertine,75,,none
-41229-26330,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,75,,none
-41229-26331,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,,braincase,1,,,,,
-41229-26332,1C,16,235,240,2.00E+10,lizard,,,femur,1,1L,,100,,
-41229-26333,1C,16,235,240,2.00E+10,lizard,,,tibia,1,,,100,,
-41229-26334,1C,16,235,240,2.00E+10,lizard,,,pelvis,2,2L,,50,,
-41229-26335,1C,16,235,240,2.00E+10,lizard,,,humerus,1,1R,,100,,
-41229-26336,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,none
-41229-26337,1C,16,235,240,2.00E+10,lizard,,,humerus,1,1R,,100,,
-41229-26338,1C,16,235,240,2.00E+10,lizard,,,interclavicle,1,,t shaped,100,,
-41229-26339,1C,16,235,240,2.00E+10,lizard,Anguidae,,osteoderm,1,,,,,
-41229-26340,1C,16,235,240,2.00E+10,lizard,,,scapulocorocoid,1,1R,,100,,
-41229-26341,1C,16,235,240,2.00E+10,lizard,,,femur,3,3R,,100,,
-41229-26342,1C,16,235,240,2.00E+10,lizard,,,femur,1,1L,,75,,
-41229-26343,1C,16,235,240,2.00E+10,lizard,,,tibia,4,,,100,,
-41229-26344,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,parietal,1,1L,short horn,50,,
-41229-26366,1D,16,235,240,2.00E+10,lizard,,,vertebra,10,,,,,
-41229-26367,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,,braincase,1,,,,,
-41229-26368,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,,frontal,1,,,100,,
-41229-26369,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,,parietal,1,,,100,,
-41229-26370,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,none
-41229-26371,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,none
-41229-26372,1D,16,235,240,2.00E+10,lizard,,,femur,3,3R,,100,,
-41229-26373,1D,16,235,240,2.00E+10,lizard,,,humerus,2,2R,,100,,
-41229-26374,1D,16,235,240,2.00E+10,lizard,,,pelvis,4,4L,,50,,
-41229-26375,1D,16,235,240,2.00E+10,lizard,,,pelvis,4,4R,,50,,
-41229-26376,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,parietal,1,,short horn,75,,
-41229-26377,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,75,,
-41229-26378,1D,16,235,240,2.00E+10,lizard,,,scapulocorocoid,1,1L,burned,100,,
-41229-26403,?,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,prefrontal,1,1R,,75,,
-41229-26404,?,16,235,240,2.00E+10,lizard,,,femur,3,3L,1 burned,100,,
-41229-26405,?,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,surangular,1,1L,,100,,
 41229-29402,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,75,,none
 41229-29403,1C,16,235,240,2.00E+10,lizard,,,femur,1,1R,,100,,
 41229-29404,1C,16,235,240,2.00E+10,lizard,,,pelvis,1,1L,,75,,
@@ -2958,105 +3002,65 @@
 41229-29408,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,,frontal,1,,,75,,
 41229-29409,1D,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,100,,none
 41229-29410,1D,16,235,240,2.00E+10,lizard,,,pelvis,2,2R,,75,,
-41229-5995,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1R,3 short horns,75,,
-41229-26410,1D,17,240,245,2.00E+11,lizard,,,vertebra,1,,,,,
-41229-26411,1D,17,240,245,2.00E+11,lizard,,,humerus,1,1L,,100,,
-41229-26412,1D,17,240,245,2.00E+11,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,frontal,1,,,100,,
-41229-26413,1D,17,240,245,2.00E+11,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,frontal,1,,,75,,
-41229-26414,1D,17,240,245,2.00E+11,lizard,,,scapulocorocoid,1,1R,,50,,
-41229-26416,1D,17,240,245,2.00E+11,lizard,,,nasal,1,1L,,100,,
-41229-26454,1C,17,240,245,2.00E+11,lizard,,,vertebra,19,,,,,
-41229-26455,1C,17,240,245,2.00E+11,lizard,Phrynosomatidae,,frontal,1,,,100,,
-41229-26456,1C,17,240,245,2.00E+11,lizard,,,humerus,1,1L,burned,100,,
-41229-26457,1C,17,240,245,2.00E+11,lizard,,,pelvis,1,1L,,75,,
-41229-26458,1C,17,240,245,2.00E+11,lizard,,,pelvis,1,1R,,50,,
-41229-26459,1C,17,240,245,2.00E+11,lizard,,,pelvis,1,1R,,25,,
-41229-26460,1C,17,240,245,2.00E+11,lizard,,,humerus,1,1L,burned,100,,
-41229-26461,1C,17,240,245,2.00E+11,lizard,,,tibia,1,,burned,100,,
 41229-29411,1D,17,240,245,2.00E+11,lizard,,,humerus,1,1R,,100,,
 41229-29412,1C,17,240,245,2.00E+11,lizard,,,humerus,3,3R,,100,,
 41229-29413,1C,17,240,245,2.00E+11,lizard,,,pelvis,4,4L,,50,,
-41229-26489,1C,17,245,250,2.00E+12,lizard,,,vertebra,7,,,,,
-41229-26490,1C,17,245,250,2.00E+12,lizard,,,pelvis,1,1L,,50,,
-41229-26491,1C,17,245,250,2.00E+12,lizard,,,humerus,1,1L,burned,100,,
-41229-26492,1C,17,245,250,2.00E+12,lizard,,,femur,1,1R,,100,,
-41229-26493,1C,17,245,250,2.00E+12,lizard,,,femur,1,1R,,50,,
-41229-26494,1C,17,245,250,2.00E+12,lizard,,,scapulocorocoid,1,1L,,100,,
-41229-26495,1C,17,245,250,2.00E+12,lizard,,,pelvis,1,1R,,50,,
-41229-26496,1C,17,245,250,2.00E+12,lizard,,,tibia,3,,,100,,
-41229-26497,1C,17,245,250,2.00E+12,lizard,Phrynosomatidae,cf. Phrynosoma,quadrate,1,1L,,100,,
-41229-26566,E 1/2 comp. pit 1,17,245,255,2.00E+12,lizard,,,vertebra,1,,,,,
 41229-29414,1C,17,245,250,2.00E+12,lizard,,,pelvis,1,1R,,50,,
 41229-29415,1C,17,245,250,2.00E+12,lizard,,,femur,1,1R,,25,,
-41229-26527,1C,17,250,255,2.00E+12,lizard,,,vertebra,17,,,,,
-41229-26528,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,,dentary,1,1L,,50,,shaft
-41229-26529,1C,17,250,255,2.00E+12,lizard,,,femur,1,1R,,100,,
-41229-26530,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,,dentary,1,1L,,25,,none
-41229-26531,1C,17,250,255,2.00E+12,lizard,,,dentary,1,1L,,25,,crown
-41229-26532,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,cf. Sceloporus,postorbital,1,,,100,,
-41229-26533,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,,parietal,1,1L,,50,,
-41229-26534,1C,17,250,255,2.00E+12,lizard,,,braincase,1,,sphenoid,,,
-41229-26535,1C,17,250,255,2.00E+12,lizard,,,pelvis,1,1L,,50,,
-41229-26536,1C,17,250,255,2.00E+12,lizard,,,jugal,1,1L,,75,,
-41229-26537,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,cf. Phrynosomatine,surangular_articular,1,1R,,100,,
-41229-26538,1C,17,250,255,2.00E+12,lizard,,,scapulocorocoid,1,1L,,75,,
-41229-26539,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,,pterygoid,1,1R,,50,,
-41229-26540,1C,17,250,255,2.00E+12,lizard,,,humerus,1,1L,,75,,
-41229-26541,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,,frontal,1,,,75,,
 41229-29416,1C,17,250,255,2.00E+12,lizard,Phrynosomatidae,,dentary,1,1R,,75,,shaft
 41229-29417,1C,17,250,255,2.00E+12,lizard,,,scapulocorocoid,1,1R,,100,,
 41229-29418,1C,17,250,255,2.00E+12,lizard,,,humerus,1,1L,,100,,
 41229-29419,1C,17,250,255,2.00E+12,lizard,,,humerus,1,1R,,75,,
-41229-26571,1D,18,255,260,2.00E+13,lizard,,,vertebra,4,,,,,
-41229-26572,1D,18,255,260,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,none
-41229-26573,1D,18,255,260,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,none
-41229-26574,1D,18,255,260,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,50,,none
-41229-26575,1D,18,255,260,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1R,,50,,none
-41229-26576,1D,18,255,260,2.00E+13,lizard,,,pelvis,1,1L,,50,,
-41229-26577,1D,18,255,260,2.00E+13,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,parietal,1,1L,short horn,50,,
-41229-26623,1C,18,255,260,2.00E+13,lizard,,,vertebra,4,,,,,
-41229-26624,1C,18,255,260,2.00E+13,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
-41229-26625,1C,18,255,260,2.00E+13,lizard,,,dentary,1,1L,,25,,shaft
-41229-26626,1C,18,255,260,2.00E+13,lizard,,,femur,1,1R,burned,75,,
-41229-26627,1C,18,255,260,2.00E+13,,,,?,1,,,,,
-41229-26628,1C,18,255,260,2.00E+13,lizard,Phrynosomatidae,,parietal,1,1R,,50,,
-41229-26629,1C,18,255,260,2.00E+13,lizard,,,braincase,1,,sphenoid,,,
-41229-29420,1D,18,255,260,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,none
-41229-11253,1D,18,260,265,2.00E+13,lizard,Phrynosomatidae,"Phrynosoma ""douglassi or modestum""",frontal,1,,,100,,
-41229-26594,1D,18,260,265,2.00E+13,lizard,,,vertebra,4,,,,,
-41229-26595,1D,18,260,265,2.00E+13,lizard,,,longbones,1,,,,,
-41229-26596,1D,18,260,265,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,100,,none
-41229-26597,1D,18,260,265,2.00E+13,lizard,Anguidae,,osteoderm,3,,,,,
-41229-26598,1D,18,260,265,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,quadrate,1,1R,deep conch,100,,
-41229-26599,1D,18,260,265,2.00E+13,lizard,Phrynosomatidae,Phrynosoma,prefrontal,1,1L,,75,,
-41229-26638,1D,18,265,270,2.00E+14,lizard,,,vertebra,3,,,,,
-41229-26639,1D,18,265,270,2.00E+14,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,75,,
-41229-26664,1D,19,270,275,2.00E+14,lizard,,,vertebra,6,,,,,
-41229-26686,1D,19,275,280,2.00E+14,lizard,Phrynosomatidae,,maxilla,1,1L,,75,,none
-41229-26688,1D,19,275,280,2.00E+14,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1R,,100,,none
-41229-26689,1D,19,275,280,2.00E+14,lizard,,,vertebra,1,,,,,
-41229-26690,1D,19,275,280,2.00E+14,lizard,Phrynosomatidae,Phrynosoma,frontal,1,1L,,25,,
-41229-26691,1D,19,275,280,2.00E+14,lizard,,,femur,1,1L,,75,,
-41229-26692,1D,19,275,280,2.00E+14,lizard,Phrynosomatidae,Phrynosoma,prefrontal,1,1R,,100,,
-41229-26712,1D,19,280,285,2.00E+15,lizard,,,vertebra,2,,,,,
-41229-26713,1D,19,280,285,2.00E+15,lizard,Phrynosomatidae,,parietal,1,,,100,,
-41229-26714,1D,19,280,285,2.00E+15,lizard,Phrynosomatidae,Phrynosoma,dentary,1,1L,,75,,none
-41229-26715,1D,19,280,285,2.00E+15,lizard,Phrynosomatidae,,maxilla,1,1R,covered in travertine,100,,shaft
-41229-26716,1D,19,280,285,2.00E+15,lizard,Phrynosomatidae,Phrynosoma,prefrontal,1,1R,,100,,
-41229-26727,1D,20,285,290,2.00E+15,lizard,,,humerus,1,1L,,100,,
-41229-26728,1D,20,285,290,2.00E+15,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,,75,,
+41229-29420,1D,18,255,260,2.00E+13,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,dentary,1,1L,"closed mk, no tubercle",75,,none
 41229-29421,1D,20,285,290,2.00E+15,lizard,,,humerus,1,1R,,100,,
-41229-26743,1D,20,290,295,2.00E+15,lizard,,,vertebra,1,,,,,
-41229-26744,1D,20,290,295,2.00E+15,lizard,Phrynosomatidae,,maxilla,1,1L,,75,,crown
-41229-26745,1D,20,290,295,2.00E+15,lizard,,,ulna,1,,,100,,
-41229-26746,1D,20,290,295,2.00E+15,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,surangular_articular,1,1R,no lat horns,75,,
-41229-26751,1D,20,295,300,2.00E+15,lizard,,,vertebra,5,,,,,
-41229-26752,1D,20,295,300,2.00E+15,lizard,,,humerus,1,1R,,100,,
-41229-26753,1D,20,295,300,2.00E+15,lizard,,,femur,1,1R,,50,,
-41229-26754,1D,20,295,300,2.00E+15,lizard,Phrynosomatidae,Phrynosoma,maxilla,1,1L,,100,,none
-41229-26755,1D,20,295,300,2.00E+15,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,parietal,1,,short horn,100,,
-41229-26765,1E,20,295,300,2.00E+15,lizard,Phrynosomatidae,,dentary,1,1R,,75,,crown
-41229-26766,1E,20,295,300,2.00E+15,lizard,,,femur,1,1L,,75,,
-41229-26767,1E,20,295,300,2.00E+15,lizard,Phrynosomatidae,,surangular_articular,1,1L,,100,,
-41229-26768,1E,20,295,300,2.00E+15,lizard,Phrynosomatidae,,jugal,1,1L,,100,,
-41229-26769,1E,20,295,300,2.00E+15,lizard,Phrynosomatidae,,frontal,1,1L,,25,,
+41229-29428,1C,10,145,150,2C13,lizard,,,vertebra,50,,,,,
+41229-29429,1C,10,145,150,2C13,lizard,,,vertebra,28,,,,,
+41229-29430,1C,10,145,150,2C13,lizard,,,ilium,1,1R,,100,,
+41229-29457,1,10,145,150,2C13,lizard,,,vertebra,1,sacral vert,,,,
+41229-29458,1,10,145,150,2C13,lizard,Phrynosomatidae,,maxilla,1,1L,,100,YES,none
+41229-29479,1D/E,15,210,215,2.00E+05,lizard,Pleurodonta cf. Crotaphytidae,,postorbital,1,,,,,
+41229-29480,1D/E,15,210,215,2.00E+05,lizard,Phrynosomatidae,cf. Phrynosomatine,postorbital,19,,3 burned,100,,
+41229-4119,1A,8,115,120,2B17,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,1R,horn fragment,0,,
+41229-534,1B,9,125,130,2C3,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,,100,,
+41229-535,1B,13,185,190,2D12,lizard,Phrynosomatidae,Phrynosoma cf. douglassi,parietal,1,,,100,,
+41229-5478,1C,2,25,30,2A6,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,2 long horns with 1 middle,75,,
+41229-5499,1B,3,40,45,2A10,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,surangular_articular,1,1L,id as squamosal,50,,
+41229-590,1A,7,95,100,2B11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum ,frontal,1,,,100,,
+41229-5995,1C,16,235,240,2.00E+10,lizard,Phrynosomatidae,Phrynosoma cf. hernandezi,squamosal,1,1R,3 short horns,75,,
+41229-6181,1B,9,130,135,2C5,lizard,Phrynosomatidae,Phrynosoma,squamosal,1,,"fragment, 1 med size horn",25,,
+41229-6223,1,6,80,85,2B5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1L,3 long horns,100,,
+41229-6224,1,6,80,85,2B5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,1L,long horn,50,,
+41229-626,1A,4,55,60,2A14,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,"R horn frag, long",25,,
+41229-627,1A,4,55,60,2A14,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,1L,,50,,
+41229-6282,1A,7,100,105,2B12,lizard,Anguidae,"""Ophisaurus""",osteoderm,1,,,,,
+41229-6283,1A,7,100,105,2B12,lizard,Anguidae,"""Ophisaurus""",osteoderm,1,,,,,
+41229-6307,1B,7,95,100,2B11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum ,frontal,1,,,100,,
+41229-6357,1B,7,95,100,2B11,lizard,Anguidae,"""Ophisaurus attenuatus""",osteoderm,1,,,,,
+41229-6532,1B,9,120,125,2C2,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,,75,,
+41229-6626,1C,15,220,225,2.00E+07,lizard,Anguidae,"""Ophisaurus attenuatus""",osteoderm,1,,,,,
+41229-6875,1,2,15,20,2A5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1L,2 long horns,75,,
+41229-698,1,5,65,70,2A16,lizard,Phrynosomatidae,"Phrynosoma ""cornutum""",parietal,1,,2 long horns with 1 small middle,100,,
+41229-7132,1A,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,large L horn,50,,
+41229-7133,1A,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,,small L horn,25,,
+41229-7134,1A,4,45,50,2A11,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,large R horn,50,,
+41229-7214,1,5,70,75,2B2,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,horn fragment,,,
+41229-7805,1B,2,20,25,2A5,lizard,Phrynosomatidae,Phrynosoma,frontal,1,,middle fragment,0,,
+41229-799,1,6,85,90,2B7,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,jugal,1,1L,,100,,
+41229-800,1,6,85,90,2B7,lizard,Phrynosomatidae,Phrynosoma,parietal,1,,missing horns,50,,
+41229-8093,1,3,40,45,2A10,lizard,Crotaphytidae,"Crotaphytus""",maxilla,1,1L,"unicuspid frag, wide teeth, eroded crowns",75,,crown
+41229-8094,1,3,40,45,2A10,lizard,Crotaphytidae,"""Crotaphytus""",dentary,1,1R,"unicuspid frag, wide sup mk lip, eroded crowns",25,,
+41229-8120,1,5,60,65,2A15,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,surangular,1,1L,3 horns,50,,
+41229-8195,1,5,60,65,2A15,lizard,Phrynosomatidae,cf. Sceloporus,dentary,1,1L,"id as Crotaphytus, slender tricuspid teeth",100,,none
+41229-8227,1A,1,5,10,2A2,lizard,Phrynosomatidae,"""Phrynosoma""",braincase,1,,complete,,,
+41229-8510,1B,6,85,90,2B7,lizard,Crotaphytidae,"""Crotaphytus""",dentary,1,1R,"wide teeth, tricuspid",25,,none
+41229-873,1,8,115,120,2B17,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1L,3 long horns,100,,
+41229-8994,1A,2,20,25,2A5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,2 long horns with 1 middle,100,,
+41229-8995,1A,2,20,25,2A5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1L,"1 long horn, 1 broken",75,,
+41229-9058,1B,6,80,85,2B5,lizard,Phrynosomatidae,Phrynosoma,parietal,1,1R,,25,,
+41229-9242,1,2,25,30,2A6,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,squamosal,1,1R,2 long horns,75,,
+41229-945,1,9,130,135,2C5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,parietal,1,,"1 small middle horn, horns broken",100,,
+41229-946,1,9,130,135,2C5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,bumpy dorsal surface,100,,
+41229-9848,1B,5,70,75,2B2,lizard,,,jugal?,1,1L,"previous id ""Phrynosoma jugal""; not convinced of id",,,
+41229-9917,1D,5,70,75,2B2,lizard,Anguidae,Gerrhonotus,maxilla,1,1L,previously id'ed as Crotaphytus,75,,none
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,

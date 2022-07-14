@@ -29,7 +29,7 @@ LIZVIZ_plot<-ggplot(LIZVIZ, aes(age, NISP))+ geom_point()+
   theme_classic()
 LIZVIZ_plot
 
-?geom_line
+
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##     PREPARING THE DATA   ----
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -54,6 +54,23 @@ LIZNISP <- Fossil_lizard_15bin_fam %>%
   filter(!is.na(Family)) %>% 
   group_by(Family,Bin, .drop=FALSE) %>% tally
 LIZNISP <- LIZNISP %>% group_by(Family, Bin) %>% summarise(NISP = max(n))
+
+
+
+LIZNISP2 <- LIZNISP %>% group_by(Bin) %>% summarise(NISP = sum(NISP))
+LIZNISP2$age <- age
+LIZVIZ2_plot<-ggplot(LIZNISP2, aes(age, NISP))+ geom_point()+
+  geom_line(colour="blue")+
+  scale_x_reverse(breaks =seq(0,20000,2000))+
+  scale_y_continuous(breaks =seq(0,300,30))+
+  xlab("Age (cal. BP)")+ylab("NISP")+
+  coord_flip() +
+  theme_classic()
+LIZVIZ2_plot
+
+
+
+
 
 # MAKE INTO LONG FORMAT WITH FAMILIES AS COLUMNS AND BINS AS ROWS
 library(tidyverse)
@@ -400,7 +417,7 @@ library("gratia") # need to change the name of the package
 ## Default ggplot theme
 theme_set(theme_bw())
 
-small <- readRDS("small-water-isotope-data.rds")
+small <- readRDS("small-water-isotope-data.rds") #load in dataset
 head(small)
 
 
