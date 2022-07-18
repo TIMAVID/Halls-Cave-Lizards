@@ -5,21 +5,27 @@ f2 <- curl("https://raw.githubusercontent.com/TIMAVID/Halls-Cave-Lizards/main/Fo
 Fossil_lizard_15bin <- read.csv(f2, header = TRUE, sep = ",", stringsAsFactors = FALSE, na.strings=c("","NA")) # this is a matrix of measured specimens 
 head(Fossil_lizard_15bin)
 
+f3 <- curl("https://raw.githubusercontent.com/TIMAVID/Halls-Cave-Lizards/main/Ages.csv")
+Ages <- read.csv(f3, header = TRUE, sep = ",", stringsAsFactors = FALSE, na.strings=c("","NA")) # this is a matrix of measured specimens 
+head(Ages)
+
+
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##                                Visualize data                            ----
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 library(dplyr)
 library(ggplot2)
 
-age_depth <- function(Depth) { # Function to assign ages to depths based on linear relationship defined by Tomé et al. 2021
-  68.61*(Depth) + 758.82
-}
-bins <- seq(from = 0, to = 295, by = 15) #VECTOR OF 15 CM BINS
-age <- sapply(bins, age_depth) # ASSIGN AGES TO ALL BINS
+# age_depth <- function(Depth) { # Function to assign ages to depths based on linear relationship defined by Tomé et al. 2021
+#   68.61*(Depth) + 758.82
+# }
+# bins <- seq(from = 0, to = 295, by = 15) #VECTOR OF 15 CM BINS
+# age <- sapply(bins, age_depth) # ASSIGN AGES TO ALL BINS
 
 
 LIZVIZ <- Fossil_lizard_15bin %>% group_by(Bin) %>% summarise(NISP = sum(NISP))
-LIZVIZ$age <- age
+LIZVIZ <- LIZVIZ[-c(21), ]
+LIZVIZ$age <- Ages$MEDAge
 LIZVIZ_plot<-ggplot(LIZVIZ, aes(age, NISP))+ geom_point()+
   geom_line(colour="blue")+
   scale_x_reverse(breaks =seq(0,20000,2000))+
@@ -58,7 +64,7 @@ LIZNISP <- LIZNISP %>% group_by(Family, Bin) %>% summarise(NISP = max(n))
 
 
 LIZNISP2 <- LIZNISP %>% group_by(Bin) %>% summarise(NISP = sum(NISP))
-LIZNISP2$age <- age
+LIZNISP2$age <- Ages$MEDAge
 LIZVIZ2_plot<-ggplot(LIZNISP2, aes(age, NISP))+ geom_point()+
   geom_line(colour="blue")+
   scale_x_reverse(breaks =seq(0,20000,2000))+
@@ -67,8 +73,6 @@ LIZVIZ2_plot<-ggplot(LIZNISP2, aes(age, NISP))+ geom_point()+
   coord_flip() +
   theme_classic()
 LIZVIZ2_plot
-
-
 
 
 
@@ -127,10 +131,10 @@ library(grid)
 library(analogue)
 LIZMNI.pct <- data.frame(tran(LIZMNI_wide, method = 'percent')) # CONVERT MNI INTO PERCENTS
 
-Stratiplot(age ~ ., LIZMNI.pct, sort = 'wa', type = 'poly',
+Stratiplot(Ages$MEDAge ~ ., LIZMNI.pct, sort = 'wa', type = 'poly',
            ylab ='Years Before Present')
 
-MNIdf <- data.frame(yr=rep(age,ncol(LIZMNI.pct)),
+MNIdf <- data.frame(yr=rep(Ages$MEDAge,ncol(LIZMNI.pct)),
               per=as.vector(as.matrix(LIZMNI.pct)),
               taxa=as.factor(rep(colnames(LIZMNI.pct),each=nrow(LIZMNI.pct))))
 
@@ -155,10 +159,10 @@ MNIplot<- ggplot(MNIdf)+
 
 LIZNISP.pct <- data.frame(tran(LIZNISP_wide, method = 'percent')) # CONVERT MNI INTO PERCENTS
 
-Stratiplot(age ~ ., LIZNISP.pct, sort = 'wa', type = 'poly',
+Stratiplot(Ages$MEDAge ~ ., LIZNISP.pct, sort = 'wa', type = 'poly',
            ylab ='Years Before Present')
 
-NISPdf <- data.frame(yr=rep(age,ncol(LIZNISP.pct)),
+NISPdf <- data.frame(yr=rep(Ages$MEDAge,ncol(LIZNISP.pct)),
                     per=as.vector(as.matrix(LIZNISP.pct)),
                     taxa=as.factor(rep(colnames(LIZNISP.pct),each=nrow(LIZNISP.pct))))
 NISPplot<-ggplot(NISPdf)+
@@ -173,7 +177,7 @@ NISPplot<-ggplot(NISPdf)+
 
 LIZNISP_OTHER.pct <- data.frame(tran(LIZNISP_other_wide, method = 'percent')) # CONVERT MNI INTO PERCENTS
 
-NISPdf_other <- data.frame(yr=rep(age,ncol(LIZNISP_OTHER.pct)),
+NISPdf_other <- data.frame(yr=rep(Ages$MEDAge,ncol(LIZNISP_OTHER.pct)),
                      per=as.vector(as.matrix(LIZNISP_OTHER.pct)),
                      taxa=as.factor(rep(colnames(LIZNISP_OTHER.pct),each=nrow(LIZNISP_OTHER.pct))))
 NISPother_plot<-ggplot(NISPdf_other)+
@@ -195,9 +199,10 @@ Pollen.plots
 
 famcolors <- c("#BDD9BF", "#FFC857", "#A997DF", "#929084", "#2E4052")
 ggplot(MNIdf, aes(fill=taxa, y=per, x=yr)) + 
-  geom_bar(position="fill", stat="identity") +theme_classic(base_size = 18) +
+  geom_bar(position="fill", stat="identity", width=500) +theme_classic(base_size = 18) +
   scale_fill_manual(name = "Family", values=c(famcolors)) +
   ylab("Relative Abundace") + xlab("Years BP")
+
 
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -238,7 +243,7 @@ Shannon_NISP_estimates <- ChaoShannon(LIZNISP_wideT) #Estimate Shannon div
 ##                           Shannon diversity plots                        ----
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-HMNI <- data.frame(yr=rep(age,ncol(Shannon_MNI_estimates)), #make dataframe
+HMNI <- data.frame(yr=(Ages$MEDAge), #make dataframe
                    Obs=as.vector(as.matrix(Shannon_MNI_estimates$Observed)),
                    Est=as.vector(as.matrix(Shannon_MNI_estimates$Estimator)),
                    L95=as.vector(as.matrix(Shannon_MNI_estimates$`95% Lower`)),
@@ -254,7 +259,7 @@ HMNI_plot<-ggplot(HMNI, aes(yr, Est))+
   geom_line(aes(y = Obs), color = "black")
 
 
-HNISP <- data.frame(yr=rep(age,ncol(Shannon_NISP_estimates)),#make dataframe
+HNISP <- data.frame(yr=(Ages$MEDAge),#make dataframe
                     Obs=as.vector(as.matrix(Shannon_NISP_estimates$Observed)),
                     Est=as.vector(as.matrix(Shannon_NISP_estimates$Estimator)),
                     L95=as.vector(as.matrix(Shannon_NISP_estimates$`95% Lower`)),
@@ -417,19 +422,332 @@ library("gratia") # need to change the name of the package
 ## Default ggplot theme
 theme_set(theme_bw())
 
-small <- readRDS("small-water-isotope-data.rds") #load in dataset
-head(small)
+ #load in dataset
+head(HNISP)
+
+### fit model using GCV -------
+HNISP.gcv <- gam(Obs ~ s(yr, k = 7), data = HNISP)
+
+N <- 500 # number of points at which to evaluate the smooth
+## data to predict at
+newHNISP <- with(HNISP, data.frame(yr = seq(min(yr), max(yr),
+                                              length.out = N)))
+
+## add GAM GCV results
+fit_gcv <- predict(HNISP.gcv, newdata = newHNISP, se.fit = TRUE)
+crit.t <- qt(0.975, df.residual(HNISP.gcv))
+newGCV <- data.frame(yr = newHNISP[["yr"]],
+                     fit = fit_gcv$fit,
+                     se.fit = fit_gcv$se.fit)
+newGCV <- transform(newGCV,
+                    upper = fit + (crit.t * se.fit),
+                    lower = fit - (crit.t * se.fit))
+
+
+## plot GCV fits
+braya_fitted <- ggplot(HNISP, aes(y = Obs, x = yr)) +
+  geom_point() +
+  geom_ribbon(data = newGCV,
+              mapping = aes(x = yr, ymax = upper, ymin = lower),
+              alpha = 0.3, inherit.aes = FALSE) +
+  geom_line(data = newGCV,
+            mapping = aes(y = fit, x = yr)) +
+  labs(y = "H (Shannon div.)", x = "Cal Year BP") +
+  scale_color_manual(values = c("#5e3c99", "#e66101")) +
+  scale_fill_manual(values = c("#5e3c99", "#e66101")) +
+  theme(legend.position = "right")
+braya_fitted
+
+# Checking if the size of the basis expansion is sufficient
+HNISP_low_k <- gam(Obs ~ s(yr, k = 7), data = HNISP, method = "REML")
+
+gam.check(HNISP_low_k)
+
+### Accounting for heteroscedasticity due to time averaging -------
+
+TimeAvgHNISP <- cbind(HNISP, Ages)
+
+
+HNISP_reml <- gam(Obs ~ s(yr, k = 10), data = TimeAvgHNISP,
+                  method = "REML",
+                  weights = TimeInterval / mean(TimeInterval))
+summary(HNISP_reml)
+
+gam.check(HNISP_reml)
+
+
+### Posterior simulation ------
+
+set.seed(1) # set the random seed to make this reproducible
+nsim <- 20 # how many simulations to draw
+
+## data points to simulate at
+newHNISP <- with(HNISP,
+                 data.frame(yr = seq(min(yr), max(yr),
+                                       length.out = N)))
+HNISP_pred <- cbind(newHNISP,
+                    data.frame(predict(HNISP_reml, newHNISP,
+                                       se.fit = TRUE)))
+## simulate
+set.seed(1)
+sims2 <- simulate(HNISP_reml, nsim = nsim, data = newHNISP,
+                  unconditional = TRUE)
+## rearrange the output into a long/tidy format
+colnames(sims2) <- paste0("sim", seq_len(nsim))
+
+sims2 <- setNames(stack(as.data.frame(sims2)),
+                  c("simulated", "run"))
+sims2 <- transform(sims2, yr = rep(newHNISP$yr, nsim),
+                   simulated = simulated)
+HNISPSim.plt <- ggplot(HNISP_pred, aes(x = yr, y = fit)) +
+  geom_line(data = sims2,
+            mapping = aes(y = simulated, x = yr, group = run),
+            colour = "grey80") +
+  geom_line(lwd = 1) +
+  labs(y = "H (Shannon div.)", x = "Year CE")
+HNISPSim.plt
+
+
+
+HNISP.cint <- confint(HNISP_reml, parm = "yr", newdata = newHNISP,
+                   type = "confidence", partial_match = TRUE)
+# HNISP.sint <- confint(HNISP_reml, parm = "yr", newdata = newHNISP,
+#                    type = "simultaneous", partial_match = TRUE) #not working for some reason
+
+
+HNISPInt.plt <- ggplot(HNISP.cint, aes(x = yr, y = est)) +
+  # geom_ribbon(data = bs.sint,
+  #             mapping = aes(ymin = lower, ymax = upper, x = Year),
+  #             fill = "grey80", inherit.aes = FALSE) +
+  geom_ribbon(mapping = aes(ymin = lower, ymax = upper, x = yr),
+              fill = "grey60", inherit.aes = FALSE) +
+  geom_line(lwd = 1) +
+  labs(y = "H (Shannon div.)", x = "Year CE")
+HNISPInt.plt
+
+
+### First derivative ----------
+
+HNISP.d <- derivatives(HNISP_reml)
+
+# HNISP.d <- fderiv(HNISP_reml, data = newHNISP, n = N)
+# HNISP.sint <- with(newHNISP,
+#                    cbind(confint(HNISP.d, nsim = nsim,
+#                                  type = "simultaneous"),
+#                          Year = yr))
+
+HNISP_deriv_plt <- ggplot(HNISP.d, aes(x = data, y = derivative)) +
+  geom_ribbon(aes(ymin = lower, ymax = upper),
+              alpha = 0.2, fill = "black") +
+  geom_line() +
+  labs(x = "Cal. Year BP", y = "First derivative")
+HNISP_deriv_plt
 
 
 
 
 
 
+### Adaptive spline, weights as sampleInterval-----
+mod_ad <- gam(Obs ~ s(yr, k = 10, bs = "ad"), data = TimeAvgHNISP,
+              method = "REML",
+              weights = TimeInterval / mean(TimeInterval))
+
+
+## wrap this in a function that will return all the plots & derived objects
+processGAM <- function(mod) {
+  ## Predict from model
+  N <- 500
+  newYear <- with(TimeAvgHNISP,
+                  data.frame(yr = seq(min(yr), max(yr),
+                                        length.out = N)))
+  newYear <- cbind(newYear,
+                   data.frame(predict(mod, newYear, se.fit = TRUE)))
+  out <- list(objects = newYear)
+  out
+}
+plts_ad <- processGAM(mod = mod_ad) # Adaptive smooth with weights
+
+
+pltData <- do.call("rbind", lapply(list(plts_ad),
+                                   `[[`, "objects"))
+
+pltData <- transform(pltData,
+                     Model = rep(c("Adaptive"),
+                                 each = nrow(plts_ad$objects)))
+
+allFits <- ggplot(pltData, aes(x = yr, y = fit)) +
+  geom_point(aes(x = yr, y = Obs), data = TimeAvgHNISP) +
+  geom_line(aes(colour = Model)) + labs(y = "braya_ylabel", x = "Year") +
+  theme(legend.position = "right") +
+  scale_colour_manual(name = "",
+                      values = c("#e66101", "#fdb863", "#5e3c99"))
+allFits
+
+
+### Accounting for age-model uncertainty------------
+
+knots <- with(TimeAvgHNISP, list(Year = seq(min(yr), max(yr), length = 14))) #fix the knots at the extremes of the observed values of Year and spread the remaining 12 knots evenly inbetween
+HNISP_reml <- gam(Obs ~ s(yr, k = 10), data = TimeAvgHNISP,
+                  method = "REML",
+                  weights = TimeInterval / mean(TimeInterval), knots = knots)
+
+swAge <- read.csv("Radiocarbon_Dates_Cal.csv")
+## monotonic spline age-depth model
+#swAge$Error[1] <- 1.1
+swAgeMod <- scam(mu ~ s(Depth, k = 7, bs = "mpi"), data = swAge,
+                 weights = 1 / (swAge$sigma*2), gamma = 1.4)
+
+## predict from the age model for a smooth set of points in `Depth`
+newAge <- with(swAge, data.frame(Depth = seq(min(Depth), max(Depth),
+                                             length.out = 200)))
+newAge <- transform(newAge,
+                    fitted = predict(swAgeMod, newdata = newAge,
+                                     type = "response"))
+
+newSims <- as.data.frame(simulate(swAgeMod, nsim = 25, data = newAge))
+newSims <- cbind(Depth = newAge$Depth, newSims)
+newSims <- gather(newSims, Simulation, Age, -Depth)
+
+
+## simulate from age model; each column is a simulation
+ageSims <- simulate(swAgeMod, nsim = 100, data = TimeAvgHNISP, seed = 42)
+
+ageSims <- as.data.frame(ageSims)
+
+fitSWModels <- function(x, y, knots, w) {
+  dat <- data.frame(Obs = y, yr = x)
+  m <- gam(Obs ~ s(yr, k = 10), data = dat,
+           method = "REML",
+           weights = w / mean(w), knots = knots)
+}
+
+## generate new trends using draws from age-model posterior
+simTrendMods <- lapply(ageSims, fitSWModels, y = TimeAvgHNISP$Obs, knots = knots, w= TimeAvgHNISP$TimeInterval)
+
+
+simTrendModsDeriv <- lapply(simTrendMods, fderiv, n = N)
+
+## function wrapper to predict new trends at locations over the
+## range of `Year`
+predSWModels <- function(mod, newdata) {
+  predict(mod, newdata, type = "response")
+}
+
+## predict from fitted model to produce a smooth trend for each posterior
+## sample
+simTrends <- lapply(simTrendMods, predSWModels, newdata = newGCV)
+## arrange in a tidy format form plottings
+simTrends <- data.frame(Year = with(newGCV, rep(yr, length(simTrends))),
+                        Trend = unlist(simTrends),
+                        Group = rep(seq_along(simTrends),
+                                    times = lengths(simTrends)))
+
+# For each of the models we just fitted, we
+# simulate 50 draws from the model posterior distribution. We start with a wrapper function
+# around the simulate() code we want to run on each model, then do the actual posterior draws
+# for each model using lapply(). The final step just arranges data for plotting.
+
+
+## wrapper to simulate from a fitted GAM with the required arguments
+simulateSWModels <- function(mod, newdata, nsim, seed = 42) {
+  sims <- simulate(mod, nsim = nsim, data = newdata, seed = seed)
+  as.vector(sims)
+}
+## now do the posterior simulation
+NSIM <- 50 # number of posterior samples *per* model
+simSimulate <- lapply(simTrendMods, simulateSWModels, newdata = newGCV,
+                      nsim = NSIM, seed = 42)
+
+## arrange in a tidy format
+simSimulate <-
+  data.frame(yr = with(newGCV,
+                         rep(yr, times = NSIM * length(simSimulate))),
+             Trend = unlist(simSimulate),
+             Group = rep(seq_len(NSIM * length(simSimulate)),
+                         each = nrow(newGCV)))
+
+
+## plot the estimated age model ad posterior simulations from it
+plt1 <- ggplot(swAge, aes(y = mu, x = Depth)) +
+  geom_line(data = newSims,
+            mapping = aes(y = Age, x = Depth, group = Simulation),
+            alpha = 1, colour = "grey80") +
+  geom_line(data = newAge, mapping = aes(y = fitted, x = Depth)) +
+  geom_point(size = 1.5, colour = "red") +
+  geom_errorbar(aes(ymin =  mu - (sigma*2), ymax = mu + (sigma*2), width = 0),
+                colour = "red") +
+  labs(y = "Cal. Year BP", x = "Depth")
+
+## plot the simulated trends showing the effect of age-model uncertainty
+plt2 <- ggplot(simTrends, aes(x = Year, y = Trend, group = Group)) +
+  geom_line(alpha = 0.1, colour = "grey80") +
+  geom_line(data = newGCV,
+            mapping = aes(x = yr, y = fit), inherit.aes = FALSE) +
+  geom_point(data = TimeAvgHNISP,
+             mapping = aes(x = yr, y = Obs),
+             inherit.aes = FALSE, size = 0.7) +
+  labs(x = "Year", y = "H (Shannon div.)")
+
+## plot simulated trends showing the effect of age-model uncertainty and
+## the effect of uncertainty in the estimated trend itself
+plt3 <- ggplot(simSimulate, aes(x = yr, y = Trend, group = Group)) +
+  geom_line(alpha = 0.2, colour = "grey80") +
+  geom_point(data = TimeAvgHNISP,
+             mapping = aes(x = yr, y = Obs),
+             inherit.aes = FALSE,
+             size = 0.7) +
+  geom_line(data = newGCV,
+            mapping = aes(x = yr, y = fit),
+            inherit.aes = FALSE) +
+  labs(x = "Year", y = "H (Shannon div.)")
+## align all plots vertically
+plots <- align_plots(plt1, plt2, plt3, align = 'v', axis = 'l')
+
+## create the two rows of figures, from `plots`
+top_row <- plot_grid(plots[[1]], NULL, ncol = 2, labels = "a")
+bot_row <- plot_grid(plots[[2]], plots[[3]], ncol = 1, labels = c("b", "c"))
+## comDepthe the two rows, top row has 1 plot row, bottom row has 2, hence
+## the rel_heights to even this out
+plot_grid(top_row, bot_row, ncol = 1, rel_heights = c(0.5, 1))
+
+
+
+
+#derivative with age uncertainties------
+plot(simSimulate$yr, simSimulate$Trend)
+
+system.time(test.gcv <- gam(Trend ~ s(Year, k = 40), data = simSimulate))
+gam.check(test.gcv)
+
+test.d <- derivatives(test.gcv)
+
+test_deriv_plt <- ggplot(test.d, aes(x = data, y = derivative)) +
+  geom_ribbon(aes(ymin = lower, ymax = upper),
+              alpha = 0.2, fill = "black") +
+  geom_line() +
+  labs(x = "Cal. Year BP", y = "First derivative")
+test_deriv_plt
 
 
 
 
 
+library(dplyr)
+df <-simSimulate %>% group_by(Group) %>% filter(n() > 1) %>%
+  mutate(first_d = Trend - lag(Trend))
+df<-as.data.frame(df)  #Back to data frame
+
+plt3 <- ggplot(df, aes(x = yr, y = first_d, group = Group)) +
+  geom_line(alpha = 0.2, colour = "grey80") +
+  # geom_point(data = TimeAvgHNISP,
+  #            mapping = aes(x = yr, y = Obs),
+  #            inherit.aes = FALSE,
+  #            size = 0.7) +
+  # geom_line(data = newGCV,
+  #           mapping = aes(x = yr, y = fit),
+  #           inherit.aes = FALSE) +
+  labs(x = "Year", y = "H (Shannon div.)")
 
 
 

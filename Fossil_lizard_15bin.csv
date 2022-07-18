@@ -2221,11 +2221,6 @@
 41229-28573,1E,12,165,180,2D9,lizard,,,phalanges,4,,,,,
 41229-28574,1E,12,165,180,2D9,lizard,,,scapulocorocoid,1,1R,,75,,
 41229-28575,1E,12,165,180,2D9,lizard,,,vertebra,89,,,,,
-41229-28576,East of 1,12,165,220,2D7,lizard,Phrynosomatidae,,frontal,1,,,100,,
-41229-28577,East of 1,12,165,220,2D7,lizard,Scincidae,cf. Plestiodon,maxilla,1,1R,"unicuspid, striated crowns",25,,none
-41229-28578,East of 1,12,165,220,2D7,lizard,,,pelvis,1,1L,frag,25,,
-41229-28579,East of 1,12,165,220,2D7,lizard,,,ulna,1,,,100,,
-41229-28580,East of 1,12,165,220,2D7,lizard,,,vertebra,2,,,,,
 41229-28581,1E,12,165,180,2D9,lizard,Anguidae,Ophisaurus,maxilla,1,1L,"unicuspid,eroded tooth crowns and shafts and bone",75,,shaft
 41229-28582,1E,12,165,180,2D9,lizard,Crotaphytidae,,maxilla,1,1R,"wide teeth, tricuspid",25,,crown
 41229-28583,1E,12,165,180,2D9,lizard,Crotaphytidae,,maxilla,1,1R,"wide teeth,",25,,crown
@@ -3062,5 +3057,3 @@
 41229-946,1,9,130,135,2C5,lizard,Phrynosomatidae,Phrynosoma cf. cornutum,frontal,1,,bumpy dorsal surface,100,,
 41229-9848,1B,5,70,75,2B2,lizard,,,jugal?,1,1L,"previous id ""Phrynosoma jugal""; not convinced of id",,,
 41229-9917,1D,5,70,75,2B2,lizard,Anguidae,Gerrhonotus,maxilla,1,1L,previously id'ed as Crotaphytus,75,,none
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
